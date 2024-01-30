@@ -1,4 +1,4 @@
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import scrapy
 
@@ -20,16 +20,30 @@ class SnakesImgSpider(scrapy.Spider):
             # Extract genus and species names from the link text
             genus_species = link_element.xpath("./text()").get()
 
+            # If genus_species is not present, log a warning and continue to the next link
+            if not genus_species:
+                self.log(
+                    f"Genus and species not found in link: {link_element.extract()}"
+                )
+                continue
+
             # Construct the target URL based on the extracted information
             target_url = urljoin(response.url, link_element.xpath("./@href").get())
 
             # Yield a request for each target URL
-            yield scrapy.Request(url=target_url, callback=self.parse)
+            yield scrapy.Request(url=target_url, callback=self.parse_species_page)
 
-    def parse(self, response):
+    def parse_species_page(self, response):
         # Extract genus and species names from the target URL
-        genus = response.url.split("&genus=")[1].split("&")[0]
-        species = response.url.split("&species=")[1].split("&")[0]
+        parsed_url = urlparse(response.url)
+        query_params = parse_qs(parsed_url.query)
+        genus = query_params.get("genus", [""])[0]
+        species = query_params.get("species", [""])[0]
+
+        # If genus or species is not present, log a warning and return
+        if not genus or not species:
+            self.log(f"Genus or species not found in URL: {response.url}")
+            return
 
         # Construct filename with genus and species names
         filename = f"{genus}_{species}.html"

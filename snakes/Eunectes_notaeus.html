@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Eunectes notaeus | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Eunectes notaeus">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Eunectes&species=notaeus">
+        <meta property="og:image" content="/content/photo_rd_01/Eunectes-notaeus-03000028865_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Eunectes&species=notaeus",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Eunectes&species=notaeus");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Eunectes notaeus</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Eunectes notaeus</em> COPE, 1862</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_01/Eunectes-notaeus-03000028865_01.jpg' title='Eunectes notaeus'><img src='/content/photo_rd_01/Eunectes-notaeus-03000028865_01_t.jpg' title='Eunectes notaeus' alt='' width='78' height='38'></a>
+            <a href='/content/photo_rd_01/Eunectes-notaeus-03000028866_01.jpg' title='Eunectes notaeus'><img src='/content/photo_rd_01/Eunectes-notaeus-03000028866_01_t.jpg' title='Eunectes notaeus' alt='' width='54' height='38'></a>
+            <a href='https://calphotos.berkeley.edu/imgs/512x768/1111_1111/1111/5284.jpeg' title='Eunectes notaeus'><img src='https://calphotos.berkeley.edu/imgs/128x192/1111_1111/1111/5284.jpeg' title='Eunectes notaeus' alt='&lt;strong&gt;Author:&lt;/strong&gt; &lt;a href=&quot;http://calphotos.berkeley.edu/cgi/photographer_query?where-name_full=Henk+Wallays&amp;one=T&quot;&gt;Henk Wallays&lt;/a&gt;' width='56' height='38'></a>
+            <a href='https://calphotos.berkeley.edu/imgs/512x768/1111_1111/1111/5285.jpeg' title='Eunectes notaeus'><img src='https://calphotos.berkeley.edu/imgs/128x192/1111_1111/1111/5285.jpeg' title='Eunectes notaeus' alt='&lt;strong&gt;Author:&lt;/strong&gt; &lt;a href=&quot;http://calphotos.berkeley.edu/cgi/photographer_query?where-name_full=Henk+Wallays&amp;one=T&quot;&gt;Henk Wallays&lt;/a&gt;' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Eunectes notaeus" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Eunectes notaeus</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Eunectes%20notaeus" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Eunectes notaeus&project_id=40" target="_blank">Add your own observation of <br><i>Eunectes notaeus</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Eunectes+notaeus'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Boidae (Boinae), Henophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E:  Yellow Anaconda<br />G: Paraguay-Anakonda, Gelbe Anakonda<br />Portuguese: Boiguaçu, Curudiu, Curundiu, Quetomeniope, Sucuri, Sucuri-Amarela, Sucurijú, Sucuri-do-Pantanal, Sucuriu&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Eunectes notaeus COPE 1862: 70<br />Eunectes murinus PERACCA 1895 (nec LINNAEUS)<br />Eunectes wieningeri STEINDACHNER 1903: 15<br />Eunectes notaeus — KAHL et al. 1980: 207<br />Eunectes notaeus — CEI 1993<br />Eunectes notaeus — LEYNAUD & BUCHER 1999: 14<br />Eunectes notaeus — MCDIARMID, CAMPBELL & TOURÉ 1999: 201<br />Eunectes notaeus — ZARACHO et al. 2014<br />Eunectes notaeus — WALLACH et al. 2014: 291<br />Eunectes notaeus — REYNOLDS & HENDERSON 2018: 22<br />Eunectes notaeus — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Bolivia, Paraguay, Uruguay, W Brazil (Mato Grosso, Mato Grosso do Sul, Rio Grande do Sul, Paraná [HR 27: 216], São Paulo), NE Argentina (Chaco, Corrientes, Entre Rios, Formosa, Misiones, Santa Fé, Corrientes, Santiago del Estero).<br /><br />Type locality: Paraguay River and its tributaries
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>ovovivparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: lost, was USNM 4707 (lost fide Reynolds & Henderson 2018)&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Hybrids between Eunectes notaeus and E. murinus have been described and E. deschauenseei is extremely closely related to E. notaeus (fide DIRKSEN & BÖHME 1998).&nbsp;</td></tr>
+        
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Abalos, J.W., Baez, E.C., &amp; Nader, R. 1964. Serpientes de Santiago del Estero. Acta Zoologica Lilloana 20: 211-283 </li>
+            
+            
+            <li>Akeret, B. 2008. Gefahrenpotenzial Riesenschlangen. Reptilia (Münster) 13 (72): 4-12  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Albuquerque, N.R.; Wellinton S. Arruda, Arianna S. Costa;  Regiane C.V. Galharte; Lays G.H. Vargas and Ivã H. Moreno 2010. A dicephalic yellow anaconda snake, Eunectes notaeus (Serpentes: Boidae), from Southern Pantanal, Brazil. Journal of Natural History 44: 1989-1994  - <a href='https://doi.org/10.1080/00222931003764105' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barone, S. 2003. Eunectes notaeus - Yellow Anaconda. Reptilia (GB) (29): 51-54  - <a href='http://www.reptilia.net/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beddard, F.E. 1906. Contributions to the Anatomy of the Ophidia. Proc. Zool. Soc. London 1906: 12-44 </li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Camera, Bruno F.; Everton B. P. Miranda, Raimundo P. Ribeiro-Jr., Mariano Barros, Juan Draque, Tomás Waller, Patrício A. Micucci, Cristian S. Dambros and Christine Strüssmann 2019. Historical Assumptions about the Predation Patterns of Yellow Anacondas (Eunectes notaeus): Are They Infrequent Feeders? Journal of Herpetology 53 (1): 47  - <a href='https://www.journalofherpetology.org/toc/hpet/53/1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cano, Paula Daniela; Héctor Alejandro Ball, Matías Federico Carpinetto, Germán Darío Peña 2015. Reptile checklist of Río Pilcomayo National Park, Formosa, Argentina. Check List 11 (3): 1658  - <a href='http://biotaxa.org/cl/article/view/11.3.1658' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1862. Synopsis of the species of Holcosus and Ameiva, with diagnoses of new West Indian and South American Colubridae. Proc. Acad. Nat. Sci. Philadelphia 14: 60-82.  - <a href='https://www.biodiversitylibrary.org/page/1951532' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1899. Contributions to the herpetology of New Granada and Argentina, with descriptions of new forms. Philadelphia Mus. Sci. Bull. (1): 1-19  - <a href='https://doi.org/10.5962/bhl.title.54674' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, L. 2001. Zur Kenntnis der Anakonda-Arten (Serpentes: Boidae: Eunectes). Herpetofauna 23 (130): 22-34  - <a href='https://herpetofauna.de/artikelsuche/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, L. &amp; W BÖHME 1998. Studien an Anakondas 1: Indizien für natürliche Bastardierung zwischen der Großen Anakonda (Eunectes murinus) und der Paraguay-Anakonda (Eunectes notaeus) in Bolivien, mit Anmerkungen zur Taxonomie der Gattung Eunectes (Reptilia: Squamata: Serpentes: Zool. Abh. Mus. Tierkd. Dresden, 50 (4) : 45-58. </li>
+            
+            
+            <li>Dirksen, Lutz 2002. Anakondas. Natur und Tier Verlag (Münster), 190 pp.  - <a href='http://www.ms-verlag.de/Schlangen.120.0.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, Lutz 2009. Bemerkungen zu Titanoboa cerrejonensis (Head et al., 2009), einer neuen, extrem großen Riesenschlange (Serpentes, Boinae) aus der Cerrejón-Formation Kolumbiens, als Indikator für ein CO2-bedingtes Treibhausklima im Paläozän. Ophidia 3 (1): 2-10  - <a href='http://www.herp-science.de/ag/schlangen/ophidia.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, Lutz and Wolfgang Böhme 1998. Studien an Anakondas 2: Zum taxonomischen Status von Eunectes murinus gigas (Latreillem 1801) (Serpentes: Boidae), mit neuen Ergebnissen zur Gattung Eunectes Wagler, 1830. Salamandra 34 (4): 359-374  - <a href='http://salamandra-journal.com/index.php/home/contents/1998-vol-34/dirksen-l-w-boehme' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, Lutz, and Wolfgang Böhme 2005. Studies on anacondas III. A reappraisal of Eunectes beniensis Dirksen, 2002, from Bolivia, and a key to the species of the genus Eunectes Wagler, 1830 (Serpentes: Boidae). Russ. J. Herpetol. 12 (3): 223-229.  - <a href='http://www.folium.ru/rjh/index.php/rjh/index' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Douglas, D.A.; Janke, A. &amp; Arnason, U. 2006. A mitogenomic study on the phylogenetic position of snakes. Zoologica Scripta 35: 545–558  - <a href='https://doi.org/10.1111/j.1463-6409.2006.00257.x' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freiberg, M.A. 1982. Snakes of South America. T.F.H. Publications, Neptune City, NJ, 189 pp.  - <a href='https://doi.org/10.2307/1444313' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gemel, R.; G. Gassner &amp; S. Schweiger 2019. Katalog der Typen der Herpetologischen Sammlung des Naturhistorischen Museums Wien – 2018. Ann. Naturhist. Mus. Wien, B 121: 33–248 </li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hallmen, M. 2009. Ein Stück vom Paradies. Die Pouso Alegre im brasilianischen Pantanal aus Sicht eines Reptilienfreundes. Teil 2. Reptilia (Münster) 14 (77): 38-46  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kahl B, Gaupp P &amp; Schmidt G 1980. Das Terrarium. Falken Verlag, Niederhausen (Germany), 336 pp. </li>
+            
+            
+            <li>Laita, Mark 2013. Serpentine. Abrams and PQ Blackwell, Auckland, New Zealand, 200 unnumbered pages </li>
+            
+            
+            <li>Leynaud, Gerardo C. and Enrique H. Bucher 1999. La fauna de serpientes del Chaco Sudamericano: diversidad, distribución geografica y estado de conservación. Academia Nacional de Ciencias Miscelanea (98):1-46 </li>
+            
+            
+            <li>Luttenberger, Franz 1984. Nachzucht der Paraguay-Anakonda (Eunectes notaeus Cope 1862) im Tiergarten-Schönbrunn, Wien. Acta Zoologica et Pathologica Antverpiensia (78): 245-253 </li>
+            
+            
+            <li>McDiarmid, R.W.; Campbell, J.A. &amp; Touré,T.A. 1999. Snake species of the world. Vol. 1. [type catalogue] Herpetologists’ League, 511 pp. </li>
+            
+            
+            <li>Murphy, John C. &amp; Tom Crutchfield 2019. Giant Snakes - A Natural History. Book Services, 345 pp.  - <a href='https://s3.amazonaws.com/academia.edu.documents/59221813/Giant_SnakesSamplePages20190512-111758-7gzr3m.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&amp;Expires=1559664179&amp;Signature=We0Sbhoomc8VVbrT%2F9rQIuuNXos%3D&amp;response-content-disposition=inline%3B%20file' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>O’Shea, M. 2018. The Book of Snakes. Ivy Press / Quarto Publishing, London,  - <a href='https://www.quartoknows.com/books/9781782405597/The-Book-of-Snakes.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Philippen, Hans-Dieter P 2014. Vielfalt ist Trumpf. Draco 16 (57): 6-15  - <a href='http://www.reptilia.de/DRACO.308.0.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Reed, R.N. and G.H. Rodda 2009. Giant Constrictors: Biological and Management Profiles and an Establishment Risk Assessment for Nine Large Species of Pythons, Anacondas, and the Boa Constrictor. U.S. Geological Survey, xviii + 323 pp.  - <a href='http://www.fort.usgs.gov/Products/Publications/pub_abstract.asp?PubID=22691' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Reynolds, R. Graham and Robert W. Henderson 2018. Boas of the World (Superfamily Booidae): A Checklist With Systematic, Taxonomic, and Conservation Assessments. Bulletin of the Museum of Comparative Zoology Sep 2018, Vol. 162, No. 1: 1-58.  - <a href='https://doi.org/10.3099/MCZ48.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos, G.S.; T. Lema; G.R. Winck; S.Z. Cechin; R.A. Boelter. 2013. Distribution extension of the yellow anaconda Eunectes notaeus Cope, 1862 (Squamata: Boidae) in the state of Rio Grande do Sul, Brazil. Check List 9 (3):660-662  - <a href='http://www.checklist.org.br/getpdf?NGD262-12' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Schmidt, Dieter 2010. Vermehrung und Zucht von Riesenschlangen. Draco 11 (44): 4-17  - <a href='http://www.ms-verlag.de/DRACO.29.0.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>STARCK, J. MATTHIAS &amp; JEANETTE WYNEKEN. 2022. Comparative and Functional Anatomy of the Ectothermic Sauropsid Heart. Veterinary Clinics: Exotic Animal Practice 25(2): 337–366.  - <a href='https://doi.org/10.1016/j.cvex.2022.01.001' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Steindachner, F. 1903. Über einige neue Reptilien- und Fischarten des Hofmuseums in Wien. Sitzungsber. Ak. Wien, math.-naturw. Cl. (Kl.) 112: 15—22  - <a href='http://biodiversitylibrary.org/page/36343602' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Strimple, Peter D. 1997. The Yellow Anaconda (Eunectes notaeus). Reptiles 5 (11): 60 </li>
+            
+            
+            <li>Tarkhnishvili, D., Hille, A., Waller, T., Todua, M., Murtskhvaladze, M., &amp; Böhme, W. 2022. Morphological trends and genetic divergence in anacondas, genus Eunectes Wagler, 1830 (Serpentes: Boidae). Amphibia-Reptilia, XX: 1-15  - <a href='https://doi.org/10.1163/15685381-bja10114' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Trutnau, L. 1982. Einige Bemerkungen über die neuweltlichen Riesenschlangen der Gattung Eunectes Wagler 1830. Herpetofauna 4 (17): 14-21  - <a href='https://herpetofauna.de/artikelsuche/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ukuwela, K.D.B., de Silva, A., Sivaruban, A. et al. 2022. Diversity, distribution, and natural history of the marine snakes of Sri Lanka. Marine Biodiversity 52, 24 (2022)  - <a href='https://doi.org/10.1007/s12526-022-01259-3' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Viana PF, Ribeiro LB, Souza GM, Chalkidis HdM, Gross MC, Feldberg E 2016. Is the Karyotype of Neotropical Boid Snakes Really Conserved? Cytotaxonomy, Chromosomal Rearrangements and Karyotype Organization in the Boidae Family. PLoS One 11 (8): e0160274.doi:10.1371/journal. pone.0160274  - <a href='http://journals.plos.org/plosone/article/asset?id=10.1371%2Fjournal.pone.0160274.PDF' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>WALLER, T., P. A. MICUCCI &amp; E. B. PALUMBO 1995. Distribution y conservation de la familia Boidae en el Paraguay. Autoridad CientÌfica CITES Paraguay, SecretarÌa CITES y TRAFFIC SudamÈrica. Informe Inédito. Asunción: 1-57 </li>
+            
+            
+            <li>Werning, H. 2006. Im Land der Jacarés - das Pantanal. Terraria 1 (1): 72-82 </li>
+            
+            
+            <li>Williams,J.D. &amp; Scrocchi, G.J. 1994. Fauna de agua dulce de la República Argentina. Vol. 42, Fasc. 3 - Ophidia, Lepidosauria. PROFADU (CONICET) La Plata: 1-55 [Universidad Nacional de La Plata]  - <a href='https://www.academia.edu/12093173/Ofidios_de_agua_dulce_de_la_República_Argentina' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaracho, Víctor Hugo; Ingaramo, María del Rosario; Semhan, Romina Valeria; Etchepare, Eduardo; Acosta, José Luis; Falcione, Ana Camila; Álvarez, Blanca 2014. Herpetofauna de la Reserva Natural Provincial Isla Apipé Grande (Corrientes, Argentina). Cuad. herpetol. 28 (2): 153-160  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/issue/view/315' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/44580058/44580062'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51877'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.swissherp.org/Reptiles/Boidae/Boidae.html'>http://www.swissherp.org/Reptiles/Boidae/Boidae.html</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.anakondas.de/'>http://www.anakondas.de/</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Eunectes+notaeus'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Eunectes&species=notaeus</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Eunectes&amp;species=notaeus">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Erythrolamprus&amp;species=typhlus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Erythrolamprus typhlus</a></li>
+                            <li class='subsubmenu selected'>Eunectes notaeus</li>
+                            <li class='subsubmenu'><a href="/species?genus=Helicops&amp;species=carinicaudus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Helicops carinicaudus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

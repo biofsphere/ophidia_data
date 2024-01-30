@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Erythrolamprus miliaris | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Erythrolamprus miliaris">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Erythrolamprus&species=miliaris">
+        <meta property="og:image" content="/content/photo_rd_10/Erythrolamprus-miliaris-03000039741_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Erythrolamprus&species=miliaris",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Erythrolamprus&species=miliaris");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Erythrolamprus miliaris</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Erythrolamprus miliaris</em> (LINNAEUS, 1758)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_10/Erythrolamprus-miliaris-03000039741_01.jpg' title='Erythrolamprus miliaris'><img src='/content/photo_rd_10/Erythrolamprus-miliaris-03000039741_01_t.jpg' title='Erythrolamprus miliaris' alt='' width='51' height='38'></a>
+            <a href='/content/photo_rd_12/Erythrolamprus-miliaris-03000042687_01.jpg' title='Erythrolamprus miliaris'><img src='/content/photo_rd_12/Erythrolamprus-miliaris-03000042687_01_t.jpg' title='Erythrolamprus miliaris' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_14/Erythrolamprus-miliaris-03000044498_01.jpg' title='Erythrolamprus miliaris'><img src='/content/photo_rd_14/Erythrolamprus-miliaris-03000044498_01_t.jpg' title='Erythrolamprus miliaris' alt='' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Erythrolamprus miliaris" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Erythrolamprus miliaris</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Erythrolamprus%20miliaris" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Erythrolamprus miliaris&project_id=40" target="_blank">Add your own observation of <br><i>Erythrolamprus miliaris</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Erythrolamprus+miliaris'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>Erythrolamprus miliaris miliaris (LINNAEUS 1758)<br />Erythrolamprus miliaris amazonicus (DUNN 1922)<br />Erythrolamprus miliaris chrysostomus (COPE 1868)<br />Erythrolamprus miliaris merremi (WIED 1821)<br />Erythrolamprus miliaris orinus (GRIFFIN 1916)&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Military Ground Snake<br />Portuguese: Cobra-D’água, Cobra-D’Água-Milhete, Cobra-de-Banhado, Cobra-do-Capim, Cobra-Lisa, Cobra-Lisa-Amazônica-de-Barriga-Imaculada, Cobra-Lisa-Serrana, Jararaca (juvenil), Jararaca-D’água, Parelheira&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Liophis miliaris miliaris (LINNAEUS 1758)<br />Coluber miliaris LINNAEUS 1758: 220<br />Ablabes purpurans DUMÉRIL, BIBRON & DUMÉRIL 1854: 312<br />Liophis cobella var. collaris JAN 1863<br />Liophis cobella var. collaris — JAN 1866<br />Coronella orientalis GÜNTHER 1864: 236<br />Diadophis purpurans — JAN 1866<br />Rhadinaea chrysostoma COPE 1868: 104<br />Coronella poecilolaemus GÜNTHER 1872: 19<br />Liophis purpurans — GÜNTHER 1872<br />Rhadinae [sic] purpurans — PRADO 1942: 1<br />Liophis purpurans — SCHMIDT & WALKER 1943: 285<br />Liophis purpurans — DUNN 1944: 490<br />Liophis purpurans — PETERS & OREJAS-MIRANDA 1970: 179<br />Liophis miliaris — FREIBERG 1982<br />Liophis miliaris — STARACE 1998: 216<br />Liophis purpurans — CLAESSEN 2003<br />Erythrolamprus miliaris — FORLANI et al. 2010<br />Erythrolamprus miliaris — GRAZZIOTIN et al. 2012<br />Liophis miliaris — COLE et al. 2013<br />Liophis miliaris — WALLACH et al. 2014: 383<br />Liophis miliaris — BERNARDE et al. 2012<br /><br />Erythrolamprus miliaris amazonicus (DUNN 1922)<br />Dromicus amazonicus DUNN 1922<br />Liophis miliaris amazonicus — DIXON 1983: 800<br />Liophis miliaris amazonicus — DO NASCIMENTO et al. 1987<br />Liophis miliaris amazonicus — AVILA & KAWASHITA-RIBEIRO 2011<br /><br />Erythrolamprus miliaris chrysostomus (COPE 1868)<br />Rhadinaea chrysostoma COPE 1868<br />Coronella poecilolaemus GÜNTHER 1872<br />Liophis chrysostomus — DIXON & SOINI 1977<br />Liophis miliaris chrysostomus — DIXON 1983<br />Liophis miliaris chrysostomus — FROTA 2005<br />Erythrolamprus miliaris crysostomus — CADENA-ORTIZ et al. 2017 (in error)<br /><br />Erythrolamprus miliaris merremi (WIED 1821)<br />Coluber merremii WIED 1821<br />C.(oluber) dictyodes WIED 1824<br />Coluber bicolor REUSS 1834: 145<br />Coronella Merremi — SCHLEGEL 1837: 58<br />Liophis Merremi — DUMÉRIL, BIBRON & DUMÉRIL 1854: 708<br />Coronella australis GÜNTHER 1858<br />Opheomorphus meleagris var. semilineatus COPE 1860<br />Liophis Merremii — JAN 1866<br />? Liophis Merremii — BOULENGER 1886: 431<br />Liophis miliaris merremi — DIXON 1983: 800<br />Erythrolamprus miliaris merremi — MARQUES et al. 2016<br /><br />Erythrolamprus miliaris orinus (GRIFFIN 1916)<br />Rhadinaea orina GRIFFIN 1916: 195<br />Rhadinaea merremii natricoides WERNER 1926: 247<br />Liophis miliaris orinus — DIXON 1983: 800<br />Liophis miliaris orinus — GUTSCHE et al. 2007&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Brazil (Rio Grande do Sul, Minas Gerais, Espírito Santo, Bahia, Rio de Janeiro, Piauí, Sergipe), Uruguay, Paraguay, Bolivia, Peru, Colombia, French Guiana, Guyana, E Venezuela (Amazonas [HR 34:265], Bolívar), Argentina (Buenos Aires, Córdoba, Santa Fe, Entre Rios, Corrientes, Formosa, Misiones)<br /><br />amazonicus: from Santarem southwest to Rio Itenez in Bolivia and to Mato Grosso in Brazil; terra typica: Santarem, Brazil.<br /><br />chrysostomus: Brazil (Pará: HR 33: 68), Colombia<br /><br />miliaris: French Guiana, Guiana, Suriname, E Venezuela, Brazil (Pará: HR 33: 228).<br /><br />orinus: Argentina (Misiones), Paraguay<br /><br />purpurans (invalid): Guiana, Suriname, French Guiana, S Colombia, Ecuador, Peru; Type locality: Mana, French Guiana<br /><br />Type locality: “Indiis”; restricted to Santos, Sao Paulo (Brazil) fide GANS 1964
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: MCZ 2820; also given as BMNH 1946.1.5.75<br />Holotype: ANSP 6665, collected by J Orton (USNM), 1867–1868 [chrysostomus]<br />Holotype: CM R 264, collected by LeBoutelier [orinus]<br />Holotype: MCZ R-2820 [amazonicus]&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy and subspecies: L. purpurans has been synonymized with L. miliaris by DIXON 1983. Synonymy partly that of PETERS & OREJAS-MIRANDA 1970: 179. L. purpurans is not listed by GASC & RODRIGUES 1980. Liophis miliaris intermedius HENLE & EHRL 1991 has been synonymized with Liophis reginae. Liophis miliaris mossoroensis (HOGE & LIMA-VERDE 1973) is now considered as a valid species. A specimen of L. miliaris from the Amazonas State (Fuentes 2003) was identified as Liophis cf. zweifeli by RIVAS et al. 2012. Liophis miliaris semiaureus was elevated to full (evolutionary) species by GIRAUDO et al. 2006.<br /><br />Venomous!&nbsp;</td></tr>
+        
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>ABREU, LEONARDO MARQUES; IGOR MADUREIRA DE ASSIS, LEILDO MACHADO CARILO FILHO &amp; DANIELA PAREJA-MEJÍA. 2022. Predation of Leptodactylus latrans (Anura: Leptodactylidae) by the water snake Erythrolamprus miliaris (Squamata: Dipsadidae) in Ilhéus, Bahia, Brazil. Herpetology Notes 15: 283–285.  - <a href='https://www.biotaxa.org/hn/article/view/69580' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Aguiar da Silva, F.; Lopes de Assis, C. &amp; Marques Quintela, F. 2010. Albinism in a Liophis miliaris (Linnaeus, 1758) (Serpentes: Dipsadidae) from Minas Gerais State, southern Brazil. Herpetology Notes 3: 171-172 </li>
+            
+            
+            <li>Almeida-Gomes, Mauricio; DAVOR VRCIBRADIC, CARLA C. SIQUEIRA, MARA C. KIEFER, THAÍS KLAION, PATRÍCIA ALMEIDA-SANTOS, DENISE NASCIMENTO, CRISTINA V. ARIANI, VITOR N.T. BORGES-JUNIOR, RICARDO F. FREITAS-FILHO, MONIQUE VAN SLUYS and CARLOS F.D. ROCHA 2008. Herpetofauna of an Atlantic rainforest area (Morro São João) in Rio de Janeiro State, Brazil. Anais da Academia Brasileira de Ciências 80(2): 291-300  - <a href='https://doi.org/10.1590/S0001-37652008000200007' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ARAUJO, C.O. &amp; ALMEIDA-SANTOS, S.M. 2011. Herpetofauna de um remanescente de Cerrado no estado de São Paulo, sudeste do Brasil. Biota Neotrop. 11(3): 47-62  - <a href='http://www.biotaneotropica.org.br/v11n3/pt/ abstract?article+bn00511032011' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ávila, R.W.; R.A. Kawashita-Ribeiro. 2011. Herpetofauna of São João da Barra Hydroelectric Plant, state of Mato Grosso, Brazil. Check List 7 (6): 750-755  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BARBO, F. E.; MARQUES, O. A. V. &amp; SAWAYA, R. J. 2011. Diversity, Natural History and Distribution of Snakes in the Municipality of São Paulo. South American J. Herp. 6: 135-160 </li>
+            
+            
+            <li>Batista, Silara Fatima; Katia Gomes Facure, Otavio Augusto Vuolo Marques 2019. First record of mammal consumption by Erythrolamprus miliaris. How wide is the diet of this water snake? Herpetology Notes 12: 713-715  - <a href='https://www.biotaxa.org/hn/issue/view/5961' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Serpentes do Estado de Rondônia, Brasil. Biota Neotropica 12 (3): 1-29  - <a href='http://www.biotaneotropica.org.br/v12n3/pt/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bérnils, R.S.; Batista, M.A. &amp; Bertelli, P.W. 2001. Cobras e lagartos do Vale: levantamento das espécies de Squamata (Reptilia, Lepidosauria) da Bacia do Rio Itajai, Santa Catarina, Brasil. Rev. Est. Ambientais (Blumenau) 3 (1): 69-79 </li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1894. List of reptiles and batachians collected by Dr. T. Bohls near Asuncion, Paraguay. Ann. Mag. nat. Hist. (6) 13: 342-348  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Burg, Matthijs P. van den 2020. How to source and collate natural history information: a case study of reported prey items of Erythrolamprus miliaris (Linnaeus, 1758). Herpetology Notes 13: 739-746  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Burg, Matthijs P. van den; Ingrid R. Miguel 2020. Report of new predator-prey interactions of Erythrolamprus miliaris (Linnaeus, 1758). Herpetology Notes 13: 361-363  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cadena-Ortiz, Hector; Alexis Barahona-V., Daniela Bahamonde-Vinueza, Jorge Brito M. 2017. Anecdotal predation events of some snakes in Ecuador. Herpetozoa 30 (1/2): 93 - 96  - <a href='http://www.zobodat.at/publikation_series.php?id=7269' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carvalho, Bruno Henrique; Michelle Micarelli Struett, Peterson Trevisan Leivas 2019. Predation of Leptodactylus notoaktites (Anura: Leptodactylidae) by the water snake Erythrolamprus miliaris (Squamata: Dipsadidae) in Atlantic Forest, Brazil. Herpetology Notes 12: 1029-1030  - <a href='https://www.biotaxa.org/hn/issue/view/5961' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Castro, T.M. &amp; Teixeira, R.L. 2007. Straßenverkehr als Bedrohung für die Amphibien und Reptilien des Atlantischen Regenwalds in Südost-Brasilien. Eine Fallstudie. Sauria 29 (2): 35-42  - <a href='http://www.sauria.de/archiv/?artitem=9176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cicchi, P.J.P., M.A. Sena, D.M. Peccinini-Seale, and M.R. Duarte. 2007. Snakes from coastal islands of State of São Paulo,Southeastern Brazil. Biota Neotropica 17: 227–240  - <a href='https://www.researchgate.net/publication/251802317_Snakes_from_coastal_islands_of_State_of_Sao_Paulo_Southeastern_Brazil' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Claessen, H. 2003. De slangen van de Guyanas Deel VI. Lacerta 61 (5): 177-187  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cole, Charles J.; Carol R. Townsend, Robert P. Reynolds, Ross D. MacCulloch, and Amy Lathrop 2013. Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. Proceedings of the Biological Society of Washington 125  (4): 317-578; plates: 580-620  - <a href='http://www.bioone.org/doi/abs/10.2988/0006-324X-125.4.317' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CONDEZ, T. H; SAWAYA, R. J. &amp; DIXO, M. 2009. Herpetofauna dos remanescentes de Mata Atlântica da região de Tapiraí e Piedade, SP, sudeste do Brasil. Biota Neotropica 9: 1-29 </li>
+            
+            
+            <li>Cope, E.D. 1862. Catalogues of the reptiles obtained during the explorations of the Parana Paraguay, Vermejo and Uruguay rivers, by Capt. Thos. J. Page, U.S.N.; and of those procured by Lieut. N. Michier, U. S. Top. Eng., Commander of the expedition conducting the su Proc. Acad. Nat. Sci. Philadelphia 14: 346-359.  - <a href='https://www.biodiversitylibrary.org/part/16874' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1885. Twelfth contribution to the herpetology of tropical America. Proc. Amer. Philos. Soc. 22: 167-194 [1884]  - <a href='http://www.biodiversitylibrary.org/bibliography/7023#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cozer, J. S., Pereira-Ribeiro, J., Linause, T. M., Ferreguetti, A. C., de Godoy Bergallo, H., &amp; da Rocha, C. F. D. 2020. Reptile diversity in the Duas Bocas Biological Reserve, Espírito Santo, southeastern Brazil. Papéis Avulsos De Zoologia, 60, e20206040-e20206040  - <a href='http://doi.org/10.11606/1807-0205/2020.60.40' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cruz Centeno, Fernanda da; Ricardo Jannini Sawaya &amp; Otavio Augusto Vuolo Marques 2008. Snake assemblage of Ilha de São Sebastião, southeastern Brazil: comparison to mainland. Biota Neotropica 8 (3): 63-68  - <a href='http://www.biotaneotropica.org.br/v8n3/ en/abstract?article+bn00608032008' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cunha, O.R. da &amp; do Nascimento, F.P. 1970. Ofidios da Amazonia. II - Liophis miliaris (Linneu 1758) na Amazônia norte oriental (Terriório federal do Amapá) (Ophidia, Colubridae). Bol. Mus. Para. Emílio Goeldi (Zool.), Belém (70): 1-6  - <a href='https://repositorio.museu-goeldi.br/handle/mgoeldi/1034' target='_blank'>get paper here</a></li>
+            
+            
+            <li>da S. Fróis, R.d.P., Brandão, R.A. &amp; De Carvalho, J.C. 2017. Erythrolamprus miliaris (Military Ground Snake) Diet. Herpetological Review 48 (4): 859  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dainesi, Raiane Lesley Santos; Arthur Diesel Abegg, Paulo Sérgio Bernarde, Bruno Peña Correa, Laís Pio Caetano Machado, Afonso Santiago de Oliveira Meneses, Arthur de Sena Santos 2019. Integrative overview of snake species from Londrina, State of Paraná, Brazil. Herpetology Notes 12: 419-430  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon, J. R.; Soini, P. 1977. The reptiles of the upper Amazon basin, Iquitos region, Peru, Part 2: crocodilians, turtles and snakes. Milwaukee Public Museum Contributions in Biology and Geology 4: 59-154 [1986?]  - <a href='https://www.mpm.edu/research-collections/collection-support/publications' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon, J.R. 2000. Ecuadorian, Peruvian, and Bolivian snakes of the Liophis taeniurus complex with descriptions of two new species. Copeia 2000 (2): 482-490  - <a href='http://www.asihcopeiaonline.org/loi/cope' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon, James R. 1989. A key and checklist to the neotropical snake genus Liophis with country lists and maps. Smithsonian Herp. Inf. Serv. (79): 1-40  - <a href='http://www.biodiversitylibrary.org/bibliography/15728' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon,J.R. 1983. Taxonomic status of the South American snakes Liophis miliaris, L. amazonicus, L. chrysostomus, L. mossoriensis and L. purpurans. Copeia 1983 (3): 791-802  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dubeux, M. J. M., Araújo Neto, J. V. D., Triburcio, I. C. S., Lisboa, B. S., Torquato, S., Freitas, M. A. D., ... &amp; Mott, T. 2022. A “hotspot” within a hotspot: the reptiles of the Estação Ecológica and Área de Proteção Ambiental de Murici, Atlantic Forest of northeastern Brazil. Biota Neotropica, 22: 1-14  - <a href='https://doi.org/10.1590/1676-0611-BN-2022-1337' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dunn,E.R. 1922. Two new South American snakes. Proc. Biol. Soc. Washington 35: 219-220  - <a href='http://www.biodiversitylibrary.org/bibliography/3622' target='_blank'>get paper here</a></li>
+            
+            
+            <li>EISFELD, ALEXIA; LÍGIA PIZZATTO &amp; DAVOR VRCIBRADIC. 2021. Diet of the Semiaquatic Snake Erythrolamprus miliaris (Dipsadidae, Xenodontinae) in the Brazilian Atlantic Forest. Journal of Herpetology 55(4): 330–337.  - <a href='https://doi.org/10/gmzm6g' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Eisfeld, Alexia; Lígia Pizzatto, Davor Vrcibradic 2021. Diet of the Semiaquatic Snake Erythrolamprus miliaris (Dipsadidae, Xenodontinae) in the Brazilian Atlantic Forest. Journal of Herpetology 55 (4): 330-337  - <a href='https://doi.org/10.1670/20-117' target='_blank'>get paper here</a></li>
+            
+            
+            <li>EISFELD, ALEXIA;&lt;br /&gt;DAVOR VRCIBRADIC 2019. Reproductive aspects of the semi-aquatic snake Erythrolamprus miliaris (Dipsadidae: Xenodontini) in the state of Rio de Janeiro, southeastern Brazil. An. Acad. Bras. Ciênc. 9 (1)  - <a href='http://dx.doi.org/10.1590/0001-3765201920170657' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Feio, R.N. &amp; Caramaschi, U. 2003. Contribuição ao conhecimento da herpetofauna do nordeste do estado de Minas Gerais, Brasil. Phyllomedusa 1 (2): 105-111 [2002]  - <a href='http://www.phyllomedusa.esalq.usp.br/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fiorillo BF, Silva BR, Menezes FA, Marques OAV, Martins M 2020. Composition and Natural History of Snakes from Etá Farm region, Sete Barras, south-eastern Brazil. ZooKeys 931: 115-153  - <a href='https://doi.org/10.3897/zookeys.931.46882' target='_blank'>get paper here</a></li>
+            
+            
+            <li>FORLANI, M.C., BERNARDO, P.H., HADDAD, C.B.F. &amp; ZAHER, H. 2010. Herpetofauna of the Carlos Botelho State Park, São Paulo State, Brazil. Biota Neotropica 10 (3): 265-309  - <a href='http://www.biotaneotropica.org.br/v10n3/en/abstract?inventory+bn00210032010' target='_blank'>get paper here</a></li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freiberg, M.A. 1982. Snakes of South America. T.F.H. Publications, Neptune City, NJ, 189 pp.  - <a href='https://doi.org/10.2307/1444313' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco A. de; Marcos J.M. Dubeux, Márcio F. Chaves, Bruno F. Fiorillo, Gentil A.P. Filho, Washington L.S. Vieira, and Geraldo J.B. de Moura 2023. Herpetofauna in three highland Atlantic Forest remnants in northeastern Brazil. Herpetology Notes 16: 377-390 </li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gans, C. 1964. A redescription of, and geographic variation in, Liophis miliaris LINNÉ, the common water snkae of southeastern South America. American Museum Novitates 2178: 1-58  - <a href='http://digitallibrary.amnh.org/dspace/handle/2246/9' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Garrone-Neto, Domingos, Cindy Muniz Mattos, Gabriel Augusto Moreno E. Colini Luz, Guilherme Kobayashi Vazami and Marcelo Ribeiro-Duarte 2015. Erythrolamprus miliaris (waternsnake) predation. Herpetological Review 46 (4): 643-644  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gasc &amp; Rodrigues 1980. Liste preliminaire des Serpents de la Guyane francaise. Bull. Mus. Nat. Hist. Nat. Paris 2 (4): 559-598 </li>
+            
+            
+            <li>GHIZONI-JR, IVO ROHLING &amp; JORGE JOSÉ CHEREM. 2021. ERYTHROLAMPRUS MILIARIS (Military Ground Snake). DIET and SCAVENGING. Herpetological Review 52 (2): 422.  - <a href='https://www.dropbox.com/s/4t0i8c8ulpa8frr/Pages%20from%20HR_June_2021_150dpi_NaturalHistoryNotes.pdf?dl=1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Giori, Eliane De O., Joao Paulo P. Favoretti and Rute Beatriz G. Clemente-Carvalho. 2016. Erythrolamprus miliaris (Cobra D'agua; Military Ground Snake) Diet. Herpetological Review 47 (2): 311  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gomes, Daniel Faustino; RODRIGO CASTELLARI GONZALEZ, Thiago Silva-Soares 2017. Erythrolamprus miliaris (Linnaeus, 1758) (Serpentes: Dipsadidae): report on an unusual event of necrophagy. Herpetology Notes 10: 417-419  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Graca Salomão, M. da et al. 2003. Colubrid snakebite: a public health problem in Brazil. Herpetological Review 34 (4): 307-312  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Grazziotin, Felipe G.; Hussam Zaher, Robert W. Murphy, Gustavo Scrocchi, Marco A. Benavides, Ya-Ping Zhang and Sandro L. Bonatto 2012. Molecular phylogeny of the New World Dipsadidae (Serpentes: Colubroidea): a reappraisal. Cladistics DOI: 10.1111/j.1096-0031.2012.00393.x  - <a href='http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2012.00393.x/abstract' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Griffin, L.F. 1916. A catalog of the Ophidia from South America at present (June 1916) contained in the Carnegie Museum with descriptions of some new species. Mem. Carnegie Mus. 7 (3) [1915]: 163-228  - <a href='http://biodiversitylibrary.org/page/12301985' target='_blank'>get paper here</a></li>
+            
+            
+            <li>GUEDES, THAÍS B.; CRISTIANO NOGUEIRA &amp; OTAVIO A. V. MARQUES 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. Zootaxa 3863 (1): 001–093  - <a href='http://biotaxa.org/Zootaxa/article/view/zootaxa.3863.1.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Günther, A. 1858. Catalogue of Colubrine snakes of the British Museum. London, I - XVI, 1 - 281 </li>
+            
+            
+            <li>Günther,A. 1872. Seventh account of new species of snakes in the collection of the British Museum. Ann. Mag. Nat. Hist. (4) 9: 13-37  - <a href='https://www.biodiversitylibrary.org/page/16085867#page/27/mode/1up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gutsche, A. ; Kwet, A.; Kucharzewski, C.; Lingnau, R. &amp; Günther, R. 2007. Wilhelm Ehrhardt and an evaluation of his amphibians and reptiles held in the Herpetological Collection of the Museum für Naturkunde, Berlin. Mitteilungen aus dem Museum für Naturkunde in Berlin - Zoologische Reihe 83 (1): 80-93  - <a href='https://doi.org/10.1002/mmnz.200600019' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B. &amp; R. M. Lira-da-Silva 2012. The snakes of Bahia State, northeastern Brazil: species richness, composition and biogeographical notes. Salamandra 48 (1): 31-50  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/hamdan-b-r-m-lira-da-silva' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Henle K. and EHRL A. 1991. Zur Reptilienfauna Perus nebst Beschreibung eines neuen Anolis (Iguanidae) und zweier neuer Schlangen (Colubridae). Bonner Zoologische Beiträge 42 (2): 143 - 180.  - <a href='http://zoologicalbulletin.de' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hoge,A.R. &amp; Lima Verde,J.S. 1973. Liophis mossoroensis nov. sp. do Brasil (Serpentes: Colubridae). Mem. Inst. Butantan 36: 215-220 [1972]  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hoogmoed,M.S. and Gruber,U. 1983. Spix and Wagler type specimens of reptiles and amphibians in the Natural History Musea in Munich (Germany) and Leiden (The Netherlands). Spixiana Suppl. 9: 319-415  - <a href='http://www.zsm.mwn.de/spixiana/toc.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jan, G. 1866. Iconographie générale des ophidiens. 17. Livraison. J.B. Bailière et Fils, Paris  - <a href='http://www.biodiversitylibrary.org/bibliography/4885' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jan, G. 1866. Iconographie générale des ophidiens. 16. Livraison. J.B. Bailière et Fils, Paris  - <a href='http://www.biodiversitylibrary.org/bibliography/4885' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jan, G. 1866. Iconographie générale des ophidiens. 15. Livraison. J.B. Bailière et Fils, Paris  - <a href='http://www.biodiversitylibrary.org/bibliography/4885' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Just, João Paulo Gava, Ivan Réus Viana and Jairo José Zocche. 2016. Liophis miliaris (Watersnake) Predation. Herpetological Review 47 (1): 147  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kornacker, P.M.; Rivas, G. A. &amp; Fuentes, O. 2002. Erstnachweis von Liophis miliaris (LINNAEUS 1758) (Serpentes: Colubridae) für Venezuela. Herpetofauna 24 (138): 29-34  - <a href='https://herpetofauna.de/artikelsuche/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kunz, Tobias Saraiva;&lt;br /&gt;Ivo Rohling Ghizoni-Jr.,&lt;br /&gt;Walter Luis Alves dos Santos &amp; Paulo Afonso Hartmann 2007. Nota sobre a coleção herpetológica da Universidade Federal de Santa Catarina (UFSC). Biotemas, 20 (3): 127-132  - <a href='https://www.academia.edu/26988510' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Linares, Antônio Meira and Paula Cabral Eterovick 2013. Herpetofaunal Surveys Support Successful Reconciliation Ecology in Secondary and Human-Modified Habitats at the Inhotim Institute, Southeastern Brazil. Herpetologica 69 (2): 237-256.  - <a href='http://www.bioone.org/doi/abs/10.1655/HERPETOLOGICA-D-12-00030?ai=uc&amp;ui=29q2&amp;af=H' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Linnaeus, C. [= Linné, C. von] 1758. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio decima, reformata. Laurentii Salvii, Holmiæ. 10th Edition: 824 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/35518#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Madella-Auricchio, Cláudia Renata; Paulo Auricchio Enio Saraiva Soares 2017. Reptile species composition in the Middle Gurguéia and comparison with inventories in the eastern Parnaíba River Basin, State of Piauí, Brazil. Papéis Avulsos de Zoologia 57(28): 375-386,  - <a href='https://doi.org/10.11606/0031-1049.2017.57.28' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>MARTINS, LETÍCIA LEITÃO; LUCAS ROSADO MENDONÇA, CARLOS HENRIQUE DE-OLIVEIRA-NOGUEIRA, HENDER LÉLIS REZENDE MACIEL &amp; LEONARDO SERAFIM DA SILVEIRA 2021. “Lady and the Tramp”: Chthonerpeton aff. braestrupi Taylor, 1968 (Amphibia: Typhlonectidae) as prey of two Erythrolamprus miliaris (Linnaeus, 1758)(Serpentes: Dipsadidae). Herpetology Notes 14: 945-947  - <a href='https://www.biotaxa.org/hn/issue/view/9224' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mattos, Rosiclea O., Lauvers, Weliton D. and Monico, Alexander T. 2016. Erythrolamprus miliaris (Cobra D'água; Military Ground Snake) Diet. Herpetological Review 47 (4): 682  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Menezes FA, Abegg AD, Silva BR, Franco FL, Feio RN 2018. Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil. ZooKeys 797: 117-160  - <a href='https://doi.org/10.3897/zookeys.797.24549' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Monica, Alexander T., Estefane H. Krause and Rodrigo B. Ferreira. 2016. Erythrolamprus miliaris (Cobra D'agua; Military Ground Snake) Diet. Herpetological Review 47 (2): 311  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Renato Silveira Bérnils, Julio Cesar de Moura-Leite 2017. RÉPTEIS DE CURITIBA: COLETÂNEA DE REGISTROS Hori Consultoria, Curitiba, Paraná, Brasil, 99 pp. </li>
+            
+            
+            <li>Muscat, Edélcio; Elsie Laura Rotenberg, Ibere Farina Machado 2016. Death-feigning behaviour in an Erythrolamprus miliaris (Linnaeus, 1758) (Colubridae) water snake in Ubatuba, São Paulo, southeastern Brazil. Herpetology Notes 9: 95-97  - <a href='https://www.biotaxa.org/hn/issue/view/2338' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Muscat, Edélcio; Elsie Laura Rotenberg, Ibere Farina Machado 2016. Death-feigning behaviour in an Erythrolamprus miliaris (LINNAEUS 1758) (Colubridae) water snake in Ubatuba, São Paulo, southeastern Brazil. Herpetology Notes 9: 95-97  - <a href='http://www.biotaxa.org/hn/article/view/14057/19796' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Muscat, Edelcio; Matheus de Toledo Moroti 2018. Predation of Rhinella ornata (Anura: Bufonidae) by the water snake Erythrolamprus miliaris (Squamata: Dipsadidae) in São Paulo, Brazil. Herpetology Notes 11: 449-450  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nascimento F Paiva do;  de Avila-Pires T C Sauer; da Cunha O Rodrigues 1987. Os repteis da area de Carajas, Para, Brasil (Squamata). 2. Boletim do Museu Paraense Emilio Goeldi NOVA SERIE ZOOLOGIA 3(1) 1987: 33-65 </li>
+            
+            
+            <li>Natera-Mumaw, Marco; Luis Felipe Esqueda-González &amp; Manuel Castelaín-Fernández 2015. Atlas Serpientes de Venezuela. Santiago de Chile, Dimacofi Negocios Avanzados S.A., 456 pp.  - <a href='https://www.researchgate.net/publication/274073284_Book_Atlas_Serpientes_de_Venezuela_1ra_Edicion_abril_2015_Portada_en_baja_resolucion_Comunicarse_al_email_luisfesquedagmailcom' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>OLIVEIRA LIMA, JEFFERSON; HUGO ANDRADE, TAINARA LIMA DA SILVA &amp; EDUARDO JOSÉ DOS REIS DIAS. 2022. Reptiles of Sergipe: current knowledge and sampling discontinuities. Herpetology Notes 15: 69–78.  - <a href='https://www.biotaxa.org/hn/article/view/62845' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira Lula Salles, R. de &amp; Silva-Soares, T. 2010. Répteis do município de Duque de Caxias, Baixada Fluminense, Rio de Janeiro, Sudeste do Brasil. Biotemas, 23 (2): 135-144 </li>
+            
+            
+            <li>Oliveira Lula Salles, R. de; Weber, L.N. &amp; Silva-Soares, T. 2010. Reptiles, Squamata, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, Southeastern Brazil. Check List 6 (2): 280-286  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Jane C.F.; Rodrigo Castellari Gonzalez; Paulo Passos; Davor Vrcibradic &amp; Carlos Frederico Duarte Rocha 2020. Non-Avian Reptiles of the state of Rio de Janeiro, Brazil: status of knowledge and commented list. Pap. Avulsos Zool. 60: e20206024  - <a href='http://doi.org/10.11606/1807-0205/2020.60.24' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Santos,C. &amp; Moreno, A.G. 1988. Ofidios de Colombia. Museo reegionale di Scienze Naturali, Torino, Monographie VI, 517 pp. </li>
+            
+            
+            <li>Pizzatto, Lígia; Marques, Otavio A. V. 2006. Interpopulational variation in reproductive cycles and activity of the water snake Liophis miliaris (Colubridae) in Brazil. The Herpetological Journal 16: 353-362  - <a href='https://www.ingentaconnect.com/content/bhs/thj' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pizzatto, Lígia; Marques, Otavio A.V. 2006. Interpopulational variation in sexual dimorphism, reproductive output, and parasitism of Liophis miliaris (Colubridae) in the Atlantic forest of Brazil. Amphibia-Reptilia 27 (1): 37-46  - <a href='http://booksandjournals.brillonline.com/content/journals/15685381' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pontes, J.A.L.; Figueiredo, J.P., Pontes, RC. and Rocha, C.F.D. 2008. Snakes from the Atlantic Rainforest area of Serra do Mendanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition. Braz. J. Biol. 68(3): 601-609  - <a href='http://www.scielo.br/scielo.php?script=sci_serial&amp;pid=1519-6984&amp;lng=en&amp;nrm=iso' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Prado, Alcides 1942. Notas ofiológicas 13. redescripção de duas serpentes colombianas. Memorias do Instituto Butantan 16: 1-3  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Prigioni, C.; C. Borteiro; F. Kolenc. 2011. Amphibia and Reptilia, Quebrada de los Cuervos, Departamento de Treinta y Tres, Uruguay. Check List 7 (6): 763-767  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Reuss, A. 1834. Zoologische Miscellen. Reptilien, Ophidier. [Coluber albiventris, Echis pavo]. Mus. Senckenbergiana, Frankfurt/M., 1: 129-162.  - <a href='http://vipersgarden.at/PDF_files/PDF-2603.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RIVAS, GILSON A.; CÉSAR R. MOLINA, GABRIEL N. UGUETO, TITO R. BARROS, CÉSAR L. BAR- RIO-AMORÓS &amp; PHILIPPE J. R. KOK 2012. Reptiles of Venezuela: an updated and commented checklist. Zootaxa 3211: 1–64  - <a href='https://www.researchgate.net/publication/259759792_Reptiles_of_Venezuela_An_updated_and_commented_checklist' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J., R. W. Ávila &amp; A. R. Melgarejo 2015. Répteis (Testudines, Squamata, Crocodylia) da reserva biológica de Pedra Talhada. In: Atuder, A., l. Nusbaumer &amp; R. Spichiger (eds.). biodiversidade da reserva biológica de Pedra talhada (alagoas, Pernambuco - brasil). Boissiera 68: 357-375  - <a href='https://www.academia.edu/15822726/Répteis_Testudines_Squamata_Crocodylia_da_Reserva_Biológica_de_Pedra_Talhada?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ROCHA, CARLOS FREDERICO D.; HELENA G.BERGALLO, JOSÉ P. POMBAL JR., LENA GEISE, MONIQUE VAN SLUYS, RONALDO FERNANDES, ULISSES CARAMASCHI 2004. FAUNA DE ANFÍBIOS, RÉPTEIS E MAMÍFEROS DO ESTADO DO RIO DE JANEIRO, SUDESTE DO BRASIL. Publ. Avul. Mus. Nac., Rio de Janeiro (104): 3-23  - <a href='https://www.academia.edu/t/dtkG-KW06pL7-bbmTMp/3307520/FAUNA_DE_ANFÍBIOS_RÉPTEIS_E_MAMÍFEROS_DO_ESTADO_DO_RIO_DE_JANEIRO_SUDESTE_DO_BRASIL_1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rodrigues, M.T. 2003. Herpetofauna da Caatinga. In: I.R. Leal, M. Tabarelli &amp; J.M.C. Silva (eds.). Ecologia e conservação da Caatinga, pp. 181-236. Editora Universitária, Universidade Federal de Pernambuco, Recife, Brasil. </li>
+            
+            
+            <li>Rojas-Padilla O, Menezes VQ, Dias IR, Argôlo AJS, Solé M, Orrico VGD 2020. Amphibians and reptiles of Parque Nacional da Serra das Lontras: an important center of endemism within the Atlantic Forest in southern Bahia, Brazil. ZooKeys 1002: 159-185  - <a href='https://doi.org/10.3897/zookeys.1002.53988' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos, S. S., dos Santos, T. F., de Araújo Gomes, I. S., Pereira, O. A., dos Santos, I. M. E. L., &amp; Guzzi, A. 2023. Herpetofauna of Piuaí [sic] state, northeastern Brazil. CONTRIBUCIONES A LAS CIENCIAS SOCIALES, 16(7), 6645-6669  - <a href='http://dx.doi.org/10.55905/revconv.16n.7-144' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sazima, I.; Martins, M. 1990. Presas grandes e serpentes joves: quando os olhos sao maiores que a boca. Memórias do Instituto Butantan 52: 73-79  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Silva-Soares, T.; R.B. Ferreira; R.O.L. Salles; C.F.D. Rocha. 2011. Continental, insular and coastal marine reptiles from the municipality of Vitória, state of Espírito Santo, southeastern Brazil. Check List 7 (3): 290-298  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>SOUSA, B.M., GOMIDES, S.C., HUDSON, A.A., RIBEIRO, L.B. &amp; NOVELLI, I.A. 2012. Reptiles of the municipality of Juiz de Fora, Minas Gerais state, Brazil. Biota Neotropica 12 (3): 35-49  - <a href='http://www.biotaneotropica.org.br/v12n3/ en/abstract?inventory+bn00512032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Starace, Fausto 1998. Guide des Serpents et Amphisbènes de Guyane. IBIS Rouge Editions, Guadeloupe, Guyane, 450 pp. </li>
+            
+            
+            <li>Starace, Fausto 2013. Guide des Serpents et Amphisbènes de Guyane. Ibis Rouge Editions, Matoury, Guyane, ISBN 978-2-84450-407-4  - <a href='http://www.ibisrouge.fr/livre.php?ref=407' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Toledo, Frederico de A. Menezes Daniela Gennari P. and Valdir J. Germano. 2014. Erythrolamprus miliaris orinus Cope, 1868 (Serpentes: Dipsadidae: Xenodontinae): Melanism. Herpetology Notes 7: 453-454  - <a href='https://www.biotaxa.org/hn/issue/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Carvajal O, Pazmiño-Otamendi G, Salazar-Valenzuela D. 2019. Reptiles of Ecuador: a resource-rich portal, with a dynamic checklist and photographic guides. Amphibian &amp; Reptile Conservation 13 (1): [General Section]: 209–229 (e178)  - <a href='https://www.researchgate.net/profile/Omar_Torres-Carvajal/publication/333247479_Reptiles_of_Ecuador_a_resource-rich_online_portal_with_dynamic_checklists_and_photographic_guides/links/5ce430f3299bf14d95af3b2c/Reptiles-of-Ecuador-a-resource-rich-onlin' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ukuwela, K.D.B., de Silva, A., Sivaruban, A. et al. 2022. Diversity, distribution, and natural history of the marine snakes of Sri Lanka. Marine Biodiversity 52, 24 (2022)  - <a href='https://doi.org/10.1007/s12526-022-01259-3' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vechio, Francisco Dal; Mauro Teixeira Jr., Renato Sousa Recoder, Miguel Trefault Rodrigues &amp; Hussam Zaher 2016. The herpetofauna of Parque Nacional da Serra das Confusões, state of Piauí, Brazil, with a regional species list from an ecotonal area of Cerrado and Caatinga. Biota Neotropica 16(3): e20150105  - <a href='https://www.academia.edu/33783448' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vrcibradic, D.; C.F.D. Rocha; M.C. Kiefer; F.H. Hatano; A.F. Fontes; M. Almeida-Gomes; C.C. Siqueira; J.A.L. Pontes; V.N.T. Borges-Junior; L.O. Gil; T. Klaion; E.C.N. Rubião; M. Sluys. 2011. Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil. Check List 7 (6): 745-749  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Werner, F. 1927. Neue oder wenig bekannte Schlangen aus dem Wiener naturhistorischen Staatsmuseum (III. Teil). Sitzungsb. Akad. Wiss. Wien, Math. Naturwiss. Kl. 143 [135?]: 243-257 [1926]  - <a href='http://www.landesmuseum.at/pdf_frei_remote/SBAWW_135_0243-0257.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wied-Neuwied, M. Prinz zu 1821. Reise nach Brasilien in den Jahren 1815 bis 1817. Vol. 2. Heinrich Ludwig Bronner, Frankfurt.  - <a href='http://reader.digitale-sammlungen.de/resolve/display/bsb10330469.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaher, Hussam; Fausto Erritto BarboI; Paola Sanchez Martínez; Cristiano Nogueira; Miguel Trefaut Rodrigues; Ricardo Jannini Sawaya 2011. Répteis do Estado de São Paulo: conhecimento atual e perspectivas. Biota Neotropica, 11 (1): 1–15.  - <a href='http://dx.doi.org/10.1590/s1676-06032011000500005' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/44581708/44581717'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=8582'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://linnaeus.nrm.se/zool/herp/madserp.html.en'>http://linnaeus.nrm.se/zool/herp/madserp.html.en</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.ultra.pucrs.br/pro-mata/chavserp.htm'>http://www.ultra.pucrs.br/pro-mata/chavserp.htm</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie/album.html?species=Liophis+miliaris&amp;welt=album&amp;land=rio_grande_rept&amp;region=rio_grande_rept'>http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie…</a>
+            </li>
+            
+            <li>
+                    <a href='https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Erythrolamprus%20miliaris'>https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Erythrolamprus…</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Erythrolamprus+miliaris'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Erythrolamprus&species=miliaris</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Erythrolamprus&amp;species=miliaris">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Erythrolamprus&amp;species=jaegeri&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Erythrolamprus jaegeri</a></li>
+                            <li class='subsubmenu selected'>Erythrolamprus miliaris</li>
+                            <li class='subsubmenu'><a href="/species?genus=Erythrolamprus&amp;species=poecilogyrus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Erythrolamprus poecilogyrus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

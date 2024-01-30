@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Lygophis anomalus | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Lygophis anomalus">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Lygophis&species=anomalus">
+        <meta property="og:image" content="https://reptile-database.reptarium.cz/img/RD-logo.png">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Lygophis&species=anomalus",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Lygophis&species=anomalus");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Lygophis anomalus</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Lygophis anomalus</em> (GÜNTHER, 1858)</h1>
+
+        <div id='gallery' style='float: left;'>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Lygophis anomalus" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Lygophis anomalus</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Lygophis%20anomalus" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Lygophis anomalus&project_id=40" target="_blank">Add your own observation of <br><i>Lygophis anomalus</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>We have no photos, try to find some by Google images search:</span> <a href='http://images.google.com/images?q=Lygophis+anomalus'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Golden-belly snake<br />G: Goldbauchnatter<br />Portuguese: Cobra-Listrada, Corre-Campo, Jararaca-do-Campo, Jararaca-Listrada, Jararaquinha-D’água, Jararaquinha-D’água-Comum&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Coronella anomala GÜNTHER 1858<br />Lygophis rutilus COPE 1862: 80<br />Coronella pulchella JAN 1863: 251<br />Coronella pulchella — JAN 1866<br />Aporophis anomalus — COPE 1877<br />Coronella pulchella — MÜLLER 1880<br />Coronella anomala — BOULENGER 1886: 431<br />Rhadinaea anomala — BOULENGER 1894<br />Liophis anomala — AMARAL 1925<br />Liophis anomalus — PETERS & OREJAS-MIRANDA 1970 (part.)<br />Liophis anomalus — DIXON 1989<br />Liophis anomalus — CEI 1993<br />Liophis anomalus — LEYNAUD & BUCHER 1999: 20<br />Liophis anomalus — BERNILS et al. 2007<br />Lygophis anomalus — ZAHER et al. 2009<br />Lygophis anomalus — WALLACH et al. 2014: 412<br />Lygophis anomalus — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>S Brazil (Rio Grande do Sul), Uruguay, Paraguay, <br />N Argentina (Buenos Aires, Córdoba, Santa Fe, Entre Rios, Corrientes, Chaco, Formosa, Salta)<br /><br />Type locality: Banks of the Paraná.
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Type: BMNH 1946.1.9.13 (and possibly additional specimens).&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy after CEI 1993.<br /><br />Syntypes: (2) ANSP 5534, 20823; Paraguay, along Rio Parana and its branches, particularly the Tigre [rutilus]&nbsp;</td></tr>
+        
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Alcalde, L., Cassano, M.J., Sánchez, R.M. &amp; Belén-Tenorio, A. 2019. Species composition, abundance and diet of a squamate assemblage from the Carnaval stream headwaters (Buenos Aires, Argentina). Urban Ecosyst  - <a href='https://doi.org/10.1007/s11252-019-00888-0' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cei, J. M. 1993. Reptiles del noroeste, nordeste y este de la Argentina. Museo Regionale Sci. Naturale Torino, Monografie 14: 1-949 </li>
+            
+            
+            <li>Cope, E.D. 1862. Synopsis of the species of Holcosus and Ameiva, with diagnoses of new West Indian and South American Colubridae. Proc. Acad. Nat. Sci. Philadelphia 14: 60-82.  - <a href='https://www.biodiversitylibrary.org/page/1951532' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon J R 1985. A review of Liophis anomalus and Liophis elegantissimus, and the description of a new species (Serpentes: Colubridae). Copeia 1985 (3): 565-573  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon, James R. 1989. A key and checklist to the neotropical snake genus Liophis with country lists and maps. Smithsonian Herp. Inf. Serv. (79): 1-40  - <a href='http://www.biodiversitylibrary.org/bibliography/15728' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Entiauspe-Neto, Omar Machado; Tângela Denise Perleberg and Marco Antonio de Freitas 2016. Herpetofauna from an urban Pampa fragment in southern Brazil: composition, structure and conservation. Check List 12(5): 1964  - <a href='http://dx.doi.org/10.15560/12.5.1964' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Falcione, Camila; Alejandra Hernando, Diego Andrés Barrasso, Diego Di Pietro 2016. Karyotypes of four species of Xenodontini snakes (Serpentes: Dipsadidae) and implications for taxonomy. Contributions to Zoology, 85 (3): 265-273  - <a href='http://repository.naturalis.nl/document/638075' target='_blank'>get paper here</a></li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freiberg, M.A. 1982. Snakes of South America. T.F.H. Publications, Neptune City, NJ, 189 pp.  - <a href='https://doi.org/10.2307/1444313' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Günther, A. 1858. Catalogue of Colubrine snakes of the British Museum. London, I - XVI, 1 - 281 </li>
+            
+            
+            <li>Jan, G. 1863. Enumerazione sistematica degli ofidi appartenenti al gruppo Coronellidae. Arch. Zool. Anat. Fisiol. 2 (2): 213-330 [1862]  - <a href='http://www.biodiversitylibrary.org/item/111834#page/561/mode/1up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jan, G. 1866. Iconographie générale des ophidiens. 17. Livraison. J.B. Bailière et Fils, Paris  - <a href='http://www.biodiversitylibrary.org/bibliography/4885' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kunz, K. 2012. Delikatessen für Jungschlangen: Froschschenkel und Stint. Reptilia (Münster) 17 (95): 82-84  - <a href='http://www.reptilia.de/Archiv.335.0.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Leynaud, Gerardo C. and Enrique H. Bucher 1999. La fauna de serpientes del Chaco Sudamericano: diversidad, distribución geografica y estado de conservación. Academia Nacional de Ciencias Miscelanea (98):1-46 </li>
+            
+            
+            <li>Mattison, Chris 2007. The New Encyclopedia of Snakes. Princeton University Press </li>
+            
+            
+            <li>Müller, F. 1880. Erster Nachtrag zum Katalog der herpetologischen Sammlung des Basler Museums. Verh. Naturf. Ges. Basel 7: 120-165  - <a href='https://www.biodiversitylibrary.org/page/11540034' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Panzera, Alejandra and Raúl Maneyro 2014. Feeding Biology of Lygophis anomalus (Dipsadidae, Xenodontinae) . South American J. Herp. 9 (2): 75-82  - <a href='http://www.bioone.org/doi/abs/10.2994/SAJH-D-13-00030.1?ai=vq&amp;ui=29q2&amp;af=H' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Panzera, Alejandra; José C. Guerrero and Raúl Maneyro 2017. Delimiting the Geographic Distribution of Lygophis anomalus (Günther, 1858) (Squamata, Dipsadidae) from Natural History and Ecological Niche Modeling. South American J. Herp. 12 (1): 24–33  - <a href='http://www.bioone.org/toc/sajh/12/1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sivan, Jaim; Alejandra Panzera and Raul Maneyro 2016. Male Reproductive Cycle of a Neotropical Snake, Lygophis anomalus (Dipsadidae), in a Temperate Geographic Distribution. South American J. Herp. 11 (2): 114–118  - <a href='http://www.bioone.org/toc/sajh/11/2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sivan, Jaim; Alejandra Panzera, and Raul Maneyro 2015. Male Reproductive Cycle of a Neotropical Snake, Lygophis anomalus (Dipsadidae), in a Temperate Geographic Distribution. South American J. Herp. Aug 2016, Vol. 11, No. 2: 114-118.  - <a href='http://www.bioone.org/toc/sajh/11/2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>TOZETTI, A. M., MOSER, C. F., &amp; COLOMBO, P. 2023. AMPHIBIANS AND REPTILES OF TAIM, A BRAZILIAN RAMSAR SITE: CURRENT KNOWLEDGE AND A POSSIBLE CASE OF LOCAL EXTINCTION. Herpetological Conservation and Biology, 18(1), 38-47  - <a href='https://www.herpconbio.org/Volume_18/Issue_1/Tozetti_etal_2023.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ukuwela, K.D.B., de Silva, A., Sivaruban, A. et al. 2022. Diversity, distribution, and natural history of the marine snakes of Sri Lanka. Marine Biodiversity 52, 24 (2022)  - <a href='https://doi.org/10.1007/s12526-022-01259-3' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vera, David G, Diego O Di Pietro, Clara Trofino Falasco, Germán Tettamanti, Luciana Iriarte, Micaela Harkes, Federico P Kacoliris, and Igor Berkunsky. 2022. Identifying Key Conservation Sites for the Reptiles of the Tandilia Mountains in Pampas Highlands. Journal for Nature Conservation, 126321  - <a href='https://doi.org/https://doi.org/10.1016/j.jnc.2022.126321.' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Zaher, Hussam; Grazziotin, Felipe Gobbi; Cadle, John E.; Murphy, Robert W.; Moura-Leite, Julio Cesar de; Bonatto, Sandro L 2009. Molecular phylogeny of advanced snakes (Serpentes, Caenophidia) with an emphasis on South American Xenodontines: a revised classification and descriptions of new taxa. Pap. Avulsos Zool. (São Paulo) 49 (11): 115-153  - <a href='http://www.scielo.br/pdf/paz/v49n11/a01v49n11.pdf' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/190556/61324894'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1159289'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie/album.html?species=Liophis+anomalus&amp;welt=album&amp;land=rio_grande_rept&amp;region=rio_grande_rept'>http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie…</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Lygophis+anomalus'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Lygophis&species=anomalus</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Lygophis&amp;species=anomalus">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Leptophis&amp;species=urostictus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Leptophis urostictus</a></li>
+                            <li class='subsubmenu selected'>Lygophis anomalus</li>
+                            <li class='subsubmenu'><a href="/species?genus=Lygophis&amp;species=flavifrenatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Lygophis flavifrenatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

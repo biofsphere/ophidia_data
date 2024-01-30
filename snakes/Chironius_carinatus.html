@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Chironius carinatus | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Chironius carinatus">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Chironius&species=carinatus">
+        <meta property="og:image" content="/content/photo_rd_04/Chironius-carinatus-03000032199_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Chironius&species=carinatus",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Chironius&species=carinatus");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Chironius carinatus</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Chironius carinatus</em> (LINNAEUS, 1758)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_04/Chironius-carinatus-03000032199_01.jpg' title='Chironius carinatus'><img src='/content/photo_rd_04/Chironius-carinatus-03000032199_01_t.jpg' title='Chironius carinatus' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_00/Chironius-carinatus-03000028064_01.jpg' title='Chironius carinatus'><img src='/content/photo_rd_00/Chironius-carinatus-03000028064_01_t.jpg' title='Chironius carinatus' alt='' width='50' height='38'></a>
+            <a href='/content/photo_rd_15/Chironius-carinatus-03000045509_01.jpg' title='Chironius carinatus'><img src='/content/photo_rd_15/Chironius-carinatus-03000045509_01_t.jpg' title='Chironius carinatus' alt='' width='62' height='38'></a>
+            <a href='/content/photo_rd_14/Chironius-carinatus-03000044234_01.jpg' title='Chironius carinatus'><img src='/content/photo_rd_14/Chironius-carinatus-03000044234_01_t.jpg' title='Chironius carinatus' alt='' width='50' height='38'></a>
+            <a href='/content/photo_rd_14/Chironius-carinatus-03000044233_01.jpg' title='Chironius carinatus'><img src='/content/photo_rd_14/Chironius-carinatus-03000044233_01_t.jpg' title='Chironius carinatus' alt='' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Chironius carinatus" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Chironius carinatus</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Chironius%20carinatus" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Chironius carinatus&project_id=40" target="_blank">Add your own observation of <br><i>Chironius carinatus</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Chironius+carinatus'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae, Colubrinae, Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Amazon Coachwhip, Sipo, Golden tree snake, Whipsnake<br />S: Lora, machete, verdegallo<br />Portuguese: Acutimboia, Acutioia, Boicipó, Boitiaboia, Boitipó, Cainana, Cipó, Cobra-Cipó, Cutimboia, Sacaiboia, Sacaiboia-Cipó, Serra-Veia&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Coluber carinatus LINNAEUS 1758: 223<br />Coluber (Chironius) DONNDORFF 1798: 209<br />Natrix carinatus — MERREM 1820: 120<br />Erpetodryas carinatus — BOIE 1826: 237<br />Chironius carinatus — FITZINGER 1826: 31, 60<br />Herpetodryas carinatus — WAGLER 1830: 180<br />Herpetodryas carinatus var. carinatissima JAN 1863 (NOMEN OBLITUM)<br />Herpetodryas carinatus var. decalepis JAN 1863 (NOMEN DUBIUM)<br />Herpetodryas carinatus var. glabra JAN 1863 (NOMEN DUBIUM)<br />Herpetodryas carinatus var. macrophthalma JAN 1863 (NOMEN DUBIUM)<br />Herpetodryas carinatus — BOULENGER 1886: 433<br />Herpetodryas carinatus — BOULENGER 1894: 73<br />Herpetodryas carinatus — BARBOUR & COLE 1906: 152<br />Erpetodryas sexcarinatus — FOWLER 1913: 171<br />Herpetodryas carinatus — BARBOUR 1915: 77<br />Chironius carinatus — RUTHVEN 1922: 65<br />Chironius carinatus — AMARAL 1925<br />Chironius carinatus — BEEBE 1946: 21<br />Chironius carinatus — DUELLMAN 1978: 231<br />Chironius carinatus carinatus — DIXON et al. 1993: 73<br />Chironius carinatus — GORZULA & SEÑARIS 1999<br />Chironius carinatus carinatus — BOOS 2001<br />Chironius carinatus — SAVAGE 2002<br />Chironius carinatus — WALLACH et al. 2014: 159<br />Chironius carinatus — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Brazil (Pernambuco, Bahia, Sergipe, Ceará, Alagoas, Pará, Paraiba, Piaui), French Guiana, Suriname, Guyana, E Venezuela (Trinidad), Colombia (incl. Valle del Cauca), Peru<br /><br />Type locality: “Indiis” (fide LINNAEUS 1758, but in error)
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: NRM (NHRM) 33 ?; museum number not given by Dr. C. Edelstam, NRM (NHRM), but listed as No. 33 by Hoge (1960)&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>Diagnosis (genus): The genus is easily diagnosed as it is the only Neotropical snake genus with 12 or 10 rows of dorsal scales at midbody. All species of Chironius are diurnal arboreal snakes inhabiting preferably lowland tropical rainforests, but being also found in humid montane forests as well as open-formation biomes (Dixon et al., 1993; Marques et al., 2001; Marques and Sazima, 2003). Klaczko et al. (2014) confirmed the monophyly of Chironius despite contrary results obtained by Pyron et al. (2013).<br /><br />Diagnosis: Dixon et al. 1993: 68 ff (incl. carinatus, spixi)&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy partly after PETERS & OREJAS-MIRANDA 1970. The photo of Chironius carinatus in VILLA et al. (1988) is not a Ch. carinatus according to SCOTT 1989: 803.<br /><br />Type species: Coluber carinatus LINNAEUS 1758 is the type species of the genus Chironius FITZINGER 1826.<br /><br />Subspecies: Ch. carinatus spixi is the only taxon in Chironius that does not undergo an ontogenetic change in eye size, perhaps because it is also the only Chironius species that does not spend the majority of its time in closed-canopy forests (DIXON et al. 1993). Ch.  carinatus spixi intergrades with carinatus carinatus in Venezuela (Dixon et al., 1993: 69, 72).<br /><br />Distribution: Map: Dixon et al. 1993: 69 (incl. subspecies). BMNH 53.9.26.25 from Guadeloupe, USNM 12136 from Paraguay, and SMNS 5390 from Argentina all represent erroneous locality data (fide DIXON et al. 1993: 74). Reports from Central America (e.g. from Costa Rica, Solorzano 2004) correspond to other species in the genus. Not in Ecuador fide Torres-Carvajal et al. 2019: 299 ff). See map in Nogueira et al. 2019.<br /><br />Phylogeny: see Hamdan et al. 2017.<br /><br />Habitat: partly arboreal (Harrington et al. 2018).<br /><br />Diet: most Chironius feed on reptiles, birds, and/or mammals (Roberto et al. 2020).&nbsp;</td></tr>
+        <tr><td>Etymology</td><td>Named after Latin “carinatus” = keeled (like a ship).&nbsp;</td></tr>
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Acuña-Vargas, J. C. 2016. Anfibios y Reptiles asociados a cinco coberturas de la tierra, municipio de Dibulla, La Guajira, Colombia. Acta Zoológica Mexicana (n. s.), 32(2): 133-146  - <a href='https://www.academia.edu/32067976' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Amaral, A. do 1925. South American snakes in the collection of the United States National Museum. Proc. US Natl. Mus. 67 (24): 1-30  - <a href='http://www.biodiversitylibrary.org/bibliography/7519' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Araújo P, França RC, Nascimento FS, Laranjeiras DO, Rodrigues França FG 2019. New records and range expansion of Chironius carinatus (Linnaeus, 1758) (Serpentes, Colubridae) from the state of Paraíba, northeast Brazil. Check List 15(5): 927-932  - <a href='https://doi.org/10.15560/15.5.927' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Avila-Pires, Teresa C.S.; Kleiton R. Alves-Silva, Laís Barbosa, Fabrício S. Correa, Jorge F. A. Cosenza, Ana Paula V. Costa-Rodrigues, Aurea A. Cronemberger, Marinus S. Hoogmoed, Geraldo R. Lima-Filho, Adriano O. Maciel, Alexandre F. R. Missassi, Lyw 2018. Changes in Amphibian and Reptile Diversity Over Time in Parque Estadual do Utinga, a Protected Area Surrounded by Urbanization. Herpetology Notes 11: 499-512  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barbour, T. 1915. Recent notes regarding West Indian reptiles and amphibians. Proc. Biol. Soc. Washington 28: 71-78  - <a href='http://www.biodiversitylibrary.org/bibliography/3622' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barbour, T., and L. J. Cole. 1906. Vertebrata from Yucatan. Reptilia, Amphibia and Pisces. Bull. Mus. Comp. Zool. Harvard 50: 146-159  - <a href='http://www.biodiversitylibrary.org/bibliography/2803' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beebe, William 1946. Field notes on the snakes of Kartabo, British Guiana, and Caripito, Venezuela. Zoologica 31: 11-52  - <a href='https://www.biodiversitylibrary.org/bibliography/42858#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bernarde, Paulo Sérgio;, Reginaldo Assêncio Machado &amp; Luiz Carlos Batista Turci 2011. Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre – Brasil. Biota Neotropica 11 (3): 117-144  - <a href='http://www.biotaneotropica.org.br/v11n3/pt/abstract?article+bn02111032011' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boos, H.E.A. 2001. The snakes of Trinidad and Tobago. Texas A&amp;M University Press, 270 pp. </li>
+            
+            
+            <li>Boulenger, G. A. 1891. On reptiles, batrachians, and fishes from the lesser West Indies. Proc. Zool. Soc. London 1891: 351-357.  - <a href='http://www.biodiversitylibrary.org/bibliography/44963' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, George A. 1894. Catalogue of the snakes in the British Museum (Natural History). Volume II., Containing the Conclusion of the Colubridæ Aglyphæ. British Mus. (Nat. Hist.), London, xi, 382 pp.  - <a href='https://www.biodiversitylibrary.org/bibliography/8316#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Castro-Herrera, F. &amp; Vargas-Salinas, F. 2008. Anfibios y reptiles en el departamento del Valle del Cauca, Colombia. Biota Colombiana 9 (2): 251 - 277  - <a href='https://www.academia.edu/7541237/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CATENAZZI, A., LEHR, E. &amp; VON MAY, R. 2013. The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. Biota Neotropica 13 (4): 269-283 </li>
+            
+            
+            <li>Claessen, H. 2003. De slangen can de Guyana’s. Deel iv. Lacerta 61 (1): 19-27  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cole, Charles J.; Carol R. Townsend, Robert P. Reynolds, Ross D. MacCulloch, and Amy Lathrop 2013. Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. Proceedings of the Biological Society of Washington 125  (4): 317-578; plates: 580-620  - <a href='http://www.bioone.org/doi/abs/10.2988/0006-324X-125.4.317' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cunha, O.R. de &amp; Nascimento, R.P do 1982. Ofídios da Amazônia. XV - As espécies de Chironius da Amazônia Oriental (Pará, Amapá e Maranhão) (Ophidia : Colubridae). Mem. Inst. Butantan 46: 139-172  - <a href='https://bibliotecadigital.butantan.gov.br/arquivos/45/PDF/10.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon J R; Wiest J A Jr; Cei J M 1993. Revision of the Neotropical snake genus Chironius Fitzinger (Serpentes, Colubridae). MUSEO REGIONALE DI SCIENZE NATURALI MONOGRAFIE (TURIN) 13 :1-280 </li>
+            
+            
+            <li>Donndorff, JOHANN AUGUST 1798. Zoologische Beyträge zur xiii. Ausgabe des Linnéischen Natursystems. Vol. 3. Leipzig, Weidmannschen, vi+980 pp.  - <a href='http://reader.digitale-sammlungen.de/resolve/display/bsb10307068.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dubeux, M. J. M., Araújo Neto, J. V. D., Triburcio, I. C. S., Lisboa, B. S., Torquato, S., Freitas, M. A. D., ... &amp; Mott, T. 2022. A “hotspot” within a hotspot: the reptiles of the Estação Ecológica and Área de Proteção Ambiental de Murici, Atlantic Forest of northeastern Brazil. Biota Neotropica, 22: 1-14  - <a href='https://doi.org/10.1590/1676-0611-BN-2022-1337' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W. E. 1978. The biology of an equatorial herpetofauna in Amazonian Ecuador. Misc. Publ. Univ. Kans. Mus. Nat. Hist. 65: 1-352  - <a href='http://www.biodiversitylibrary.org/bibliography/4050' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W.E., &amp; Salas, A.W. 1991. Annotated checklist of the amphibians and reptiles of Cuzco Amazonico, Peru. Occas. Papers Mus. of Natur. Hist., Univ. of Kansas, Lawrence (143): 13 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/4672' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Esqueda,L.F. &amp; La Marca,E. 1999. New Reptilian species records from the Cordillera de Mérida, Andes of Venezuela. Herpetological Review 30 (4): 238-240  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fonseca, Wirven Lima da; Julivaldo Dantas da Silva, Arthur Diesel Abegg, Conrado Mario da Rosa, Paulo Sergio Bernarde 2019. Herpetofauna of Porto Walter and surrounding areas, Southwest Amazonia, Brazil. Herpetology Notes 12: 91-107  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gorzula, Stefan &amp; Senaris, J. Celsa 1999. In: Contribution to the herpetofauna of the Venezuelan Guayana. I: a data base. Scientia Guaianae, Caracas, No. 8 [1998], 269+ pp.; ISBN 980-6020-48-0 </li>
+            
+            
+            <li>Hamdan, B. &amp; R. M. Lira-da-Silva 2012. The snakes of Bahia State, northeastern Brazil: species richness, composition and biogeographical notes. Salamandra 48 (1): 31-50  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/hamdan-b-r-m-lira-da-silva' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B., Pereira, A.G., Loss-Oliveira, L., Rödder, D., Schrago, C.G. 2017. Evolutionary analysis of Chironius snakes unveils cryptic diversity and provides clues to diversification in the Neotropics. Molecular Phylogenetics and Evolution  - <a href='https://doi.org/10.1016/j.ympev.2017.08.004' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Harrington, Sean M; Jordyn M de Haan, Lindsey Shapiro, Sara Ruane 2018. Habits and characteristics of arboreal snakes worldwide: arboreality constrains body size but does not affect lineage diversification. Biological Journal of the Linnean Society 125 (1): 61–71  - <a href='https://doi.org/10.1093/biolinnean/bly097' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hedges SB, Powell R, Henderson RW, Hanson S, and Murphy JC 2019. Definition of the Caribbean Islands biogeographic region, with checklist and recommendations for standardized common names of amphibians and reptiles. Caribbean Herpetology 67: 1–53 </li>
+            
+            
+            <li>Henderson, R.W., M.A. Nickerson &amp; S. Ketcham 1976. Short Term Movements of the Snakes Chironius carinatus, Helicops angulatus and Bothrops atrox in Amazonian Peru Herpetologica 32 (3): 304-310.  - <a href='https://www.jstor.org/journal/herpetologica' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hollis, J.L. 2006. Phylogenetics of the genus Chironius Fitzinger 1826 (Serpenes, Colubridae) based on morphology. Herpetologica 62 (4): 435-452  - <a href='http://www.jstor.org/action/showPublication?journalCode=herpetologica' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Icochea, J., E. Quispitupac, A. Portilla and E. Ponce 2001. Assessment of Amphibians and Reptiles of the Lower Urubamba Region, Peru. Pag: 129-142. In: Alonso, A., F. Dallmeier and P. Campbell (Eds.). Urubamba: The Biodiversity of a Peruvian Rainforest. SI/MAB Series # 7. Smithsonian Institution, Washington, DC. 204 pp. </li>
+            
+            
+            <li>Klaczko, Julia; Giovanna G. Montingelli and Hussam Zaher 2014. A combined morphological and molecular phylogeny of the genus Chironius Fitzinger, 1826 (Serpentes: Colubridae). Zoological Journal of the Linnean Society. doi: 10.1111/zoj.12147  - <a href='http://onlinelibrary.wiley.com/doi/10.1111/zoj.12147/abstract?campaign=wolearlyview' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Köhler, G. 2008. Reptiles of Central America. 2nd Ed. Herpeton-Verlag, 400 pp. </li>
+            
+            
+            <li>KOK, PHILIPPE J. R. 2010. A new species of Chironius Fitzinger, 1826 (Squamata: Colubridae) from the Pantepui region, northeastern South America. Zootaxa 2611: 31–44  - <a href='http://www.mapress.com/zootaxa/2010/f/z02611p044f.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lancini,A.R. &amp; Kornacker,P.M. 1989. Die Schlangen von Venezuela. Armitano Editores C.A., Caracas, 1-381 </li>
+            
+            
+            <li>Linnaeus, C. [= Linné, C. von] 1758. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio decima, reformata. Laurentii Salvii, Holmiæ. 10th Edition: 824 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/35518#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Markezich, A.L. 2002. New distribution records of reptiles from Western Venezuela. Herpetological Review 33 (1): 69-74  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marshall BM, Strine CT. 2019. Exploring snake occurrence records: Spatial biases and marginal gains from accessible social media. PeerJ 7:e8059  - <a href='https://doi.org/10.7717/peerj.8059' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Medina-Rangel, Guido Fabián 2013. CAMBIO EstACIOnAl En El UsO DE lOs RECURsOs DE lA COMUnIDAD DE REptIlEs En El COMplEJO CEnAgOsO DE ZApAtOsA, DEpARtAMEntO DEl CEsAR (Colombia). Caldasia 35 (1): 103-122  - <a href='https://www.jstor.org/journal/caldasia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Metcalf, Matthew; Alexander Marsh, Emerson Torres, Devon Graham, Charles Gunnels 2020. Herpetofauna of the Santa Cruz Forest Preserve in the Peruvian Amazon Basin. Herpetology Notes 13: 753-767  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Guilherme Nunes Ferreira; Michela Rossane Cavilha Scupino (eds.) 2018. Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera. Curitiba, Pr: STCP Engenharia de Projetos Ltda.; Porto Trombetas, Pa: MRN – Mineração Rio do Norte S.A., 2018.&lt;br /&gt;210p.  - <a href='https://archive.org/details/MoratoEtAl2018HerpetofaunaFLONASaracTaqueraAmazniaCentral' target='_blank'>get paper here</a></li>
+            
+            
+            <li>MOURA, MARIO R.; HENRIQUE C. COSTA, ARTHUR D. ABEGG, ESMERALDA ALAMINOS, TEDDY ANGARITA‐SIERRA, WEVERTON S. AZEVEDO, HUGO CABRAL, PRISCILA CARVALHO, SONIA CECHIN, NATHALIE CITELI, ÂNGELO C.M. DOURADO, ANDRÉ F.V. DUARTE, FREDERICO G.R. FRANÇA, ELIZA M 2022. Unwrapping broken tails: Biological and environmental correlates of predation pressure in limbless reptiles. Journal of Animal Ecology 2022: 1–14.  - <a href='https://doi.org/10.1111/1365-2656.13793' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Muñoz-Saba, Yaneth; Nathaly Calvo-Roa, Paul Andrés Gómez-Sandoval, Diego Casallas-Pabón John Douglas Lynch, Lucas S. Barrientos, Diego A. Gómez-Sánchez. 2019. Guía de campo de los mamíferos, anfibios y reptiles de Santa María (Boyacá, Colombia). Serie Guías de Campo del Instituto de Ciencias Naturales. N° 23. Bogotá D.C. Universidad Nacional de Colombia. Bogotá. 317 p  - <a href='http://ciencias.bogota.unal.edu.co/menu-principal/publicaciones/publicaciones/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Natera-Mumaw, Marco; Luis Felipe Esqueda-González &amp; Manuel Castelaín-Fernández 2015. Atlas Serpientes de Venezuela. Santiago de Chile, Dimacofi Negocios Avanzados S.A., 456 pp.  - <a href='https://www.researchgate.net/publication/274073284_Book_Atlas_Serpientes_de_Venezuela_1ra_Edicion_abril_2015_Portada_en_baja_resolucion_Comunicarse_al_email_luisfesquedagmailcom' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>OLIVEIRA LIMA, JEFFERSON; HUGO ANDRADE, TAINARA LIMA DA SILVA &amp; EDUARDO JOSÉ DOS REIS DIAS. 2022. Reptiles of Sergipe: current knowledge and sampling discontinuities. Herpetology Notes 15: 69–78.  - <a href='https://www.biotaxa.org/hn/article/view/62845' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Páez, V.P. et al. 2002. Guía de campo de algunas especies de anfibios y reptiles de Antioquia. Universidad de Antioquia,  - <a href='https://www.academia.edu/26523736/Gu%C3%ADa_de_campo_de_algunas_especies_de_anfibios_y_reptiles_de_Antioquia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pedroza-Banda, Raúl; Jhon Jairo Ospina-Sarria, Teddy Angarita-Sierra, Marvin Anganoy-Criollo, John D. Lynch 2014. Estado de la fauna de anfibios y reptiles del Casanare Ciencias naturales Estado del conocimiento de la fauna de anfibios y reptiles del departamento de Casanare, Colombia. Rev. Acad. Colomb. Cienc. 38 (146): 17-34  - <a href='http://www.yoluka.org.co//dropbox/publicaciones/Articulos/Ra__l_Pedroza_Banda_Jhon_Jairo_Ospina_Sarria_Teddy_Angarita_Sierra_Marvin_Anganoy_Criollo__John_D._Lynch_Estado_del_conocimiento_de_la_fauna_de_anfibios_y_reptiles_del_departamento_de_Casanare' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Santos,C. &amp; Moreno, A.G. 1988. Ofidios de Colombia. Museo reegionale di Scienze Naturali, Torino, Monographie VI, 517 pp. </li>
+            
+            
+            <li>Pyron, R.A.; Frank T Burbrink, John J Wiens 2013. A phylogeny and revised classification of Squamata, including 4161 species of lizards and snakes. BMC Evol Biol 13: 93  - <a href='http://www.biomedcentral.com/1471-2148/13/93' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rabosky, Daniel L.; Rudolf von May, Michael C. Grundler and Alison R. Davis Rabosky 2019. The Western Amazonian Richness Gradient for Squamate Reptiles: Are There Really Fewer Snakes and Lizards in Southwestern Amazonian Lowlands? Diversity 11: 199; doi:10.3390/d11100199  - <a href='http://www.mdpi.com/journal/diversity' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rincón-Aranguri, M., Toro-Cardona, F. A., Galeano, S. P., Roa-Fuentes, L.. &amp; Urbina-Cardona, N. 2023. Functional diversity of snakes is explained by the landscape composition at multiple areas of influence. Ecology and Evolution, 13, e10352  - <a href='https://doi.org/10.1002/ece3.10352' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RIVAS, GILSON A.; CÉSAR R. MOLINA, GABRIEL N. UGUETO, TITO R. BARROS, CÉSAR L. BAR- RIO-AMORÓS &amp; PHILIPPE J. R. KOK 2012. Reptiles of Venezuela: an updated and commented checklist. Zootaxa 3211: 1–64  - <a href='https://www.researchgate.net/publication/259759792_Reptiles_of_Venezuela_An_updated_and_commented_checklist' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J. and Souza, A. R. 2020. Review of prey items recorded for snakes of the genus Chironius (Squamata, Colubridae), including the first record of Osteocephalus as prey. Herpetology Notes 13: 1-5.  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J., R. W. Ávila &amp; A. R. Melgarejo 2015. Répteis (Testudines, Squamata, Crocodylia) da reserva biológica de Pedra Talhada. In: Atuder, A., l. Nusbaumer &amp; R. Spichiger (eds.). biodiversidade da reserva biológica de Pedra talhada (alagoas, Pernambuco - brasil). Boissiera 68: 357-375  - <a href='https://www.academia.edu/15822726/Répteis_Testudines_Squamata_Crocodylia_da_Reserva_Biológica_de_Pedra_Talhada?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rodrigues, M.T. 2003. Herpetofauna da Caatinga. In: I.R. Leal, M. Tabarelli &amp; J.M.C. Silva (eds.). Ecologia e conservação da Caatinga, pp. 181-236. Editora Universitária, Universidade Federal de Pernambuco, Recife, Brasil. </li>
+            
+            
+            <li>Rodrigues-França, Frederico Gustavo &amp; Nathocley Mendes-Venâncio 2010. Reptiles and amphibians of a poorly known region in southwest Amazonia Biotemas, 23 (3): 71-84  - <a href='https://www.academia.edu/2602740/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roze, J. A. 1958. Resultados zoologicos de la expedicion de la Universidad Central de Venezuela a la region del Auyante'pui en la Guyana Venezolana, Abril de 1956. 5. Los reptiles del Auyantepui, Venezuela, basandose en las colecciones de las expediciones de Phelps-Ta Acta Biol. Venezuelica 2: 243-270. </li>
+            
+            
+            <li>Ruthven, A. G. 1922. The amphibians and reptiles of the Sierra Nevada de Santa Marta, Colombia. Univ. Michigan Mus. Zool., Misc. Publ. (8): 70 pp.  - <a href='http://www.ummz.lsa.umich.edu/rep_amph/publications/miscpubs.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos, S. S., dos Santos, T. F., de Araújo Gomes, I. S., Pereira, O. A., dos Santos, I. M. E. L., &amp; Guzzi, A. 2023. Herpetofauna of Piuaí [sic] state, northeastern Brazil. CONTRIBUCIONES A LAS CIENCIAS SOCIALES, 16(7), 6645-6669  - <a href='http://dx.doi.org/10.55905/revconv.16n.7-144' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Savage, J.M. 2002. The Amphibians and Reptiles of Costa Rica: A Herpetofauna Between Two Continents, Between Two Seas. University of Chicago Press, 934 pp. [review in Copeia 2003 (1): 205] </li>
+            
+            
+            <li>Schmidt, Karl P. &amp; Walker, Warren F. 1943. Peruvian snakes from the University of Arequipa. Zoological Series of Field Museum of Zoology 24 (26): 279-296  - <a href='http://www.biodiversitylibrary.org/bibliography/42255' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Scott, N.J., Jr. 1989. (Book review) Middle American Herpetology: A Bibliographic Checklist by Jaime Villa, Larry David Wilson, Jerry D. Johnson Copeia 1989 (3): 802-804.  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Señaris, J. Celsa; María Matilde Aristeguieta Padrón, Haidy Rojas Gil y Fernando J. M. Rojas-Runjaic 2018. Guía ilustrada de los anfibios y reptiles del valle de Caracas, Venezuela. Ediciones IVIC, Instituto Venezolano de Investigaciones Científicas (IVIC). Caracas, Venezuela. 348 pp. </li>
+            
+            
+            <li>Slevin, J.R. 1942. Notes on a collection of reptiles from Boquete, Panama, with the description of a new species of Hydromorphus. Proc. Cal. Acad. Sci. 23: 463-480  - <a href='http://www.biodiversitylibrary.org/bibliography/3943' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sousa, J C; Santos, F P; Sanches, P R; Costa-Campos, C E &amp; Nunes, A L S 2018. Chironius carinatus (Amazon Whipsnake) Predation. Herpetological Review 49 (2): 336  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Starace, Fausto 1998. Guide des Serpents et Amphisbènes de Guyane. IBIS Rouge Editions, Guadeloupe, Guyane, 450 pp. </li>
+            
+            
+            <li>Starace, Fausto 2013. Guide des Serpents et Amphisbènes de Guyane. Ibis Rouge Editions, Matoury, Guyane, ISBN 978-2-84450-407-4  - <a href='http://www.ibisrouge.fr/livre.php?ref=407' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Test, Frederic H.;Sexton, Owen J.;Heatwole, Harold 1966. Reptiles of Rancho Grande and vicinity, Estado Aragua, Venezuela. Miscellaneous publications, Museum of Zoology, University of Michigan (128): 1-63  - <a href='https://deepblue.lib.umich.edu/bitstream/handle/2027.42/56372/MP128.pdf?sequence=1&amp;isAllowed=y' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Carvajal, O., Echevarría, L.Y., Lobos, S.E., Venegas, P.J., Kok, P.J.R. 2018. Phylogeny, diversity and biogeography of Neotropical sipo snakes (Serpentes: Colubrinae: Chironius). Molecular Phylogenetics and Evolution 130: 315-329  - <a href='https://doi.org/10.1016/j.ympev.2018.10.022' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Valencia-Zuleta A, Jaramillo-Martínez AF, Echeverry-Bocanegra A, Viáfara-Vega R, Hernández-Córdoba O, Cardona-Botero VE, Gutiérrez-Zúñiga J, Castro-Herrera F. 2014. Conservation status of the herpetofauna, protected areas, and current problems in Valle del Cauca, Colombia. Amphibian &amp; Reptile Conservation 8 (2): 1–18 (e87)  - <a href='http://amphibian-reptile-conservation.org/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W.; RM Oliveira, AFN Gonzaga, KC Pinto, FC Poli, TM Bilce, M Penhacek, L Wronski, JX Martins, TG Junqueira, LCC, Cesca VY, Guimarães RD. Pinheiro 2015. Contributions to the knowledge of amphibians and reptiles from Volta Grande do Xingu, northern Brazil Braz. J. Biol., 75 (3) (suppl.): S205-S218  - <a href='http://dx.doi.org/10.1590/1519-6984.00814BM' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Villa, J., Wilson, L.D., Johnson, J.D. 1988. Middle American Herpetology - A Bibliographic Checklist. University of Missouri Press, 132 pp [review in Copeia 1989 (3): 802] </li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Werner, F. 1896. Zweiter Beitrag zur Herpetologie der indo-orientalischen Region. Verh. Zool. Bot. Ges. Wien 46: 6-24  - <a href='https://doi.org/10.5962/bhl.part.19752' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/44580082/44580089'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39287'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://linnaeus.nrm.se/zool/herp/madserp.html.en'>http://linnaeus.nrm.se/zool/herp/madserp.html.en</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.herpven.org/reptiles.htm'>http://www.herpven.org/reptiles.htm</a>
+            </li>
+            
+            <li>
+                    <a href='http://mysite.verizon.net/vze7ftch/snakes_of_colombia/'>http://mysite.verizon.net/vze7ftch/snakes_of_colombia/</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.isez.pan.krakow.pl/staff/szyndlar/gal_venezuela/03.htm'>http://www.isez.pan.krakow.pl/staff/szyndlar/gal_venezuela/03.htm</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Chironius+carinatus'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Chironius&species=carinatus</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Chironius&amp;species=carinatus">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Cercophis&amp;species=auratus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Cercophis auratus</a></li>
+                            <li class='subsubmenu selected'>Chironius carinatus</li>
+                            <li class='subsubmenu'><a href="/species?genus=Clelia&amp;species=clelia&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Clelia clelia</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

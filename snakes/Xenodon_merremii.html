@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Xenodon merremii | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Xenodon merremii">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Xenodon&species=merremii">
+        <meta property="og:image" content="/content/photo_rd_04/Xenodon-merremi-03000031851_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Xenodon&species=merremii",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Xenodon&species=merremii");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Xenodon merremii</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Xenodon merremii</em> (WAGLER, 1824)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_04/Xenodon-merremi-03000031851_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_04/Xenodon-merremi-03000031851_01_t.jpg' title='Xenodon merremii' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_04/Xenodon-merremi-03000031850_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_04/Xenodon-merremi-03000031850_01_t.jpg' title='Xenodon merremii' alt='' width='55' height='38'></a>
+            <a href='/content/photo_rd_04/Xenodon-merremi-03000031849_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_04/Xenodon-merremi-03000031849_01_t.jpg' title='Xenodon merremii' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_01/Xenodon-merremi-03000028696_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_01/Xenodon-merremi-03000028696_01_t.jpg' title='Xenodon merremii' alt='' width='58' height='38'></a>
+            <a href='/content/photo_rd_10/Xenodon-merremii-03000039911_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_10/Xenodon-merremii-03000039911_01_t.jpg' title='Xenodon merremii' alt='' width='53' height='38'></a>
+            <a href='/content/photo_rd_10/Xenodon-merremii-03000039912_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_10/Xenodon-merremii-03000039912_01_t.jpg' title='Xenodon merremii' alt='' width='60' height='38'></a>
+            <a href='/content/photo_rd_10/Xenodon-merremii-03000039913_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_10/Xenodon-merremii-03000039913_01_t.jpg' title='Xenodon merremii' alt='' width='51' height='38'></a>
+            <a href='/content/photo_rd_10/Xenodon-merremii-03000039914_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_10/Xenodon-merremii-03000039914_01_t.jpg' title='Xenodon merremii' alt='' width='43' height='38'></a>
+            <a href='/content/photo_rd_14/Xenodon-merremii-03000045160_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_14/Xenodon-merremii-03000045160_01_t.jpg' title='Xenodon merremii' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_14/Xenodon-merremii-03000045159_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_14/Xenodon-merremii-03000045159_01_t.jpg' title='Xenodon merremii' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_14/Xenodon-merremii-03000045158_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_14/Xenodon-merremii-03000045158_01_t.jpg' title='Xenodon merremii' alt='' width='55' height='38'></a>
+            <a href='/content/photo_rd_18/Xenodon-merremii-03000049441_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_18/Xenodon-merremii-03000049441_01_t.jpg' title='Xenodon merremii' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_18/Xenodon-merremii-03000049442_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_18/Xenodon-merremii-03000049442_01_t.jpg' title='Xenodon merremii' alt='' width='54' height='38'></a>
+            <a href='/content/photo_rd_2023/Xenodon-merremii-03000050152_01.jpg' title='Xenodon merremii'><img src='/content/photo_rd_2023/Xenodon-merremii-03000050152_01_t.jpg' title='Xenodon merremii' alt='' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Xenodon merremii" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Xenodon merremii</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Xenodon%20merremii" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Xenodon merremii&project_id=40" target="_blank">Add your own observation of <br><i>Xenodon merremii</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Xenodon+merremii'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Wagler's Snake<br />Portuguese: Achatadeira, Boca-de-Caçapa, Boca-de-Capanga, Boipeba, Boipeva, Boipeva-Comum, Boipeva-do-Campo, Boipeva-Grande, Cabeça-de-Patrona, Capitão-do-Campo, Capitão-do-Mato, Cobra-Chata, Corre-Campo, Cotiara, Cururuboia, Esparradeira, Falsa-Jararaca, Focinho-de-Cachorro, Goipeba, Goipeva, Jararaca-Malha-de-Cascavel, Jaracambeva, Jaracuçu, Jaracuçu-Capitão, Jaracuçu-de-Tapiti, Jaracuçu-do-Brejo, Jaracuçu-Dourado, Jaracuçu-Não-Venenoso, Jaracuçu-Tapete, Jararaca, Jararaca-Amarela, Jararacambeva, Jararacuçu-Bolacha, Jararacuçu-Tapiti, Jericá, Jeriquá, Jurucoá, Malha-de-Sapo, Mata-Boi, Pepeua, Pepeva, Surucucu-Cascuda, Urutu, Urutu-Amarelo, Urutu-Falsa, Urutu-Preto, Urutu-Tábua, Urutu-Tapete&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Ophis Merremii WAGLER 1824: 47<br />Xenodon merremi — FITZINGER 1826<br />Xenodon irregularis GÜNTHER 1863<br />Xenodon merremi — BOULENGER 1894 (2): 150<br />Trigonocephalus flavescens BACQUÉ 1906<br />Trigonocephalus alternatus binocularius BACQUÉ 1906<br />Ophis merremii — SERIÉ 1936<br />Xenodon merremii — PETERS & OREJAS-MIRANDA 1970<br />Waglerophis merremii — ROMANO & HOGE 1972: 209<br />Xenodon merremi — SCOTT & LOVETT 1975<br />Xenodon merremii — GASC & RODRIGUES 1980<br />Waglerophis merremi — FREIBERG 1982: 159<br />Waglerophis merremi — CEI 1993<br />Waglerophis merremi — LEYNAUD & BUCHER 1999: 36<br />Xenodon merremii — BÉRNILS et al. 2001<br />Waglerophis merremii — SCROCCHI et al. 2006: 148<br />Waglerophis merremii — SAWAYA et al. 2008<br />Xenodon merremi — WALLACH et al. 2014: 785<br />Xenodon merremii — COSTA & BÉRNILS 2015<br />Xenodon merremii — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Guyana, Suriname, French Guiana, Brazil (Rio Grande do Sul, Rondonia [HR 30: 56], Pará, Goias, Bahia, Mato Grosso, S Ceará, Rio de Janeiro, Piauí, Paraíba, Pernambuco), Venezuela (KORNACKER 1999), Paraguay, N Argentina (Jujuy, Salta, Formosa, Chaco, Corrientes, Misiones, Catamarca, Tucumán, Santiago del Estero, La Rioja, San , SergipeJuan, San Luis, Córdoba, Santa Fe, Entre Rios, Buenos Aires), Bolivia, Uruguay<br /><br />Type locality:  “Habitat ad urbem Bahiae” [Brazil, city of Salvador (13°00'S, 38°30'W)] according to the original description and Vanzolini (1981).
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: lost, was ZSM, uncatalogued specimen(s) (lost fide Franzen & Glaw 2007), collected by Spix and Martius expedition to Brazil, 1817-1820.&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>Description: The head is robust, well differentiated from the rest of the body. 2 internasals and 2 prefrontals. One preocular and 1 or 2 postoculars; 7 supralabials (third and fourth in contact with the eye); 9-11 infralabials, the fifth in contact with the first geneial which is about twice as long as the second. Loreal present in contact with second and third supralabials. Temporals 1+2 or 1+3. Hefty body. Dorsal scales smooth, without pits, in 19-19-17 fils (exceptionally 19-19-15). Ventrals 133-147 (131-150 according to Giraudo, 2001). Subcaudals divided 37-48 in males; 32-40 in females (30-36 according to Giraudo, 2001). Whole or divided anal. Divided hemipenis; spermatic groove divided midway from body; presence of apical discs; body and base of the lobes covered by moderate spines arranged homogeneously although somewhat larger on the sides and closer to the base. (translated from Carreira et al. 2005: 384).<br /><br />Size: total length to more than 1 m, although most specimens are smaller. Giraudo (2001) mentions a female specimen of 1275 mm. The young measure at birth between 160 and 193 mm with a weight of 3.3-5.8g (Pontes & Di-Bernardo, 1988). The tail is generally longer in males, representing a fifth of total length, one eighth in females. (translated from Carreira et al. 2005: 384).<br /><br />Coloration: the general coloration is in shades of chestnut (exceptionally grey), on a variable background in shades of olive, cream and yellow. It presents a pattern of dark brown dorsal spots, edged with light (white), variable in form. They can appear as wide irregular bands, X-shaped, and even in some specimens with an appearance similar to the design observed in Bothrops alternatus. These bands continue even in the caudal region. On the head, three (rarely two) oblique dark bands are seen, one continuing behind of the eye (postocular), another parallel to the previous one that is born in the parietal region and last a subsequent one that extends from the neck. It is possible that in some individuals these bands are less recognizable and that in old specimens the entire dorsal and ventral body design looks very diffuse. Ventrally, on whitish background, irregular dark blotches are present on the edges of the gastrostegos, which can be extended to a greater or lesser extent over the region caudal (some specimens have the caudal region immaculate). This ventral pattern is also similar to that of Bothrops alternatus, with the difference that in the latter species the ventral spots form angles (in X. merremi they are rounded). Juveniles have the same coloration as adults. (translated from Carreira et al. 2005: 385).<br /><br />The color pattern of this species is quite variable and includes leucism and melanistic specimens (see photos).<br /><br />Other descriptions: Cei (1986), Cei (1993), Giraudo (2001), Boulenger 1894: 150.&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy after CEI 1993.<br /><br />Type species: Ophis Merremii WAGLER 1824 is the type species of the genus Waglerophis ROMANO & HOGE 1972. However, Waglerophis was synonymized with Xenodon by ZAHER et al. 2009.&nbsp;</td></tr>
+        <tr><td>Etymology</td><td>Named after Blasius Merrem (1761-1824), German zoologist, and Johann Georg Wagler (1800-1832), German physician and zoologist.&nbsp;</td></tr>
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Abalos, J.W., Baez, E.C., &amp; Nader, R. 1964. Serpientes de Santiago del Estero. Acta Zoologica Lilloana 20: 211-283 </li>
+            
+            
+            <li>Amaral, A. D. 1934. Curiosos habitos e particularid ades da boipeva (Xenodon merremii: Colubridae). Boletim Biologico 2 (1): 1-3 </li>
+            
+            
+            <li>ARAUJO, C.O. &amp; ALMEIDA-SANTOS, S.M. 2011. Herpetofauna de um remanescente de Cerrado no estado de São Paulo, sudeste do Brasil. Biota Neotrop. 11(3): 47-62  - <a href='http://www.biotaneotropica.org.br/v11n3/pt/ abstract?article+bn00511032011' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BARROS, Ana Bárbara 2011. HERPETOFAUNA DO PARQUE NACIONAL DA SERRA DA CANASTRA MINAS GERAIS BRASIL M. Sc. Thesis, Universidade Federal de Viçosa  - <a href='https://www.academia.edu/4423754' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bellini, Gisela Paola; Vanesa Arzamendia and Alejandro Raúl Giraudo 2019. Reproductive life history of snakes in temperate regions: what are the differences between oviparous and viviparous species? Amphibia-Reptilia 40 (3): 291–303  - <a href='https://doi.org/10.1163/15685381-20181076' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beolens, Bo; Michael Watkins, and Michael Grayson 2011. The Eponym Dictionary of Reptiles. Johns Hopkins University Press, Baltimore, USA  - <a href='https://jhupbooks.press.jhu.edu/content/eponym-dictionary-reptiles' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Serpentes do Estado de Rondônia, Brasil. Biota Neotropica 12 (3): 1-29  - <a href='http://www.biotaneotropica.org.br/v12n3/pt/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Snakes of Rondônia State, Brazil. Biota Neotropica 12 (3):  - <a href='http://www.biotaneotropica.org.br/v12n3/en/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bérnils, R.S.; Batista, M.A. &amp; Bertelli, P.W. 2001. Cobras e lagartos do Vale: levantamento das espécies de Squamata (Reptilia, Lepidosauria) da Bacia do Rio Itajai, Santa Catarina, Brasil. Rev. Est. Ambientais (Blumenau) 3 (1): 69-79 </li>
+            
+            
+            <li>Bertoluci, J., CANELAS, M.A.S., EISEMBERG, C.C., PALMUTI C.F.S. &amp; MONTINGELLI G.G. 2009. Herpetofauna da Estação Ambiental de Peti, um fragmento de Mata Atlântica do estado de Minas Gerais, sudeste do Brasil. Biota Neotrop. 9 (1): 147-155  - <a href='https://www.academia.edu/29211452' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier 2010. Chromatic variation in populations of Xenodon merremi (Serpentes: Dipsadidae) in Paraguay. Acta Herpetologica 5 (1): 107-112  - <a href='http://ejour-fup.unifi.it/index.php/ah/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cano, Paula Daniela; Héctor Alejandro Ball, Matías Federico Carpinetto, Germán Darío Peña 2015. Reptile checklist of Río Pilcomayo National Park, Formosa, Argentina. Check List 11 (3): 1658  - <a href='http://biotaxa.org/cl/article/view/11.3.1658' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CARREIRA, S., M. MENEGHEL AND F. ACHAVAL 2005. Reptiles de Uruguay. DI.R.A.C., Facultad de Ciências Ed., Montevideo, 637 pp. </li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cavalcanti, L.B.Q.; T.B. Costa; G.R. Colli; G.C. Costa; F.G.R. França; D.O. Mesquita; C.K.S. Palmeira; N. Pelegrin; A.H.B. Soares; D.B. Tucker; A.A. Garda 2014. Herpetofauna of protected areas in the Caatinga II: Serra da Capivara National Park, Piauí, Brazil. Check List 10 (1): 18-27  - <a href='http://www.checklist.org.br/getpdf?SL042-13' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cei, J. M. 1993. Reptiles del noroeste, nordeste y este de la Argentina. Museo Regionale Sci. Naturale Torino, Monografie 14: 1-949 </li>
+            
+            
+            <li>Claessen, Hugo 2005. De slangen van de Guyana's. Deel VIII. Lacerta 63 (4): 136-151  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cole, Charles J.; Carol R. Townsend, Robert P. Reynolds, Ross D. MacCulloch, and Amy Lathrop 2013. Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. Proceedings of the Biological Society of Washington 125  (4): 317-578; plates: 580-620  - <a href='http://www.bioone.org/doi/abs/10.2988/0006-324X-125.4.317' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Costa, Henrique Caldeira &amp; Renato Silveira Bérnils 2015. Répteis brasileiros: lista de espécies 2015. Herpetologia Brasileira 4 (3): 75-93 </li>
+            
+            
+            <li>Cruz Centeno, Fernanda da; Ricardo Jannini Sawaya &amp; Otavio Augusto Vuolo Marques 2008. Snake assemblage of Ilha de São Sebastião, southeastern Brazil: comparison to mainland. Biota Neotropica 8 (3): 63-68  - <a href='http://www.biotaneotropica.org.br/v8n3/ en/abstract?article+bn00608032008' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dainesi, Raiane Lesley Santos; Arthur Diesel Abegg, Paulo Sérgio Bernarde, Bruno Peña Correa, Laís Pio Caetano Machado, Afonso Santiago de Oliveira Meneses, Arthur de Sena Santos 2019. Integrative overview of snake species from Londrina, State of Paraná, Brazil. Herpetology Notes 12: 419-430  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dubeux, M. J. M., Araújo Neto, J. V. D., Triburcio, I. C. S., Lisboa, B. S., Torquato, S., Freitas, M. A. D., ... &amp; Mott, T. 2022. A “hotspot” within a hotspot: the reptiles of the Estação Ecológica and Área de Proteção Ambiental de Murici, Atlantic Forest of northeastern Brazil. Biota Neotropica, 22: 1-14  - <a href='https://doi.org/10.1590/1676-0611-BN-2022-1337' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Eiselt, J. 1963. Zur Kenntnis der colubriden Schlangengattungen Procteria und Xenodon. Ann. Naturhist. Mus. Wien 66: 279-282  - <a href='http://www.biologiezentrum.at/biophp/de/annalen.php' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fiorillo, B. F., Maciel, J. H., &amp; Martins, M. 2021. Composition and natural history of a snake community from the southern Cerrado, southeastern Brazil. ZooKeys 1056: 95-147  - <a href='https://doi.org/10/gmvgcw' target='_blank'>get paper here</a></li>
+            
+            
+            <li>FORLANI, M.C., BERNARDO, P.H., HADDAD, C.B.F. &amp; ZAHER, H. 2010. Herpetofauna of the Carlos Botelho State Park, São Paulo State, Brazil. Biota Neotropica 10 (3): 265-309  - <a href='http://www.biotaneotropica.org.br/v10n3/en/abstract?inventory+bn00210032010' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, F.G.R.; Daniel O. Mesquita, Cristiano C. Nogueira, and  Alexandre F. B. Araújo 2008. Phylogeny and Ecology Determine Morphological Structure in a Snake Assemblage in the Central Brazilian Cerrado. Copeia 2008 (1): 23-38  - <a href='http://www.asihcopeiaonline.org/loi/cope' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, F.G.R.; Mesquita, Daniel Oliveira and Guarino Rinaldi Colli 2006. A CHECKLIST OF SNAKES FROM AMAZONIAN SAVANNAS IN BRAZIL, HOUSED IN THE COLEÇÃO HERPETOLÓGICA DA UNIVERSIDADE DE BRASÍLIA, WITH NEW DISTRIBUTION RECORDS. Occ. Pap. Oklahoma Mus. Nat. Hist., Univ. Oklahoma 17: 1-13 </li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freiberg, M.A. 1982. Snakes of South America. T.F.H. Publications, Neptune City, NJ, 189 pp.  - <a href='https://doi.org/10.2307/1444313' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freire, E. M. X., Kolodiuk, M. F., Gogliath, M., Kokubum, M. N. D. C., Rêgo, B. D. P., Ribeiro, M. M., ... &amp; Sales, R. F. D. 2023. The herpetofauna of priority highland areas for conservation of the Caatinga in the state of Rio Grande do Norte, northeastern Brazil. Biota Neotropica, 23, e20221395  - <a href='https://doi.org/10.1590/1676-0611-BN-2022-1395' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, M.A.; D. Veríssimo; V. Uhlig. 2012. Squamate Reptiles of the central Chapada Diamantina, with a focus on the municipality of Mucugê, state of Bahia, Brazil. Check List 8(1):16-22  - <a href='http://www.checklist.org.br/archive?vol=8&amp;num=1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco A. de; Marcos J.M. Dubeux, Márcio F. Chaves, Bruno F. Fiorillo, Gentil A.P. Filho, Washington L.S. Vieira, and Geraldo J.B. de Moura 2023. Herpetofauna in three highland Atlantic Forest remnants in northeastern Brazil. Herpetology Notes 16: 377-390 </li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Arthur Diesel Abegg, Daniel da Silva Araújo, Hugo Estevam de Almeida Coelho, Weverton dos Santos Azevedo, Márcio Frazão Chaves, Geraldo Jorge Barbosa de Moura 2019. Herpetofauna of five "Brejos de Altitude" of the interior of the state of Pernambuco, Northeastern Brazil. Herpetology Notes 12: 591-602  - <a href='https://www.biotaxa.org/hn/issue/view/5961' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Arthur Diesel Abegg, Iuri Ribeiro Dias, Elbano Paschoal de Figueiredo Moraes 2018. Herpetofauna from Serra da Jibóia, an Atlantic Rainforest remnant in the state of Bahia, northeastern Brazil. Herpetology Notes 11: 59-72  - <a href='https://www.biotaxa.org/hn/article/view/31424/30997' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Guarino R. Colli, Omar Machado Entiauspe-Neto, Luiz Trinchão, Daniel Araújo, Tiago de Oliveira Lima, Daniella Pereira Fagundes de França, Renato Gaiga, Pedro Dias 2016. Snakes of Cerrado localities in western Bahia, Brazil. Check List 12 (3): 1896  - <a href='http://www.biotaxa.org/cl/article/view/12.3.1896' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antônio; Omar Machado Entiauspe-Neto, Tiago de Oliveira Lima, José Soares da Silva Neto, Daniel Araujo &amp; Jonathan Márcio Soares da Silva 2016. Snakes of Juazeiro, Bahia, Middle of São Francisco River, Brazil. Bol. Mus. Biol. Mello Leitão (N. Sér.) 38(4): 331-345. </li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gasc &amp; Rodrigues 1980. Liste preliminaire des Serpents de la Guyane francaise. Bull. Mus. Nat. Hist. Nat. Paris 2 (4): 559-598 </li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>GUEDES, THAÍS B.; CRISTIANO NOGUEIRA &amp; OTAVIO A. V. MARQUES 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. Zootaxa 3863 (1): 001–093  - <a href='http://biotaxa.org/Zootaxa/article/view/zootaxa.3863.1.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Guerra, V., Ramalho, W. P., Machado, I. F., &amp; Brandão, R. A. 2022. Herpetofauna of the Serra do Tombador Nature Reserve, State of Goiás, Central Brazil. Arquivos de Zoologia, 53(3), 33-51  - <a href='http://doi.org/10.11606/2176-7793/2022.53.03' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B. &amp; R. M. Lira-da-Silva 2012. The snakes of Bahia State, northeastern Brazil: species richness, composition and biogeographical notes. Salamandra 48 (1): 31-50  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/hamdan-b-r-m-lira-da-silva' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hoogmoed,M.S. and Gruber,U. 1983. Spix and Wagler type specimens of reptiles and amphibians in the Natural History Musea in Munich (Germany) and Leiden (The Netherlands). Spixiana Suppl. 9: 319-415  - <a href='http://www.zsm.mwn.de/spixiana/toc.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hugo Andrade, Gabriel Deyvison dos Santos Carvalho, Josefa Jaqueline Oliveira, Eduardo José dos Reis Dias 2020. First record of leucism in Xenodon merremii (Wagler, 1824) in Brazil. Herpetology Notes 13: 297-299  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>JORGE, R. F., &amp; PEÑA, A. P. 2022. REPTILES FROM AN URBAN PARK IN THE CERRADO OF CENTRAL BRAZIL. Herpetological Conservation and Biology, 17(2), 413-422  - <a href='http://www.herpconbio.org/Volume_17/Issue_2/Jorge_Pena_2022.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kacoliris F.P.; Berkunsky I. &amp; Williams J. 2006. Herpetofauna of Impenetrable, Argentinean Great Chaco. Phyllomedusa 5 (2): 149-158  - <a href='http://www.phyllomedusa.esalq.usp.br/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kornacker,P.M. 1999. Checklist and key to the snakes of Venezuela. PaKo-Verlag, Rheinbach, Germany, 270 pp. </li>
+            
+            
+            <li>Kunz, Tobias Saraiva;&lt;br /&gt;Ivo Rohling Ghizoni-Jr.,&lt;br /&gt;Walter Luis Alves dos Santos &amp; Paulo Afonso Hartmann 2007. Nota sobre a coleção herpetológica da Universidade Federal de Santa Catarina (UFSC). Biotemas, 20 (3): 127-132  - <a href='https://www.academia.edu/26988510' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lambertz, M. 2010. Kommentierte Liste der squamaten Reptilien des Sanddünengebietes am mittleren Rio São Francisco (Bahia, Brasilien) unter besonderer Berücksichtigung endemischer Faunenelemente. Ophidia 4 (2): 2-17  - <a href='http://www.herp-science.de/ag/schlangen/ophidia.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Leynaud, Gerardo C. and Enrique H. Bucher 1999. La fauna de serpientes del Chaco Sudamericano: diversidad, distribución geografica y estado de conservación. Academia Nacional de Ciencias Miscelanea (98):1-46 </li>
+            
+            
+            <li>Madella-Auricchio, Cláudia Renata; Paulo Auricchio Enio Saraiva Soares 2017. Reptile species composition in the Middle Gurguéia and comparison with inventories in the eastern Parnaíba River Basin, State of Piauí, Brazil. Papéis Avulsos de Zoologia 57(28): 375-386,  - <a href='https://doi.org/10.11606/0031-1049.2017.57.28' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Menezes FA, Abegg AD, Silva BR, Franco FL, Feio RN 2018. Composition and natural history of the snakes from the Parque Estadual da Serra do Papagaio, southern Minas Gerais, Serra da Mantiqueira, Brazil. ZooKeys 797: 117-160  - <a href='https://doi.org/10.3897/zookeys.797.24549' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mesquita , P.; Passos, D.C.; Borges-Nojosa, D. M. &amp; Cechin, S.Z. 2013. Ecologia e história natural das serpentes de uma área de Caatinga no nordeste brasileiro Papeis Avulsos de Zoologia 53 (8): 99-113  - <a href='https://www.academia.edu/4158902/Ecologia_e_história_natural_das_serpentes_de_uma_área_de_Caatinga_no_nordeste_brasileiro?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mesquita, Daniel Oliveira; Brygida Alves, Carmem Pedro, Daniel Laranjeiras, Francis Caldas, Isabella Pedrosa, Jefter Rodrigues, Leandro Drummond, Lucas Cavalcanti, Milena Wachlevski, Paulo Nogueira-Costa, Rafaela França, Frederico França 2018. Herpetofauna in two habitat types (tabuleiros and Stational Semidecidual Forest) in the Reserva Biológica Guaribas, northeastern Brazil. Herpetology Notes 11: 455-474  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Renato Silveira Bérnils, Julio Cesar de Moura-Leite 2017. RÉPTEIS DE CURITIBA: COLETÂNEA DE REGISTROS Hori Consultoria, Curitiba, Paraná, Brasil, 99 pp. </li>
+            
+            
+            <li>Moura-Leite, Julio Cesar de; Bernarde, Paulo Sérgio 1999. Geographic distribution. Waglerophis merremii. Herpetological Review 30 (1): 56  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Natera-Mumaw, Marco; Luis Felipe Esqueda-González &amp; Manuel Castelaín-Fernández 2015. Atlas Serpientes de Venezuela. Santiago de Chile, Dimacofi Negocios Avanzados S.A., 456 pp.  - <a href='https://www.researchgate.net/publication/274073284_Book_Atlas_Serpientes_de_Venezuela_1ra_Edicion_abril_2015_Portada_en_baja_resolucion_Comunicarse_al_email_luisfesquedagmailcom' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Neves MO, Yves A, Pereira EA, Alves L, Vasques JB, Coelho JFT, Silva PS 2019. Herpetofauna in a highly endangered area: the Triângulo Mineiro region, in Minas Gerais State, Brazil. Herpetozoa 32: 113-123  - <a href='https://doi.org/10.3897/herpetozoa.32.e35641' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>OLIVEIRA LIMA, JEFFERSON; HUGO ANDRADE, TAINARA LIMA DA SILVA &amp; EDUARDO JOSÉ DOS REIS DIAS. 2022. Reptiles of Sergipe: current knowledge and sampling discontinuities. Herpetology Notes 15: 69–78.  - <a href='https://www.biotaxa.org/hn/article/view/62845' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Jane C.F.; Rodrigo Castellari Gonzalez; Paulo Passos; Davor Vrcibradic &amp; Carlos Frederico Duarte Rocha 2020. Non-Avian Reptiles of the state of Rio de Janeiro, Brazil: status of knowledge and commented list. Pap. Avulsos Zool. 60: e20206024  - <a href='http://doi.org/10.11606/1807-0205/2020.60.24' target='_blank'>get paper here</a></li>
+            
+            
+            <li>OLIVEIRA, P.M.A., MELLO, A.V.A., DUBEUX, M.J.M., OLIVEIRA, S.B.A., LOURENÇO, G.F., NUNES, P.M.S. 2021. Herpetofauna of Matas de Água Azul, an Atlantic Forest remnant in Serra do Mascarenhas, Pernambuco state, Brazil. Biota Neotropica 21 (2): e20201063  - <a href='https://doi.org/10.1590/1676-0611-BN-2020-1063' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Outeiral, Arlete B.; Rafael L. Balestrin, Lize H. Cappellari, Thales de Lema, Vanda Lúcia Ferreira 2018. Snake assemblage from Serra do Sudeste, Pampa Biome in Southern Brazil. Herpetology Notes 11: 733-745  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Iglesias, Juan Manuel; Jofré, Laura E.; Rueda, Marta Patricia 2017. Primeros registros de la herpetofauna en dos areas naturales protegidas de la provincia de Santiago del Estero (Argentina). Cuad. herpetol. 32 (1): 49-57  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/issue/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pesci, Giuliano; Sanchez, José Manuel; Muniz Leão, Suelem; Pelegrin, Nicolás 2018. Reptiles y anfibios de una localidad del Chaco Húmedo en Formosa, Argentina. Cuad. herpetol. 32 (1): 47-54  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RECODER, R.S.,TEIXEIRA JUNIOR, M., CAMACHO, A., NUNES, P.M.S., MOTT, T., VALDUJO, P.H., GHELLERE, J.M., NOGUEIRA, C. &amp; RODRIGUES, M.T. 2011. Reptiles of Serra Geral do Tocantins Ecological Station, Central Brazil. Biota Neotrop. 11(1):  - <a href='http://www.biotaneotropica.org.br/v11n1/en/ abstract?article+bn03611012011.' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Resende, Flávia Cappuccio de (coord.) 2023. O fantástico mundo dos animais peçonhentos: serpentes; características, história natural e reconhecimento das espécies peçonhentas de Minas Gerais. Belo Horizonte – Fundação Ezequiel Dias  - <a href='https://www.researchgate.net/publication/368961040' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ribeiro, S. C., I. J. Roberto, D. L. Sales, R. W. Ávila &amp; W. O. Almeida 2012. Amphibians and reptiles from the Araripe bioregion, northeastern Brazil. Salamandra 48 (3): 133-146  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/ribeiro-s-c-i-j-roberto-d-l-sales-r-w-avila-w-o-almeida' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RIVAS, GILSON A.; CÉSAR R. MOLINA, GABRIEL N. UGUETO, TITO R. BARROS, CÉSAR L. BAR- RIO-AMORÓS &amp; PHILIPPE J. R. KOK 2012. Reptiles of Venezuela: an updated and commented checklist. Zootaxa 3211: 1–64  - <a href='https://www.researchgate.net/publication/259759792_Reptiles_of_Venezuela_An_updated_and_commented_checklist' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rivas, Luis Rolando; Mendoza-Miranda, Patricia; Muñoz-Saravia, Arturo 2018. Lista preliminar de la herpetofauna del Parque Nacional Torotoro, Potosí, Bolivia . Pp. 6. Cuad. herpetol. 32 (1): 41-46  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J., R. W. Ávila &amp; A. R. Melgarejo 2015. Répteis (Testudines, Squamata, Crocodylia) da reserva biológica de Pedra Talhada. In: Atuder, A., l. Nusbaumer &amp; R. Spichiger (eds.). biodiversidade da reserva biológica de Pedra talhada (alagoas, Pernambuco - brasil). Boissiera 68: 357-375  - <a href='https://www.academia.edu/15822726/Répteis_Testudines_Squamata_Crocodylia_da_Reserva_Biológica_de_Pedra_Talhada?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ROCHA, CARLOS FREDERICO D.; HELENA G.BERGALLO, JOSÉ P. POMBAL JR., LENA GEISE, MONIQUE VAN SLUYS, RONALDO FERNANDES, ULISSES CARAMASCHI 2004. FAUNA DE ANFÍBIOS, RÉPTEIS E MAMÍFEROS DO ESTADO DO RIO DE JANEIRO, SUDESTE DO BRASIL. Publ. Avul. Mus. Nac., Rio de Janeiro (104): 3-23  - <a href='https://www.academia.edu/t/dtkG-KW06pL7-bbmTMp/3307520/FAUNA_DE_ANFÍBIOS_RÉPTEIS_E_MAMÍFEROS_DO_ESTADO_DO_RIO_DE_JANEIRO_SUDESTE_DO_BRASIL_1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RODRIGUES NEHEMY, IBRAHIM KAMEL; THAYLLON ORZECHOWSKY GOMES, FERNANDA PAIVA, WESLEY KAUAN KUBO, JOÃO EMÍLIO DE ALMEIDA JÚNIOR, NATHAN FERNANDES NEVES &amp; VINICIUS DE AVELAR SÃO PEDRO. 2022. Herpeto-commerce: A look at the illegal online trade of amphibians and reptiles in Brazil. Cuadernos de Herpetología 36(2): 185–196.  - <a href='https://doi.org/10.31017/CdH.2022.(2022-009)' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rodrigues, M.T. 2003. Herpetofauna da Caatinga. In: I.R. Leal, M. Tabarelli &amp; J.M.C. Silva (eds.). Ecologia e conservação da Caatinga, pp. 181-236. Editora Universitária, Universidade Federal de Pernambuco, Recife, Brasil. </li>
+            
+            
+            <li>Romano, S.A.R.W. de L. &amp; Hoge, A.R. 1973. NOTA SOBRE XENODON E OPHIS SERPENTES COLUBRIDAE. Mem. Inst. Butantan 36: 209-211 [1972]  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sampaio ILR, Santos CP, França RC, Pedrosa IMMC, Solé M, França FGR 2018. Ecological diversity of a snake assemblage from the Atlantic Forest at the south coast of Paraíba, northeast Brazil. ZooKeys 787: 107-125  - <a href='https://doi.org/10.3897/zookeys.787.26946' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos, Marina Meireles dos; Robson Waldemar Ávila and Ricardo Alexandre Kawashita-Ribeiro. 2011. Checklist of the amphibians and reptiles in Nobres municipality, Mato Grosso state, central Brazil. Herpetology Notes 4: 55-461  - <a href='https://www.biotaxa.org/hn/issue/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sawaya, Ricardo Jannini; Otavio Augusto Vuolo Marques &lt;br /&gt;&amp; Marcio Martins 2008. Composition and natural history of a Cerrado snake assemblage at Itirapina, São Paulo state, southeastern Brazil Biota Neotropica 8 (2): 127-149  - <a href='https://www.academia.edu/5051641/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Scott, Norman J.;Lovett, Jonny Wayne 1975. A collection of reptiles and amphibians from the Chaco of Paraguay. The University of Connecticut Occasional Papers, Biological Series 2 (16): 257-266 </li>
+            
+            
+            <li>Scrocchi, G.J.; Moreta, J.C. &amp; Kretzschmar, S. 2006. Serpientes del Noroeste Argento [Jujuy, Salta, Tucumán, Catamarca, La Rioja, Santiago del Estero]. Fundación Miguel Lillo, Tucumán, 178 pp. </li>
+            
+            
+            <li>Silva, M.C. da, R.H. de Oliveira, D.H. Morais, R.A. Kawashita-Ribeiro, E.S. de Brito &amp; R.W. Ávila 2015. Amphibians and reptiles of a Cerrado area in Primavera do Leste Municipality, Mato Grosso State, Central Brazil. Salamandra 51 (2): 187-194  - <a href='http://salamandra-journal.com/index.php/home/contents/2015-vol-51/da-silva-m-c-r-h-de-oliveira-d-h-morais-r-a-kawashita-ribeiro-e-s-de-brito-r-w-avila' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Silva, Marcélia Basto da; Wáldima Alves da Rocha, Janete Diane Nogueira-Paranhos 2016. Checklist of reptiles of the Amazonia-Caatinga-Cerrado ecotonal zone in eastern Maranhão, Brazil. Herpetology Notes 9: 7-14  - <a href='http://www.biotaxa.org/hn/issue/view/2338' target='_blank'>get paper here</a></li>
+            
+            
+            <li>SOUSA, B.M., NASCIMENTO, A.E.R., GOMIDES, S.C., VARELA RIOS, C.H., HUDSON, A.H. &amp; NOVELLI, I.A. 2010. Reptiles in fragments of Cerrado and Atlantic Forest at the Campo das Vertentes, Minas Gerais State, Southeastern Brazil. Biota Neotropica 10 (2): 129-138  - <a href='https://www.academia.edu/15520514' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Souza Filho, Gilberto Alves de; Fernanda Stender de Oliveira 2015. Squamate reptiles from Mauá Hydroelectric Power Plant, state of Paraná, southern Brazil. Check List 11 (6): 1800  - <a href='http://www.biotaxa.org/cl/article/view/11.6.1800' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Starace, Fausto 1998. Guide des Serpents et Amphisbènes de Guyane. IBIS Rouge Editions, Guadeloupe, Guyane, 450 pp. </li>
+            
+            
+            <li>Starace, Fausto 2013. Guide des Serpents et Amphisbènes de Guyane. Ibis Rouge Editions, Matoury, Guyane, ISBN 978-2-84450-407-4  - <a href='http://www.ibisrouge.fr/livre.php?ref=407' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Tourmente, Maximiliano; Laura C Giojalas, and Margarita Chiaraviglio 2010. Sperm Parameters Associated with Reproductive Ecology in Two Snake Species. Herpetologica 67 (1): 58-70.  - <a href='http://www.bioone.org/loi/herp' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Uetanabaro, Masao; Franco Leandro Souza, Paulo Landgref Filho,&lt;br /&gt;Arlindo Figueira Beda &amp; Reuber Albuquerque Brandão 2007. Anfíbios e répteis do Parque Nacional da Serra da Bodoquena, Mato Grosso do Sul, Brasil. Biota Neotropica 7 (3)  - <a href='http://www.biotaneotropica.org.br/v7n3/pt/abstract?inventory+bn01207032007' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W. et al. 2007. Herpetofauna, Espora Hydroelectric Power Plant, state of Goiás, Brazil. Check List 3 (4): 338-345  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W.; RM Oliveira, AFN Gonzaga, KC Pinto, FC Poli, TM Bilce, M Penhacek, L Wronski, JX Martins, TG Junqueira, LCC, Cesca VY, Guimarães RD. Pinheiro 2015. Contributions to the knowledge of amphibians and reptiles from Volta Grande do Xingu, northern Brazil Braz. J. Biol., 75 (3) (suppl.): S205-S218  - <a href='http://dx.doi.org/10.1590/1519-6984.00814BM' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vechio, Francisco Dal; Mauro Teixeira Jr., Renato Sousa Recoder, Miguel Trefault Rodrigues &amp; Hussam Zaher 2016. The herpetofauna of Parque Nacional da Serra das Confusões, state of Piauí, Brazil, with a regional species list from an ecotonal area of Cerrado and Caatinga. Biota Neotropica 16(3): e20150105  - <a href='https://www.academia.edu/33783448' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vitt, L. J.; Caldwell, J. P.; Colli, G. R.; Garda, A. A.; Mesquita, D. O.; França, F. G. R. e Balbino, S. F. 2002. Um guia fotográfico dos répteis e anfíbios da região do Jalapão no Cerrado brasileiro. Norman, Oklahoma: Special Publications in Herpetology. San Noble Oklahoma Museum of Natural History </li>
+            
+            
+            <li>Vuoto, J.A. 1996. Ampliacion del area de distribucion de Waglerophis merremii (Wagler, 1824) (Serpentes: Colubridae) sobre las provincias de Entre Rios, Santa Fe y Buenos Aires, Argentina. Cuadernos de Herpetologia 10 (1-2): 59-70.  - <a href='http://www.cuadherpetol.com.ar/index.php?option=com_content&amp;task=view&amp;id=355&amp;Itemid=106' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wagler, J. 1824. Serpentum Brasiliensium species novae, ou histoire naturelle des espèces nouvelles de serpens. In: Jean de Spix, Animalia nova sive species novae. [NAtrix bahiensis: 27,. Monaco, Typis Franc. Seraph. Hübschmanni, vii + 75 pp. </li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Werner, FRANZ 1901. Reptilien und Batrachier aus Peru und Bolivien. Abhandl. Ber. Zool. Anthrop. Mus. Dresden, 9 (2): 1-14 [1900]  - <a href='https://doi.org/10.5962/bhl.part.4586' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaher, Hussam; Fausto Erritto BarboI; Paola Sanchez Martínez; Cristiano Nogueira; Miguel Trefaut Rodrigues; Ricardo Jannini Sawaya 2011. Répteis do Estado de São Paulo: conhecimento atual e perspectivas. Biota Neotropica, 11 (1): 1–15.  - <a href='http://dx.doi.org/10.1590/s1676-06032011000500005' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaher, Hussam; Grazziotin, Felipe Gobbi; Cadle, John E.; Murphy, Robert W.; Moura-Leite, Julio Cesar de; Bonatto, Sandro L 2009. Molecular phylogeny of advanced snakes (Serpentes, Caenophidia) with an emphasis on South American Xenodontines: a revised classification and descriptions of new taxa. Pap. Avulsos Zool. (São Paulo) 49 (11): 115-153  - <a href='http://www.scielo.br/pdf/paz/v49n11/a01v49n11.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ZANELLA, N., PAULA, A., GUARAGNI, S.A. &amp; MACHADO, L.S. 2013. Herpetofauna of the Parque Natural Municipal de Sertão, Rio Grande do Sul, Brazil. Biota Neotrop. 13(4): 290-299  - <a href='http://www.biotaneotropica.org.br/ v13n4/en/abstract?inventory+bn03113042013' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/15183534/15183545'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=169861'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.ib.usp.br/~crinog/pages/Waglerophis%20merremii%20GSV%20MZUSP%2012880%20site_JPG.htm'>http://www.ib.usp.br/~crinog/pages/Waglerophis%20merremii%20GSV%20MZUSP…</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Xenodon+merremii'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Xenodon&species=merremii</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Xenodon&amp;species=merremii">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=histricus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon histricus</a></li>
+                            <li class='subsubmenu selected'>Xenodon merremii</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=nattereri&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon nattereri</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=neuwiedii&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon neuwiedii</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Oxyrhopus petolarius | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Oxyrhopus petolarius">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Oxyrhopus&species=petolarius">
+        <meta property="og:image" content="/content/photo_rd_03/Oxyrhopus-petolarius-03000031156_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Oxyrhopus&species=petolarius",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Oxyrhopus&species=petolarius");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Oxyrhopus petolarius</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Oxyrhopus petolarius</em> (LINNAEUS, 1758)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_03/Oxyrhopus-petolarius-03000031156_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_03/Oxyrhopus-petolarius-03000031156_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='53' height='38'></a>
+            <a href='/content/photo_rd_03/Oxyrhopus-petolarius-03000031155_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_03/Oxyrhopus-petolarius-03000031155_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='68' height='38'></a>
+            <a href='/content/photo_rd_00/Oxyrhopus-petolarius-03000028318_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_00/Oxyrhopus-petolarius-03000028318_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='51' height='38'></a>
+            <a href='/content/photo_rd_01/Oxyrhopus-petolarius-03000029333_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_01/Oxyrhopus-petolarius-03000029333_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='50' height='38'></a>
+            <a href='/content/photo_rd_05/Oxyrhopus-petolarius-03000034426_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_05/Oxyrhopus-petolarius-03000034426_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='46' height='38'></a>
+            <a href='/content/photo_rd_06/Oxyrhopus-petolarius-03000035953_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_06/Oxyrhopus-petolarius-03000035953_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='44' height='38'></a>
+            <a href='/content/photo_rd_07/Oxyrhopus-petolarius-03000037052_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_07/Oxyrhopus-petolarius-03000037052_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='60' height='38'></a>
+            <a href='/content/photo_rd_08/Oxyrhopus-petolarius-03000038488_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_08/Oxyrhopus-petolarius-03000038488_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_08/Oxyrhopus-petolarius-03000038489_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_08/Oxyrhopus-petolarius-03000038489_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='56' height='38'></a>
+            <a href='/content/photo_rd_08/Oxyrhopus-petolarius-03000038490_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_08/Oxyrhopus-petolarius-03000038490_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_08/Oxyrhopus-petolarius-03000038491_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_08/Oxyrhopus-petolarius-03000038491_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_12/Oxyrhopus-petolarius-03000042800_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_12/Oxyrhopus-petolarius-03000042800_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='57' height='38'></a>
+            <a href='/content/photo_rd_14/Oxyrhopus-petolarius-03000044829_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_14/Oxyrhopus-petolarius-03000044829_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='54' height='38'></a>
+            <a href='/content/photo_rd_14/Oxyrhopus-petolarius-03000044828_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_14/Oxyrhopus-petolarius-03000044828_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='58' height='38'></a>
+            <a href='/content/photo_rd_17/Oxyrhopus-petolarius-03000049009_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_17/Oxyrhopus-petolarius-03000049009_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='51' height='38'></a>
+            <a href='/content/photo_rd_18/Oxyrhopus-petolarius-03000049368_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_18/Oxyrhopus-petolarius-03000049368_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='49' height='38'></a>
+            <a href='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050184_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050184_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='50' height='38'></a>
+            <a href='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050185_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050185_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='85' height='38'></a>
+            <a href='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050186_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050186_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='55' height='38'></a>
+            <a href='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050327_01.jpg' title='Oxyrhopus petolarius'><img src='/content/photo_rd_2023/Oxyrhopus-petolarius-03000050327_01_t.jpg' title='Oxyrhopus petolarius' alt='' width='49' height='38'></a>
+            <a href='https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1006/0786.jpeg' title='Oxyrhopus petolarius'><img src='https://calphotos.berkeley.edu/imgs/128x192/0000_0000/1006/0786.jpeg' title='Oxyrhopus petolarius' alt='Near Esquinas lodge. Found at night, streamside, 3 feet off of ground on palm leaf.&lt;br /&gt;&lt;strong&gt;Location:&lt;/strong&gt; Piedras Blancas National Park (Costa Rica)&lt;br /&gt;&lt;strong&gt;Author:&lt;/strong&gt; &lt;a href=&quot;http://calphotos.berkeley.edu/cgi/photographer_query?where-name_full=Shawn+Mallan&amp;one=T&quot;&gt;Shawn Mallan&lt;/a&gt;' width='56' height='38'></a>
+            <a href='https://calphotos.berkeley.edu/imgs/512x768/0000_0000/1207/0750.jpeg' title='Oxyrhopus petolarius'><img src='https://calphotos.berkeley.edu/imgs/128x192/0000_0000/1207/0750.jpeg' title='Oxyrhopus petolarius' alt='Adult coloration. Note the difference in coloration with the other photo of mine showing a juvenile.&lt;br /&gt;&lt;strong&gt;Location:&lt;/strong&gt; DOR, just south of Jaco, Costa Rica (Costa Rica)&lt;br /&gt;&lt;strong&gt;Author:&lt;/strong&gt; &lt;a href=&quot;http://calphotos.berkeley.edu/cgi/photographer_query?where-name_full=Shawn+Mallan&amp;one=T&quot;&gt;Shawn Mallan&lt;/a&gt;' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Oxyrhopus petolarius" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Oxyrhopus petolarius</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Oxyrhopus%20petolarius" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Oxyrhopus petolarius&project_id=40" target="_blank">Add your own observation of <br><i>Oxyrhopus petolarius</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Oxyrhopus+petolarius'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>Oxyrhopus petolarius digitalis (REUSS 1834)<br />Oxyrhopus petolarius petolarius (LINNAEUS 1758)<br />Oxyrhopus petolarius sebae (DUMÉRIL, BIBRON & DUMÉRIL 1854)&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Forest Flamesnake, Forest Flame Snake<br />S: Falsa Coral de Calico<br />Portuguese: Cobra-Coral, Cobra-Coral-Falsa, Cobra-Preta, Coral, Coral-Falsa, Falsa-Coral, Falsa-Coral-Preta, Limpa-Campo&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Coluber Petola LINNAEUS 1758: 225<br />Oxyrhopus petalarius [sic] — BOULENGER 1886: 437<br />Oxyrhopus petalarius [sic] — BOULENGER 1894; 347<br />Oxyrhopus Petola — LÖNNBERG 1896: 7<br />Coluber digitalis REUSS 1834: 148<br />Lycodon petolarius — DE FILIPPI 1840: 184<br />Oxyrhopus petolarius — DUMÉRIL & BIBRON 1854: 1033<br />Clelia petola — STUART 1937<br />Clelia baileyi SMITH 1942: 391 (?)<br />Oxyrhopus petola petola — BEEBE 1946: 37<br />Clelia petolarius — TAYLOR 1951: 138<br />Oxyrhopus petola — GASC & RODRIGUES 1980<br />Oxyrhopus baileyi — ALVAREZ DEL TORO 1982<br />Oxyrhopus petolarius — SMITH et al. 1986<br />Oxyrhopus petola — LINER 1994<br />Oxyrhopus petola — KORNACKER 1999: 120<br />Oxyrhopus petolarius — SAVAGE 2002: 575<br />Oxyrhopus petola — MACCULLOCH et al. 2009<br />Oxyrhopus petolarius — SAVAGE 2011<br />Oxyrhopus petola — MCCRANIE 2011: 357<br />Oxyrhopus petolarius — WALLACH et al. 2014: 519<br />Oxyrhopus petola — HEIMES 2016: 281<br /><br />Oxyrhopus petolarius petolarius (LINNAEUS 1758)<br />Coluber petolarius LINNAEUS 1758: 225<br />Coluber pethola LINNAEUS 1766: 387<br />Coluber petalarius LINNAEUS 1766: 387<br />Oxyrhopus multifasciatus DUMÉRIL, BIBRON & DUMÉRIL 1854: 1019<br />Oxyrhopus spadiceus DUMÉRIL, BIBRON & DUMÉRIL 1854: 1028<br />Oxyrhopus bi-prae-ocularis DUMÉRIL, BIBRON & DUMÉRIL 1854: 1030<br />Clelia cornelli MÜLLER 1928: 76<br />Clelia cornelii MÜLLER 1928 (spelling by FRANZEN & GLAW 2007)<br />Oxyropus fasciatus — HUGHES et al. 1942 (in error ?)<br />Oxyrhopus petola petola — BEEBE 1946: 37<br />Oxyrhopus petola petola — PETERS & OREJAS-MIRANDA 1970: 233<br /><br />Oxyrhopus petolarius digitalis (REUSS 1834)<br />Coluber digitalis REUSS 1834: 148<br />Lycodon (Oxyrrhopus) semifasciatus TSCHUDI 1845: 165<br />Oxyrhopus immaculatus DUMÉRIL, BIBRON & DUMÉRIL 1854: 1029<br />Oxyrhopus intermedius WERNER 1899: 481<br />Oxyrhopus petola digitalis — PETERS & OREJAS-MIRANDA 1970: 233<br />Oxyrhopus petola digitalis — DUELLMAN 1978: 254<br />Oxyrhopus petola digitalis — GORZULA & SEÑARIS 1999<br />Oxyrhopus petola semifasciatus — CAMPBELL & LAMAR 2004: fig. 1229<br />Oxyrhopus petola digitalis — AVILA-PIRES et al. 2005<br />Oxyrhopus petola digitalis — WHITHWORTH & BEIRNE 2011<br />Oxyrhopus digitalis — NATERA-MUMAW et al. 2015: 185<br />Oxyrhopus petolarius digitalis — MARQUES et al. 2016<br /><br />Oxyrhopus petolarius sebae (DUMÉRIL, BIBRON & DUMÉRIL 1854)<br />Oxyrhopus sebae DUMÉRIL, BIBRON & DUMÉRIL 1854: 1036<br />Oxyrhopus doliatus semicinctus COPE 1887: 76<br />Oxyrhopus doliatus var. aequifasciata WERNER 1909: 231<br />Clelia baileyi SMITH 1942: 391<br />Oxyrhopus petola sebae — DUNN 1944: 201<br />Oxyrhopus petola sebae — PETERS & OREJAS-MIRANDA 1970: 233&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>SE Mexico (incl. Chiapas, Oaxaca, Veracruz, Puebla), Guatemala, El Salvador ?, Trinidad, Tobago, <br />Honduras, Belize, Nicaragua, Costa Rica, Panama, French Guiana, Guyana, Colombia (incl. Valle del Cauca), Venezuela (Cojedes), NW Ecuador, Brazil (Goias, Rio de Janeiro, Pará, Espírito Santo, Mato Grosso, Sergipe, Bahia, Acre, Pernambuco, Paraíba etc.), Bolivia, N Peru (Pasco etc.), Argentina (Misiones, but see CEI 1993: 754), Paraguay<br /><br />digitalis: Brazil (Pará, Amazonas), Pacific lowlands of Colombia and in the Amazon Basin, Venezuela.<br /><br />petolarius: Colombian-Venezuellan Llanos and east to the Atlantic, Tobago<br /><br />sebae: from Mexico to the Caribbean coast and interandean valleys of Colombia. Type locality: Colombia, Brazil, Mexico; restricted to Colombia by Peters & Orejas-Miranda 1970: 234<br /><br />Type locality: “Africa” (fide LINNAEUS 1758; in error)
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: UUZM (= ZIU, Uppsala)<br />Holotype: MHNN [semifasciatus]<br />Holotype: USNM 111261 [Clelia baileyi]<br />Holotype: ZSM 7/1928 (lost), male [Clelia cornelii]<br />Lectotype: SMF 19817 (formerly 9101e) [digitalis]<br />Syntypes: MNHN-RA 3795, MNHN-RA 3802 and MNHN-RA 7609 [sebae]<br />Holotype: USNM 28900 [Oxyrhopus doliatus semicinctus]&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>Diagnosis (genus): see Cunha & Nascimenta 1983 (in Portuguese) Diagnosis (genus): The species of Oxyrhopus share an undivided cloacal scale, paired subcaudals, a temporal formulae of 1+2 or 2+3, 7-10 infralabials and 7-8 supralabials, as well as a deeply bilobed, bicalyculate and bicapitated hemipenis, also presenting enlarged and well-developed lateral spines, in three or four rows, usually with a nude area in the lateral region of each lobe (Peters & Orejas-Miranda 1970, Zaher 1999); these characteristics, however, are not exclusive to Oxyrhopus, and the genus remains without a reliable morphological diagnosis (Gonzales et al. 2020).<br /><br />Diagnosis (digitalis): see Cunha & Nascimenta 1983: 14 (in Portuguese) <br /><br />Diagnosis/Similar Species: Oxyrhopus petola can be distinguished from all other Honduran snakes in having smooth dorsal scales in 19-19-17 rows on the body and a dorsal pattern of red, black, and yellow or red and black body bands that do not cross the venter. (McCranie 2011)<br /><br />Description. The following is based on six males (MCZ R-32195; SMF 86045; 1446/6; USNM 24533, 559687, 565574) and 11 females (AMNH 70211; MCZ R-31655; SMF 86044; USNM 559686, 559722, 561970, 563335-36, 564136, 565573, 565575). Oxyrhopus petola is a moderate-sized, crossbanded snake (maximum recorded TOL 1200 mm [Savage, 2002]; 1015 mm TOL in largest Honduran specimen [USNM 561970]) with a relatively short tail; head distinct from neck; snout moderately elongate, broadly rounded in dorsal outline; rostral not extending posteriorly between internasals, its length from above about one-half that of median internasal suture; internasals short, slightly over one-half length of prefrontal suture; prefrontals long, their median suture about one-half length of frontal; frontal longer than wide, widest anteriorly, length nearly equal to that of parietals, in contact with prefrontals, upper preoculars, supraoculars, and parietals; supraoculars longer than wide, shorter than frontal; parietals long, wide, their median suture shorter than frontal, parietals widest anteriorly; parietals in contact with supraoculars, frontal, upper postocular, upper anterior and upper secondary temporals, and about 6-7 nuchal scales; nasal divided, prenasal about same size as, to slightly larger than, postnasal, their combined lengths slightly longer than loreal; postnasal in contact with loreal, first and second supralabials, internasal, and prefrontal; loreal single, longer than high, length less than one-third that of snout, about two-thirds length of eye; preoculars 1-2 (usually 1); postoculars 2, both about equal in size, or upper larger than smaller; temporals usually 2+3, lower anterior one usually above sixth and seventh supralabials, lower secondary one usually above eighth supralabial,; supralabials 7-9 (usually 8), with fourth and fifth (or rarely fifth and sixth or third and fourth) bordering eye; pupil vertically elliptical; infralabials 9-11 (usually 10), first pair in contact medially posterior to mental, first 4 or 5 in contact with anterior chinshields; anterior chinshields paired, longer than wide, longer than posterior chinshields; posterior chinshields paired, separated for most of their length by 1 or 2 gulars; mental groove present; ventral 186-214 (201.2 +/- 9.7) in males [186-218 range-wide], 198-214 (202.8 +/- 4.9) in females [191-222 range-wide]; cloacal scute entire; subcaudals 84-104 (96.5 +/- 7.0) in males [84-126 range-wide], 83-99 (93.5 +/-6.0) in ten females [77-110 range-wide], divided; dorsal scales smooth, in 19-19-17 rows on body, with paired apical pits (at least on nape), without supracloacal ridges; TOL 636-1003 (843.6 +/-  133.8) mm in five males, 403-1015 (640.8 +/- 206.5) in ten females; SVL 491-752 (626.5 +/- 88.3) mm in males, 316-780 (490.4 +/- 152.9) mm in ten females; TAL/TOL 0.228-0.396 in five males, 0.191-0.256 in ten females. (McCranie 2011)&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Illustration: Fig. 18 in VILLA et al. 1988.<br /><br />Nomenclature:  Smith et al. (1986) chose O. petolarius as the correct name. See Bailey (1986) for a contrary view. This matter hinges on whether the subsequent spellings of pethola and petalarius by Linné (1766) and Gmelin (1788) are unjustified emendations or incorrect subsequent spellings (ICZN article 35). If the former, the conclusion of Smith et al. (1986) prevails; if the latter is correct then Bailey's interpretation is valid. [from SAVAGE 2002: 576].<br /><br />Type species: Coluber Petola LINNAEUS 1758 is the type species of the genus Oxyrhopus WAGLER 1830 (designated by COPE 1860: 185).<br /><br />Synonymy after PETERS & OREJAS-MIRANDA 1970. McCranie 2011 listed O. p. sebae as a synonym of P. petola (but did not discuss the validity outside Honduras).<br /><br />Subspecies after Bailey 1970. LYNCH (2009) refused to accept subspecies because the “use of subspecies names implies more than we know”.<br /><br />Appearance: Oxyrhopus petola mimicks Micrurus diastema and M. limbatus. Oxyrhopus petola may be so completely melanistic that inexperienced persons confuse them with adult Clelia clelia (which does not exhibit preocular-frontal contact).<br /><br />Key: Gonzales et al. 2020 present a key to the Oxyrhopus species of the central Andes.&nbsp;</td></tr>
+        <tr><td>Etymology</td><td>The specific name petola may be derived from the Greek petalos (broad) in reference to the relatively broad red bands found in this species (McCranie 2011: 360).&nbsp;</td></tr>
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Aguilar-López JL, Luría-Manzano R, Pineda E, Canseco-Márquez L 2021. Selva Zoque, Mexico: an important Mesoamerican tropical region for reptile species diversity and conservation. ZooKeys 1054: 127-153  - <a href='https://doi.org/10.3897/zookeys.1054.67916' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Amaral,A. do 1926. 3.a nota de nomenclatura Ophiologica. Sobre a preferência do nome genérico Pseudoboa Schneider, 1801, a Clelia Fitzinger, 1826 e Oxyrhopus Wagler, 1830. Revista do Museu Paulista 14: 10-16 </li>
+            
+            
+            <li>ARAUJO, C.O. &amp; ALMEIDA-SANTOS, S.M. 2011. Herpetofauna in a cerrado remnant in the state of Sao Paulo, Southeastern Brazil. [in Portuguese] Biota Neotropica 11 (3): 47-62  - <a href='https://www.academia.edu/21394493' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ARAUJO, C.O. &amp; ALMEIDA-SANTOS, S.M. 2011. Herpetofauna de um remanescente de Cerrado no estado de São Paulo, sudeste do Brasil. Biota Neotrop. 11(3): 47-62  - <a href='http://www.biotaneotropica.org.br/v11n3/pt/ abstract?article+bn00511032011' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Arteaga AF, Bustamante-Enríquez LM and Guayasamin JM 2013. The Amphibians and Reptiles of Mindo. http://www.tropicalherping.com  - <a href='http://www.tropicalherping.com' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ávila, R.W.; R.A. Kawashita-Ribeiro. 2011. Herpetofauna of São João da Barra Hydroelectric Plant, state of Mato Grosso, Brazil. Check List 7 (6): 750-755  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Avila-Pires, T.C.S.; Hoogmoed, M.S. &amp; Vitt, L.J. 2007. Herpetofauna da Amazônia. Herpetologia no Brasil, pp. 13-43 </li>
+            
+            
+            <li>Avila-Pires, Teresa C.S.; Kleiton R. Alves-Silva, Laís Barbosa, Fabrício S. Correa, Jorge F. A. Cosenza, Ana Paula V. Costa-Rodrigues, Aurea A. Cronemberger, Marinus S. Hoogmoed, Geraldo R. Lima-Filho, Adriano O. Maciel, Alexandre F. R. Missassi, Lyw 2018. Changes in Amphibian and Reptile Diversity Over Time in Parque Estadual do Utinga, a Protected Area Surrounded by Urbanization. Herpetology Notes 11: 499-512  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bailey, J. R. 1986. The Oxyrphopus petola-petolarius question continued. Bull. Maryland Herp. Soc. 22 (3): 144-145.  - <a href='https://www.biodiversitylibrary.org/bibliography/140312#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barquero-González, J.P., Stice, T.L., Gómez, G., &amp; Monge-Nájera, J. 2020. Are tropical reptiles really declining? A six-year survey of snakes in a tropical coastal rainforest: role of prey and environment. Revista de Biología Tropical, 68(1): 336-343; doi:10.20944/preprints201908.0123.v1  - <a href='https://investiga.uned.ac.cr/urbanecology/wp-content/uploads/sites/30/2020/03/Barquero-et-al-2020-Tropical-reptiles-declining.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barrio-Amorós, Cesar Luis, Michelle Quiroz, Cristian Porras-Ramírez, Rene Villanueva-Maldonado, Alejandro Estrada-García, Abel Batista 2023. Amphibians and reptiles encountered during an expedition to Panama Reptiles &amp; Amphibians 30 (1): e18359  - <a href='https://doi.org/10.17161/randa.v30i1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beconi, Hugo Cabral; Norman J. Scott 2014. Oxyrhopus petolarius (Linnaeus, 1758) (Serpentes, Dipsadidae): Distribution extension and new departmental record for Paraguay. Check List 10 (5): 1207-1209  - <a href='http://biotaxa.org/cl/article/view/10.5.1207' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beebe, William 1946. Field notes on the snakes of Kartabo, British Guiana, and Caripito, Venezuela. Zoologica 31: 11-52  - <a href='https://www.biodiversitylibrary.org/bibliography/42858#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Serpentes do Estado de Rondônia, Brasil. Biota Neotropica 12 (3): 1-29  - <a href='http://www.biotaneotropica.org.br/v12n3/pt/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boos, H.E.A. 2001. The snakes of Trinidad and Tobago. Texas A&amp;M University Press, 270 pp. </li>
+            
+            
+            <li>Botero, Vanessa Serna; Mateo Marín Martínez, Daniela Velásquez Guarín, Hector Emilio Ramírez Chavez 2019. Boyacá spiny rat, Proechimys chrysaeolus (Mammalia: Echimyidae), a new prey item of the banded calico snake, Oxyrhopus petolarius (Reptilia: Dipsadidae). Herpetology Notes 12: 651-653  - <a href='https://www.biotaxa.org/hn/issue/view/5961' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1894. List of reptiles and batachians collected by Dr. T. Bohls near Asuncion, Paraguay. Ann. Mag. nat. Hist. (6) 13: 342-348  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Caldeira Costa, Henrique, Diogo Borges Provete and Renato Neves Feio. 2014. A new prey record for the Banded Calico Snake Oxyrhopus petolarius (Serpentes: Dipsadidae). Herpetology Notes 7: 115-118  - <a href='https://www.biotaxa.org/hn/issue/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Campbell, J.A. 1998. Amphibians and reptiles of northern Guatemala, the Yucatán, and Belize. Norman: University of Oklahoma Press, xiii + 380 pp.  - <a href='http://web.b.ebscohost.com/ehost/ebookviewer/ebook/bmxlYmtfXzE1NjUzX19BTg2?sid=9f5edf15-862d-4a45-a1e9-ef99551e1750@sessionmgr120&amp;vid=0&amp;format=EB&amp;rid=1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carilo-Filho, Leildo Machado, Daniel Grundmann Nascimento, Antônio Jorge Suzart Argôlo 2017. Death of Oxyrhopus petolarius (Linnaeus, 1758) (Serpentes: Dipsadidae) after an unsuccessful predation event on Tropidurus torquatus (Wied-Neuwied, 1820) (Sauria: Tropiduridae). Herpetology Notes 10: 71-73  - <a href='http://www.biotaxa.org/hn/issue/view/4203' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carvajal-Cogollo, J.E.; L.E. Rojas-Murcia. &amp; G. Cárdenas-Arévalo 2020. Reptiles del Caribe colombiano/ Reptiles of the Colombian Caribbean. Tunja: Editorial UPTC, 268 pp.  - <a href='https://www.researchgate.net/publication/344012043_Libro_Reptiles_del_CaribeReptiles_of_the_Colombian_Caribbean?fbclid=IwAR0lzaOmeZJtAmhxNUezfcwfTP2IegGPuY-UMPLa7L6hqXLAAsJWwtsvtbE' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Casas-Andreu, G., F.R. Méndez-De la Cruz and X. Aguilar-Miguel. 2004. Anfibios y Reptiles; pp. 375–390, in A.J.M. García-Mendoza, J. Ordoñez and M. Briones-Salas (ed.). Biodiversidad de Oaxaca. Instituto de Biología, UNAM-Fondo Oaxaqueño para la Conservación de la Naturaleza-World Wildlife Fund, México, D. F. </li>
+            
+            
+            <li>Castro, T.M. &amp; Teixeira, R.L. 2007. Straßenverkehr als Bedrohung für die Amphibien und Reptilien des Atlantischen Regenwalds in Südost-Brasilien. Eine Fallstudie. Sauria 29 (2): 35-42  - <a href='http://www.sauria.de/archiv/?artitem=9176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Castro-Herrera, F. &amp; Vargas-Salinas, F. 2008. Anfibios y reptiles en el departamento del Valle del Cauca, Colombia. Biota Colombiana 9 (2): 251 - 277  - <a href='https://www.academia.edu/7541237/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Castro-Herrera, F.; Bolívar-García, W. &amp; Herrera-Montes, M.I. 2007. Guía de los Anfibios y Reptiles des Bosque de Yotoco, Valle deel Cauca, Colombia. Universidad del Valle, Cali, Colombia, 70 pp.  - <a href='https://issuu.com/fcastro/docs' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CATENAZZI, A., LEHR, E. &amp; VON MAY, R. 2013. The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. Biota Neotropica 13 (4): 269-283 </li>
+            
+            
+            <li>Claessen, H. 2003. De slangen van de Guyanas Deel VII. Lacerta 61 (6): 221-234  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cole, Charles J.; Carol R. Townsend, Robert P. Reynolds, Ross D. MacCulloch, and Amy Lathrop 2013. Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. Proceedings of the Biological Society of Washington 125  (4): 317-578; plates: 580-620  - <a href='http://www.bioone.org/doi/abs/10.2988/0006-324X-125.4.317' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1887. Catalogue of batrachians and reptiles of Central America and México. Bull. US Natl. Mus. 32: 7-98  - <a href='https://www.biodiversitylibrary.org/page/7552186' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cortés Gómez, Angela María; Anyelet Valencia Aguilar, Diana Marcela Torres Domínguez, Lina María García Calderón, Diego Fernando Villaquirán Martínez, Andrea del Pilar Cáceres Franco, Fernando Castro Herrera 2010. Guía de los anfibios y reptiles. Área en conservación de la microcuenca Quebrada Pericos. [Valle de Cauca, Colombia]. Corporación Autónoma Regional del Valle del Cauca, Santiago de Cali: CVC, 37 pp.  - <a href='http://issuu.com/fcastro' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cozer, J. S., Pereira-Ribeiro, J., Linause, T. M., Ferreguetti, A. C., de Godoy Bergallo, H., &amp; da Rocha, C. F. D. 2020. Reptile diversity in the Duas Bocas Biological Reserve, Espírito Santo, southeastern Brazil. Papéis Avulsos De Zoologia, 60, e20206040-e20206040  - <a href='http://doi.org/10.11606/1807-0205/2020.60.40' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Crnobrna B, Santa-Cruz Farfan R, Gallegos C, López-Rojas JJ, Llanqui IB, Pisco GP, Arbaiza AK 2023. Herpetological records from the Abujao basin, central Peruvian Amazon. Check List 19(4): 433-465  - <a href='https://doi.org/10.15560/19.4.433' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cruz-García K, Barreno M, Cuadrado S, Moretta-Urdiales M, Molina-Moreira N, Salas JA, Torres-Domínguez Á, Narváez AE 2023. Amphibians and reptiles of Isla Santay (Durán, Ecuador). Check List 19(3): 347-369  - <a href='https://doi.org/10.15560/19.3.347' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cunha, O.R. da and Nascimento, F.P. 1983. Ofidios da Amazonia. XIX. As expécies de Oxyrhopus Wagler, com uma subespécie nova, e Pseudoboa Schneider, na Amaônia orientale e Maranhão (Ophidia: Colubridae). Bol. Mus. Paraense Emilio Goeldi, zool. 112: 42 pp.  - <a href='https://repositorio.museu-goeldi.br/handle/mgoeldi/675' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dainesi, Raiane Lesley Santos; Arthur Diesel Abegg, Paulo Sérgio Bernarde, Bruno Peña Correa, Laís Pio Caetano Machado, Afonso Santiago de Oliveira Meneses, Arthur de Sena Santos 2019. Integrative overview of snake species from Londrina, State of Paraná, Brazil. Herpetology Notes 12: 419-430  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dubeux, M. J. M., Araújo Neto, J. V. D., Triburcio, I. C. S., Lisboa, B. S., Torquato, S., Freitas, M. A. D., ... &amp; Mott, T. 2022. A “hotspot” within a hotspot: the reptiles of the Estação Ecológica and Área de Proteção Ambiental de Murici, Atlantic Forest of northeastern Brazil. Biota Neotropica, 22: 1-14  - <a href='https://doi.org/10.1590/1676-0611-BN-2022-1337' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dubeux, Marcos Jorge Matias; Gonçalves, Ubiratan; Mott, Tamí 2020. Records of predation on Ophiodes striatus (Spix, 1824) (Squamata: Diploglossidae) by Oxyrhopus petolarius (Linnaeus, 1758) (Squamata: Dipsadidae) in the northern Atlantic Forest, Brazil. Cuad. herp. 34 (2):  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W. E. 1978. The biology of an equatorial herpetofauna in Amazonian Ecuador. Misc. Publ. Univ. Kans. Mus. Nat. Hist. 65: 1-352  - <a href='http://www.biodiversitylibrary.org/bibliography/4050' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W. E. 2005. Cusco Amazónico: The Lives of Amphibians and Reptiles in an Amazonian Rainforest. Comstock Pub Assoc. </li>
+            
+            
+            <li>Duellman, W.E., &amp; Salas, A.W. 1991. Annotated checklist of the amphibians and reptiles of Cuzco Amazonico, Peru. Occas. Papers Mus. of Natur. Hist., Univ. of Kansas, Lawrence (143): 13 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/4672' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duméril, A. M. C., Bibron, G. &amp; DUMÉRIL, A. H. A., 1854. Erpétologie générale ou histoire naturelle complète des reptiles. Tome septième. Deuxième partie, comprenant l'histoire des serpents venimeux. Paris, Librairie Encyclopédique de Roret: i-xii + 781-1536  - <a href='https://www.biodiversitylibrary.org/item/101190#page/7/mode/1up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dunn,E.R. 1944. Los géneros de anfibios y reptiles de Colombia, III. Orden de las serpientes. Caldasia 3 (12): 155-224  - <a href='https://www.jstor.org/journal/caldasia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Filippi, F. de 1840. Catalogo Raggionato e Descrittivo ... Serpenti del Museo dell’ I. R. Universitá de Pavia. Bibliot. Ital. 99: 163-187, 306-343 </li>
+            
+            
+            <li>Folly, Henrique, Assis, Clodoaldo L., De Oliveira, Anderson M., Luz, Sofia and Feio, Renato N. 2016. Oxyrhopus petolarius digitalis (Banded Calico Snake) Diet. Herpetological Review 47 (4): 686  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fonseca, Wirven Lima da; Julivaldo Dantas da Silva, Arthur Diesel Abegg, Conrado Mario da Rosa, Paulo Sergio Bernarde 2019. Herpetofauna of Porto Walter and surrounding areas, Southwest Amazonia, Brazil. Herpetology Notes 12: 91-107  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fraga R de, Stow AJ, Magnusson WE, Lima AP 2014. The Costs of Evaluating Species Densities and Composition of Snakes to Assess Development Impacts in Amazonia. PLoS One 9 (8): e105453. doi:10.1371/journal.pone.0105453  - <a href='http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0105453' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, Frederico G. R., Thiago Barros and Gabriel Horta. 2010. Geographic distribution: Oxyrhopus petola. Herpetological Review 41 (3): 381  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, Frederico G. R., Thiago Barros and Gabriel Horta. 2010. Geographic distribution: Oxyrhopus petola. Herpetological Review 41 (3): 381  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, M. A. de, Venancio, N. M., Abegg, A. D., Azevedo, W. S, Pereira, V. O., Zanotti, A. P., Veloso, A., Schwarzbach, L., Oliveira, A. G., da Silva, R. C. C., de Amorim, V. R. G. and de Moura, G. J. B. 2020. Herpetofauna at the Rio Acre Ecological Station, Amazon Rainforest, Brazil. Herpetology Notes 13: 33-48.  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco A. de; Marcos J.M. Dubeux, Márcio F. Chaves, Bruno F. Fiorillo, Gentil A.P. Filho, Washington L.S. Vieira, and Geraldo J.B. de Moura 2023. Herpetofauna in three highland Atlantic Forest remnants in northeastern Brazil. Herpetology Notes 16: 377-390 </li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Arthur Diesel Abegg, Iuri Ribeiro Dias, Elbano Paschoal de Figueiredo Moraes 2018. Herpetofauna from Serra da Jibóia, an Atlantic Rainforest remnant in the state of Bahia, northeastern Brazil. Herpetology Notes 11: 59-72  - <a href='https://www.biotaxa.org/hn/article/view/31424/30997' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Arthur Diesel Abegg, Thais Figueiredo Santos Silva, Patrícia Mendes Fonseca, Breno Hamdan, Thiago Filadelfo 2019. Herpetofauna of Serra do Timbó, an Atlantic Forest remnant in the State of Bahia, Northeastern Brazil. Herpetology Notes 12: 245-260  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Guarino R. Colli, Omar Machado Entiauspe-Neto, Luiz Trinchão, Daniel Araújo, Tiago de Oliveira Lima, Daniella Pereira Fagundes de França, Renato Gaiga, Pedro Dias 2016. Snakes of Cerrado localities in western Bahia, Brazil. Check List 12 (3): 1896  - <a href='http://www.biotaxa.org/cl/article/view/12.3.1896' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gasc &amp; Rodrigues 1980. Liste preliminaire des Serpents de la Guyane francaise. Bull. Mus. Nat. Hist. Nat. Paris 2 (4): 559-598 </li>
+            
+            
+            <li>Gemel, R.; G. Gassner &amp; S. Schweiger 2019. Katalog der Typen der Herpetologischen Sammlung des Naturhistorischen Museums Wien – 2018. Ann. Naturhist. Mus. Wien, B 121: 33–248 </li>
+            
+            
+            <li>Giraudo,A.R. 1999. New records of snakes from Argentina. Herpetological Review 30 (3): 179-181  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzales, L., Reichle, S., &amp; Entiauspe-Neto, OM 2020. A new species of Oxyrhopus Wagler, 1830 (Serpentes: Dipsadidae) from the Bolivian Andes. An Acad Bras Cienc 92 (Suppl. 2): e20191428  - <a href='https://www.researchgate.net/publication/344418801_A_new_species_of_Oxyrhopus_Wagler_1830_Serpentes_Dipsadidae_from_the_Bolivian_Andes' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gorzula, Stefan &amp; Senaris, J. Celsa 1999. In: Contribution to the herpetofauna of the Venezuelan Guayana. I: a data base. Scientia Guaianae, Caracas, No. 8 [1998], 269+ pp.; ISBN 980-6020-48-0 </li>
+            
+            
+            <li>GUEDES, THAÍS B.; CRISTIANO NOGUEIRA &amp; OTAVIO A. V. MARQUES 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. Zootaxa 3863 (1): 001–093  - <a href='http://biotaxa.org/Zootaxa/article/view/zootaxa.3863.1.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Guerra, V., Ramalho, W. P., Machado, I. F., &amp; Brandão, R. A. 2022. Herpetofauna of the Serra do Tombador Nature Reserve, State of Goiás, Central Brazil. Arquivos de Zoologia, 53(3), 33-51  - <a href='http://doi.org/10.11606/2176-7793/2022.53.03' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hallmen, M. 2009. Ein Stück vom Paradies. Die Pouso Alegre im brasilianischen Pantanal aus Sicht eines Reptilienfreundes. Teil 1. Reptilia (Münster) 14 (76): 61-67  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B. &amp; R. M. Lira-da-Silva 2012. The snakes of Bahia State, northeastern Brazil: species richness, composition and biogeographical notes. Salamandra 48 (1): 31-50  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/hamdan-b-r-m-lira-da-silva' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hedges SB, Powell R, Henderson RW, Hanson S, and Murphy JC 2019. Definition of the Caribbean Islands biogeographic region, with checklist and recommendations for standardized common names of amphibians and reptiles. Caribbean Herpetology 67: 1–53 </li>
+            
+            
+            <li>Heimes, P. 2016. Snakes of Mexico. Chimaira, Frankfurt, 572 pp </li>
+            
+            
+            <li>Hilje B, Chaves G, Klank J, Timmerman F, Feltham J, Gillingwater S, Piraino T, Rojas E 2020. Amphibians and Reptiles of the Tirimbina Biological Reserve: a baseline for conservation, research and environmental education in a lowland tropical wet forest in Costa Rica. Check List 16(6): 1633-1655  - <a href='https://doi.org/10.15560/16.6.1633' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hohmeister, A. 2005. Biologie, Pflege und Zucht von Mondnattern (Gattung Oxyrhopus, WAGLER 1830). Reptilia (Münster) 10 (53): 46-50  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hughes, R. C., Higginbotham, J. W., &amp; Clary, J. W. 1942. The Trematodes of Reptiles, Part I, Systematic Section. The American Midland Naturalist, 27(1), 109–134  - <a href='https://doi.org/10.2307/2421028' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jenner, J. V.; Dowling, H. G. 1985. Taxonomy of American Xenodontine snakes: the tribe Pseudoboini. Herpetologica 41 (2): 161-172  - <a href='http://www.jstor.org/action/showPublication?journalCode=herpetologica' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Johnson, Jerry D.; Vicente Mata-Silva, Elí García Padilla, and Larry David Wilson 2015. The Herpetofauna of Chiapas, Mexico: composition, distribution, and conservation. Mesoamerican Herpetology 2 (3): 272–329.  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Koch, Claudia 2015. Eine Reise in den karibischen Norden Kolumbiens. Terraria-Elaphe 2015 (5): 56-59  - <a href='https://www.ms-verlag.de/magazine/terraria/category/55-einzelhefte_terraria' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kornacker,P.M. 1999. Checklist and key to the snakes of Venezuela. PaKo-Verlag, Rheinbach, Germany, 270 pp. </li>
+            
+            
+            <li>Lancini,A.R. &amp; Kornacker,P.M. 1989. Die Schlangen von Venezuela. Armitano Editores C.A., Caracas, 1-381 </li>
+            
+            
+            <li>Lee, J. C. 2000. A field guide to the amphibians and reptiles of the Maya world. Cornell University Press, Ithaca, </li>
+            
+            
+            <li>Lee, J.C. 1996. The amphibians and reptiles of the Yucatán Peninsula. Comstock, Cornell University Press, Ithaca, 500 pp. </li>
+            
+            
+            <li>Lehr, E. 2001. New records for amphibians and reptiles from Departamentos Pasco and Ucayali, Peru. Herpetological Review 32 (2): 130-132  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lehr, E. 2002. Amphibien und Reptilien in Peru. Natur und Tier-Verlag (Münster), 208 pp.  - <a href='http://www.ms-verlag.de/index.php?58&amp;backPID=58&amp;tt_products=463' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lehr, E. &amp; Lara, J. 2002. Die Schlangenfauna von Pozuzo (Peru) (Reptilia: Serpentes). Faun. Abh. Mus. Tierk. Dresden 22 (2): 353-359  - <a href='https://doi.org/10.1643/0045-8511(2002)002[0131:NSOTLR]2.0.CO;2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Linnaeus, C. [= Linné, C. von] 1758. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio decima, reformata. Laurentii Salvii, Holmiæ. 10th Edition: 824 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/35518#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Linné, C. von [= Linnaeus, C.] 1766. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio duodecima, reformata. Laurentii Salvii, Stockholm, Holmiae. 1-532 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/68927' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lönnberg, E. 1896. Linnean type-specimens of birds, reptiles, batrachians, and fishes in the Zoological Museum of the Royal Univeristy of Upsala. [type catalogue] Bihang till Kongliga Svenska Vetenskaps-Akademiens. Handlingar, Stockholm 22 (4) l: 1-45  - <a href='https://www.biodiversitylibrary.org/bibliography/13353#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lynch, J.D. 2009. Snakes of the genus Oxyrhopus (Colubridae: Squamata) in Colombia: taxonomy and geographic variation. Papeis Avulsos de Zoologia 49(25):319-337  - <a href='http://www.scielo.br/scielo.php?script=sci_serial&amp;pid=0031-1049&amp;lng=en&amp;nrm=iso' target='_blank'>get paper here</a></li>
+            
+            
+            <li>MacCulloch, R. D.; Lathrop, A.; Kok, P.; Ernst, R. &amp; Kalamandeen, M. 2009. The genus Oxyrhopus (Serpentes: Dipsadidae: Xenodontinae) in Guyana: morphology, distributions and comments on taxonomy. Pap. Avuls. Zool. 49 (36): 487‐495  - <a href='https://doi.org/10.1590/S0031-10492009003600001' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Markezich, A.L. 2002. New distribution records of reptiles from Western Venezuela. Herpetological Review 33 (1): 69-74  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mata-Silva, Vicente, Jerry D. Johnson, Larry David Wilson and Elí García-Padilla. 2015. The herpetofauna of Oaxaca, Mexico: composition, physiographic distribution, and conservation status. Mesoamerican Herpetology 2 (1): 6–62  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>McCOY, C. J., CENSKY, E. J., &amp; VAN DE VENDER, R. R. 1986. Distribution records for amphibians and reptiles in Belize, Central America. Herpetological Review 17:28-29.  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>McCranie J R 2011. The snakes of Honduras. SSAR, Salt Lake City, 725 pp. </li>
+            
+            
+            <li>McCranie, James R. 2015. A checklist of the amphibians and reptiles of Honduras, with additions, comments on taxonomy, some recent taxonomic decisions, and areas of further studies needed. Zootaxa 3931 (3): 352–386  - <a href='http://dx.doi.org/10.11646/zootaxa.3931.3.2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>McCranie, James R., Leonardo Valdés Orellana and Alexander Gutsche. 2013. New departmental records for amphibians and reptiles in Honduras. Herpetological Review 44 (2): 288-289  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Melo, Íris Virgínea; Geraldo Jorge Barbosa de Moura, Marco Antonio de Freitas, Edson Victor Euclides de Andrade, Cláudio Casal, Arthur Diesel Abegg, Marcelo Nogueira de Carvalho Kakubum 2018. New additions to herpetofauna of the Parque Estadual Dois Irmãos, an urban Atlantic Rainforest Fragment, Recife municipality, Pernambuco state, northeastern Brazil. Herpetology Notes 11: 245-254  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mendes-Pinto, T. J. &amp; S. Marques de Souza 2011. Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon. Salamandra 47 (4): 199-206  - <a href='http://salamandra-journal.com/index.php/home/contents/2011-vol-47/mendes-pinto-t-j-s-marques-de-souza' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mertens, R. 1972. Herpetofauna tobagana. Stuttgarter Beitr. zur Naturkunde nr. 252 22 pp.  - <a href='http://biodiversitylibrary.org/page/33729655' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mesquita, Daniel Oliveira; Brygida Alves, Carmem Pedro, Daniel Laranjeiras, Francis Caldas, Isabella Pedrosa, Jefter Rodrigues, Leandro Drummond, Lucas Cavalcanti, Milena Wachlevski, Paulo Nogueira-Costa, Rafaela França, Frederico França 2018. Herpetofauna in two habitat types (tabuleiros and Stational Semidecidual Forest) in the Reserva Biológica Guaribas, northeastern Brazil. Herpetology Notes 11: 455-474  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Metcalf, Matthew; Alexander Marsh, Emerson Torres, Devon Graham, Charles Gunnels 2020. Herpetofauna of the Santa Cruz Forest Preserve in the Peruvian Amazon Basin. Herpetology Notes 13: 753-767  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Miranda, Daniele Bazzo; Nathocley Mendes Venâncio, Saymon de Albuquerque 2014. Rapid survey of the herpetofauna in an area of forest management in eastern Acre, Brazil. Check List 10 (4): 893-899  - <a href='http://www.biotaxa.org/cl/article/view/10.4.893' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, S.A.A.; A.M.X. Lima; D.C.P. Staut; R.G. Faria; J.P. Souza-Alves; S.F. Gouveia; M.R.C. Scupino; R. Gomes; M.J. Silva. 2011. Amphibians and Reptiles of the Refúgio de Vida Silvestre Mata do Junco, municipality of Capela, state of Sergipe, northeastern Brazil. Check List 7 (6): 756-762  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, S.A.A.; Calixto, P.O.; Mendes, L.R.; Gomes, R.; Galatti, U.; Trein, F.L.; Oliveira, F.S.; Ferreira, G.N. 2014. Guia fotográfico de identificação da herpetofauna da Floresta Nacional de Saracá-Taquera, Estado do Pará. Curitiba: STCP Engenharia de Projetos Ltda.; Porto Trombetas: MRN – Mineração Rio do Norte S.A.; 213 p.  - <a href='http://www.stcp.com.br/upload/externo/guia-de-anfibios-e-repteis-flona-saraca-taquera.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Guilherme Nunes Ferreira; Michela Rossane Cavilha Scupino (eds.) 2018. Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera. Curitiba, Pr: STCP Engenharia de Projetos Ltda.; Porto Trombetas, Pa: MRN – Mineração Rio do Norte S.A., 2018.&lt;br /&gt;210p.  - <a href='https://archive.org/details/MoratoEtAl2018HerpetofaunaFLONASaracTaqueraAmazniaCentral' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Müller, L. 1928. Herpetologische Mitteilungen. Zool. Anz. 77: 61-84 </li>
+            
+            
+            <li>Muñoz-Saba, Yaneth; Nathaly Calvo-Roa, Paul Andrés Gómez-Sandoval, Diego Casallas-Pabón John Douglas Lynch, Lucas S. Barrientos, Diego A. Gómez-Sánchez. 2019. Guía de campo de los mamíferos, anfibios y reptiles de Santa María (Boyacá, Colombia). Serie Guías de Campo del Instituto de Ciencias Naturales. N° 23. Bogotá D.C. Universidad Nacional de Colombia. Bogotá. 317 p  - <a href='http://ciencias.bogota.unal.edu.co/menu-principal/publicaciones/publicaciones/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nascimento de Oliveira, Camila; Sérgio Luiz da Silva Muniz, Geraldo Jorge Barbosa de Moura 2016. Reptiles of an urban Atlantic Rainforest fragment in the state of Pernambuco, northeastern Brazil. Herpetology Notes 9: 175-183  - <a href='http://www.biotaxa.org/hn/article/view/12653/22541' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Natera-Mumaw, Marco; Luis Felipe Esqueda-González &amp; Manuel Castelaín-Fernández 2015. Atlas Serpientes de Venezuela. Santiago de Chile, Dimacofi Negocios Avanzados S.A., 456 pp.  - <a href='https://www.researchgate.net/publication/274073284_Book_Atlas_Serpientes_de_Venezuela_1ra_Edicion_abril_2015_Portada_en_baja_resolucion_Comunicarse_al_email_luisfesquedagmailcom' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Neill, Wilfred T. and E. Ross Allen. 1959. Studies on the amphibians and reptiles of British Honduras. Publications of the Research Division Ross Allen's Reptiles Institute. 2 (1): 1-76 </li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>OLIVEIRA LIMA, JEFFERSON; HUGO ANDRADE, TAINARA LIMA DA SILVA &amp; EDUARDO JOSÉ DOS REIS DIAS. 2022. Reptiles of Sergipe: current knowledge and sampling discontinuities. Herpetology Notes 15: 69–78.  - <a href='https://www.biotaxa.org/hn/article/view/62845' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira Lula Salles, R. de &amp; Silva-Soares, T. 2010. Répteis do município de Duque de Caxias, Baixada Fluminense, Rio de Janeiro, Sudeste do Brasil. Biotemas, 23 (2): 135-144 </li>
+            
+            
+            <li>Oliveira Lula Salles, R. de; Weber, L.N. &amp; Silva-Soares, T. 2010. Reptiles, Squamata, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, Southeastern Brazil. Check List 6 (2): 280-286  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira Nogueira, Carlos Henrique de, Caio A. Figueiredo-de-Andrade and Nathalia Nascimento de Freitas 2013. Death of a juvenile snake Oxyrhopus petolarius (Linnaeus, 1758) after eating an adult house gecko Hemidactylus mabouia (Moreau de Jonnès. Herpetology Notes 6: 39-43 </li>
+            
+            
+            <li>Oliveira, Jane C.F.; Rodrigo Castellari Gonzalez; Paulo Passos; Davor Vrcibradic &amp; Carlos Frederico Duarte Rocha 2020. Non-Avian Reptiles of the state of Rio de Janeiro, Brazil: status of knowledge and commented list. Pap. Avulsos Zool. 60: e20206024  - <a href='http://doi.org/10.11606/1807-0205/2020.60.24' target='_blank'>get paper here</a></li>
+            
+            
+            <li>O’Shea, M. 2018. The Book of Snakes. Ivy Press / Quarto Publishing, London,  - <a href='https://www.quartoknows.com/books/9781782405597/The-Book-of-Snakes.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Páez, V.P. et al. 2002. Guía de campo de algunas especies de anfibios y reptiles de Antioquia. Universidad de Antioquia,  - <a href='https://www.academia.edu/26523736/Gu%C3%ADa_de_campo_de_algunas_especies_de_anfibios_y_reptiles_de_Antioquia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pedroso-Santos, Fillipe; Patrick Ribeiro Sanches, and Carlos Eduardo Costa-Campos, 2019. Anurans and reptiles of the Reserva Extrativista Beija-Flor Brilho de Fogo, Amapá state, eastern Amazon. Herpetology Notes 12: 799-807  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pedroza-Banda, Raúl; Jhon Jairo Ospina-Sarria, Teddy Angarita-Sierra, Marvin Anganoy-Criollo, John D. Lynch 2014. Estado de la fauna de anfibios y reptiles del Casanare Ciencias naturales Estado del conocimiento de la fauna de anfibios y reptiles del departamento de Casanare, Colombia. Rev. Acad. Colomb. Cienc. 38 (146): 17-34  - <a href='http://www.yoluka.org.co//dropbox/publicaciones/Articulos/Ra__l_Pedroza_Banda_Jhon_Jairo_Ospina_Sarria_Teddy_Angarita_Sierra_Marvin_Anganoy_Criollo__John_D._Lynch_Estado_del_conocimiento_de_la_fauna_de_anfibios_y_reptiles_del_departamento_de_Casanare' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Santos,C. &amp; Moreno, A.G. 1988. Ofidios de Colombia. Museo reegionale di Scienze Naturali, Torino, Monographie VI, 517 pp. </li>
+            
+            
+            <li>Peters , J. A. 1960. The snakes of Ecuador; check list and key. Bull. Mus. Comp. Zool. Harvard 122: 489-541  - <a href='http://www.biodiversitylibrary.org/bibliography/2803' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pinto-Erazo, M.A., Calderón-Espinosa, M.L., Medina-Rangel, G.F. &amp; Méndez-Galeano, M.A. 2020. Herpetofauna from two municipalities of southwestern Colombia. Biota Colombiana 21(1): 41-57. DOI: 10.21068/c2020.v21n01a04  - <a href='https://s3.amazonaws.com/academia.edu.documents/63360655/v21n1a420200519-78234-v1rmcr.pdf?response-content-disposition=inline%3B%20filename%3DHerpetofauna_from_two_municipalities_of.pdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIATUSBJ6BAKQ' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pontes, J.A.L.; Figueiredo, J.P., Pontes, RC. and Rocha, C.F.D. 2008. Snakes from the Atlantic Rainforest area of Serra do Mendanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition. Braz. J. Biol. 68(3): 601-609  - <a href='http://www.scielo.br/scielo.php?script=sci_serial&amp;pid=1519-6984&amp;lng=en&amp;nrm=iso' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pyron, R. Alexander; Catriona R. Hendry, Vincent M. Chou, Emily M. Lemmon, Alan R. Lemmon, Frank T. Burbrink 2014. Effectiveness of phylogenomic data and coalescent species-tree methods for resolving difficult nodes in the phylogeny of advanced snakes (Serpentes: Caenophidia). Molecular Phylogenetics and Evolution 81: 221-231, DOI: 10.1016/j.ympev.2014.08.023  - <a href='http://dx.doi.org/10.1016/j.ympev.2014.08.023' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Quinteros, Oliver Alejandro; Rodrigo Aguayo 2021. Predation on Gray-breasted Wood-Wren bird by False Coral Snake Oxyrhopus petolarius (Serpentes: Dipsadidae) in the Bolivian Yungas. Herpetology Notes 14: 279-282 </li>
+            
+            
+            <li>Rabosky, Daniel L.; Rudolf von May, Michael C. Grundler and Alison R. Davis Rabosky 2019. The Western Amazonian Richness Gradient for Squamate Reptiles: Are There Really Fewer Snakes and Lizards in Southwestern Amazonian Lowlands? Diversity 11: 199; doi:10.3390/d11100199  - <a href='http://www.mdpi.com/journal/diversity' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ray, Julie M. and Patty Ruback 2015. Updated checklists of snakes for the provinces of Panamá and Panamá Oeste, Republic of Panama. Mesoamerican Herpetology 2 (2): 168-188  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RENJIFO, J. M. &amp; M. LUNDBERG 2003. Una especie nuevo de serpiente coral (Elapidae, Micrurus), de la region de Urra, municipio de Tierra Alta, Cordoba, noroccidente de Colombia. Revista de la Academia Colombiana Ciencias Exactas Fisicas y Naturales, 27 (102): 141-144. </li>
+            
+            
+            <li>Restrepo A, Molina-Zuluaga C, Hurtado JP, Marín CM, Daza JM 2017. Amphibians and reptiles from two localities in the northern Andes of Colombia. Check List 13 (4): 203-237  - <a href='https://doi.org/10.15560/13.4.203' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Reuss, A. 1834. Zoologische Miscellen. Reptilien, Ophidier. [Coluber albiventris, Echis pavo]. Mus. Senckenbergiana, Frankfurt/M., 1: 129-162.  - <a href='http://vipersgarden.at/PDF_files/PDF-2603.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rincón-Aranguri, M., Toro-Cardona, F. A., Galeano, S. P., Roa-Fuentes, L.. &amp; Urbina-Cardona, N. 2023. Functional diversity of snakes is explained by the landscape composition at multiple areas of influence. Ecology and Evolution, 13, e10352  - <a href='https://doi.org/10.1002/ece3.10352' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rivas Fuenmayor, Gilson and Cesar Luis Barrio Amorós 2005. New Amphibian and Reptile records from Cojedes State, Venezuela. Herpetological Review 36 (2):205-209.  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RIVAS, GILSON A.; CÉSAR R. MOLINA, GABRIEL N. UGUETO, TITO R. BARROS, CÉSAR L. BAR- RIO-AMORÓS &amp; PHILIPPE J. R. KOK 2012. Reptiles of Venezuela: an updated and commented checklist. Zootaxa 3211: 1–64  - <a href='https://www.researchgate.net/publication/259759792_Reptiles_of_Venezuela_An_updated_and_commented_checklist' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J., R. W. Ávila &amp; A. R. Melgarejo 2015. Répteis (Testudines, Squamata, Crocodylia) da reserva biológica de Pedra Talhada. In: Atuder, A., l. Nusbaumer &amp; R. Spichiger (eds.). biodiversidade da reserva biológica de Pedra talhada (alagoas, Pernambuco - brasil). Boissiera 68: 357-375  - <a href='https://www.academia.edu/15822726/Répteis_Testudines_Squamata_Crocodylia_da_Reserva_Biológica_de_Pedra_Talhada?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, Igor Joventino; Cícero Ricardo de Oliveira, João Antonio de Araújo Filho, Herivelto Faustino de Oliveira, Robson Waldemar Ávila 2017. The herpetofauna of the Serra do Urubu mountain range: a key biodiversity area for conservation in the brazilian atlantic forest. Papéis Avulsos de Zoologia 57 (27): 347-373  - <a href='http://dx.doi.org/10.11606/0031-1049.2017.57.27' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ROCHA, CARLOS FREDERICO D.; HELENA G.BERGALLO, JOSÉ P. POMBAL JR., LENA GEISE, MONIQUE VAN SLUYS, RONALDO FERNANDES, ULISSES CARAMASCHI 2004. FAUNA DE ANFÍBIOS, RÉPTEIS E MAMÍFEROS DO ESTADO DO RIO DE JANEIRO, SUDESTE DO BRASIL. Publ. Avul. Mus. Nac., Rio de Janeiro (104): 3-23  - <a href='https://www.academia.edu/t/dtkG-KW06pL7-bbmTMp/3307520/FAUNA_DE_ANFÍBIOS_RÉPTEIS_E_MAMÍFEROS_DO_ESTADO_DO_RIO_DE_JANEIRO_SUDESTE_DO_BRASIL_1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rojas-Padilla O, Menezes VQ, Dias IR, Argôlo AJS, Solé M, Orrico VGD 2020. Amphibians and reptiles of Parque Nacional da Serra das Lontras: an important center of endemism within the Atlantic Forest in southern Bahia, Brazil. ZooKeys 1002: 159-185  - <a href='https://doi.org/10.3897/zookeys.1002.53988' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sampaio ILR, Santos CP, França RC, Pedrosa IMMC, Solé M, França FGR 2018. Ecological diversity of a snake assemblage from the Atlantic Forest at the south coast of Paraíba, northeast Brazil. ZooKeys 787: 107-125  - <a href='https://doi.org/10.3897/zookeys.787.26946' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos, D.L.; S.P. Andrade; E.P. Victor-Jr.; W. Vaz-Silva 2014. Amphibians and reptiles from southeastern Goiás, Central Brazil. Check List 10 (1): 131-148  - <a href='http://www.checklist.org.br/getpdf?SL070-13' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Santos-Barrera, Georgina; Jesus Pacheco, Fernando Mendoza-Quijano, Federico Bolaños,&lt;br /&gt;Gerardo Cháves , Gretchen C. Daily, Paul R. Ehrlich &amp; Gerardo Ceballos 2008. Diversity, natural history and conservation of amphibians and reptiles from the San Vito Region, southwestern Costa Rica. Rev. Biol. Trop. 56 (2): 755-778  - <a href='https://www.academia.edu/30865800/Diversity_natural_history_and_conservation_of_amphibians_and_reptiles_from_the_San_Vito_Region_southwestern_Costa_Rica?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Savage, J.M. 2002. The Amphibians and Reptiles of Costa Rica: A Herpetofauna Between Two Continents, Between Two Seas. University of Chicago Press, 934 pp. [review in Copeia 2003 (1): 205] </li>
+            
+            
+            <li>Savage, Jay M. 2011. The correct species-group name for an Oxyrhopus (Squamata: Dipsadidae) variously called Coluber petalarius, C. pethola, C. petola, or C. petolarius by early authors. Proceedings of the Biological Society of Washington 124 (3): 223-225.  - <a href='http://www.bioone.org/doi/abs/10.2988/11-06.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Señaris, J. Celsa; María Matilde Aristeguieta Padrón, Haidy Rojas Gil y Fernando J. M. Rojas-Runjaic 2018. Guía ilustrada de los anfibios y reptiles del valle de Caracas, Venezuela. Ediciones IVIC, Instituto Venezolano de Investigaciones Científicas (IVIC). Caracas, Venezuela. 348 pp. </li>
+            
+            
+            <li>Silva-Soares, T.; R.B. Ferreira; R.O.L. Salles; C.F.D. Rocha. 2011. Continental, insular and coastal marine reptiles from the municipality of Vitória, state of Espírito Santo, southeastern Brazil. Check List 7 (3): 290-298  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Smith, H. M., WILLIAMS, K. L., &amp; PÉREZ-HIGAREDA, G. 1986. The specific name for the Linnaean Oxyrhopus, or the calico false coral snake. Bull. Maryland Herp. Soc. 22 (1): 10-13.  - <a href='https://www.biodiversitylibrary.org/bibliography/140312#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Smith, Hobart 1942. Mexican herpetological miscellany. Proc. US Natl. Mus. 92 (3153): 349-395  - <a href='http://biodiversitylibrary.org/page/15767069' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Solís, J. M., L. D. Wilson, and J. H. Townsend. 2014. An updated list of the amphibians and reptiles of Honduras, with comments on their nomenclature. Mesoamerican Herpetology 1: 123–144  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Solorzano, A. 2004. Serpientes de Costa Rica - Snakes of Costa Rica. Editorial INBio, Costa Rica, 792 pp. </li>
+            
+            
+            <li>Sorokin, A. and A. Stuckert 2017. Oxyrhopus petolarius (Forest Flame Snake) Predation. Herpetological Review 48 (2): 457  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Starace, Fausto 1998. Guide des Serpents et Amphisbènes de Guyane. IBIS Rouge Editions, Guadeloupe, Guyane, 450 pp. </li>
+            
+            
+            <li>Starace, Fausto 2013. Guide des Serpents et Amphisbènes de Guyane. Ibis Rouge Editions, Matoury, Guyane, ISBN 978-2-84450-407-4  - <a href='http://www.ibisrouge.fr/livre.php?ref=407' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Steinke, Julie A. 2016. A Comparative Study of Herpetofauna in a Primary Forest and Reforested Area in Coastal Ecuador. Journal of Young Investigators 30 (4): 14-19  - <a href='http://www.jyi.org/wp-content/uploads/JYI_Apr2016_14to19.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Stuart, L. C. 1937. Some further notes on the amphibians and reptiles of the Peten Forest of Northern Guatemala. Copeia 1937 (1): 67-70  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sunyer, Javier 2014. An updated checklist of the amphibians and reptiles of Nicaragua. Mesoamerican Herpetology 1 (2): 186–202.  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Taylor,E.H. 1951. A brief review ot the snakes of Costa Rica. Univ. Kansas Sci. Bull. 34 (1): 3-188  - <a href='http://www.biodiversitylibrary.org/bibliography/3179' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torre-Loranca, M.A. de la; Aguirre-León, G. &amp; López-Luna, M.A. 2006. Coralillos verdaderos (Serpentes: Elapidae) y Coralillos falsos (Serpentes: Colubridae) de Veracruz, México. Acta Zoologica Mexicana 22 (3): 11-22  - <a href='http://www1.inecol.edu.mx/azm/contenido-ok.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Carvajal O, Pazmiño-Otamendi G, Salazar-Valenzuela D. 2019. Reptiles of Ecuador: a resource-rich portal, with a dynamic checklist and photographic guides. Amphibian &amp; Reptile Conservation 13 (1): [General Section]: 209–229 (e178)  - <a href='https://www.researchgate.net/profile/Omar_Torres-Carvajal/publication/333247479_Reptiles_of_Ecuador_a_resource-rich_online_portal_with_dynamic_checklists_and_photographic_guides/links/5ce430f3299bf14d95af3b2c/Reptiles-of-Ecuador-a-resource-rich-onlin' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Hernández, LA, Ramírez-Bautista A, Cruz-Elizalde R, Hernández-Salinas U, Berriozabal-Islas C, DeSantis DL, Johnson JD, Rocha A, García-Padilla E, Mata-Silva V, Fucsko LA, and Wilson LD. 2021. The herpetofauna of Veracruz, Mexico: composition, distribution, and conservation status. Amphibian &amp; Reptile Conservation 15(2) [General Section]: 72–155  - <a href='http://amphibian-reptile-conservation.org/pdfs/Volume/Vol_15_no_2/ARC_15_2_[General_Section]_72-155_e285.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Tschudi,J. J. von 1845. Reptilium conspectum quae in republica Peruana reperiuntur er pleraque observata vel collecta sunt in itenere. Archiv für Naturgeschichte 11 (1): 150-170 [reprint 1968, SSAR; sometimes cited as being published in 1846].  - <a href='https://biodiversitylibrary.org/page/14776500' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Urbina-Cardona, J. Nicolás; Mario Olivares-Pérez, Víctor Hugo Reynoso 2006. Herpetofauna diversity and microenvironment correlates across a pasture–edge–interior ecotone in tropical rainforest fragments in the Los Tuxtlas Biosphere Reserve of Veracruz, Mexico. Biological Conservation 132: 61–75  - <a href='https://doi.org/10.1016/j.biocon.2006.03.014' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Valencia-Zuleta A, Jaramillo-Martínez AF, Echeverry-Bocanegra A, Viáfara-Vega R, Hernández-Córdoba O, Cardona-Botero VE, Gutiérrez-Zúñiga J, Castro-Herrera F. 2014. Conservation status of the herpetofauna, protected areas, and current problems in Valle del Cauca, Colombia. Amphibian &amp; Reptile Conservation 8 (2): 1–18 (e87)  - <a href='http://amphibian-reptile-conservation.org/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W. et al. 2007. Herpetofauna, Espora Hydroelectric Power Plant, state of Goiás, Brazil. Check List 3 (4): 338-345  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W.; RM Oliveira, AFN Gonzaga, KC Pinto, FC Poli, TM Bilce, M Penhacek, L Wronski, JX Martins, TG Junqueira, LCC, Cesca VY, Guimarães RD. Pinheiro 2015. Contributions to the knowledge of amphibians and reptiles from Volta Grande do Xingu, northern Brazil Braz. J. Biol., 75 (3) (suppl.): S205-S218  - <a href='http://dx.doi.org/10.1590/1519-6984.00814BM' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Villa, J., Wilson, L.D., Johnson, J.D. 1988. Middle American Herpetology - A Bibliographic Checklist. University of Missouri Press, 132 pp [review in Copeia 1989 (3): 802] </li>
+            
+            
+            <li>Vrcibradic, D.; C.F.D. Rocha; M.C. Kiefer; F.H. Hatano; A.F. Fontes; M. Almeida-Gomes; C.C. Siqueira; J.A.L. Pontes; V.N.T. Borges-Junior; L.O. Gil; T. Klaion; E.C.N. Rubião; M. Sluys. 2011. Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil. Check List 7 (6): 745-749  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Werner, F. 1899. Beschreibung neuer Reptilien und Batrachier. Zool. Anz. 22: 479-484  - <a href='https://www.biodiversitylibrary.org/item/97492#page/9/mode/1up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Werner, FRANZ 1901. Reptilien und Batrachier aus Peru und Bolivien. Abhandl. Ber. Zool. Anthrop. Mus. Dresden, 9 (2): 1-14 [1900]  - <a href='https://doi.org/10.5962/bhl.part.4586' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Werner,F. 1909. Über neue oder seltene Reptilien des Naturhistorischen Museums in Hamburg. Jahrb. Hamb. wiss. Anst. suppl. 2 (Mitt. Naturhist. Mus. Hamb. 1908) 26: 205-247  - <a href='http://archive.org/stream/jahrbuchderhambu26231908hamb#page/208/mode/2up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Whithworth, A. &amp; Beirne, C. 2011. Reptiles of the Yachana Reserve. Global Vision International, 130 pp.  - <a href='http://www.cadwizz.net/frogs/pdf/ReptilesOfYachanaV1HIGH.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Woolrich-Piña, G. A., E. García-Padilla, D. L. DeSantis, J. D. Johnson, V. Mata-Silva, and L. D. Wilson 2017. The herpetofauna of Puebla, Mexico: composition, distribution, and conservation status. Mesoamerican Herpetology 4(4): 791–884  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zacariotti, Rogério Loesch and Rodrigo del Rio do Valle. 2010. Observation of mating in the Calico Snake Oxyrhopus petola Linnaeus, 1758. Herpetology Notes 3: 139-140. </li>
+            
+            
+            <li>Zaher, Hussam; Fausto Erritto BarboI; Paola Sanchez Martínez; Cristiano Nogueira; Miguel Trefaut Rodrigues; Ricardo Jannini Sawaya 2011. Répteis do Estado de São Paulo: conhecimento atual e perspectivas. Biota Neotropica, 11 (1): 1–15.  - <a href='http://dx.doi.org/10.1590/s1676-06032011000500005' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/198391/2524138'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=697011'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.herpven.org/reptiles.htm'>http://www.herpven.org/reptiles.htm</a>
+            </li>
+            
+            <li>
+                    <a href='http://issuu.com/fcastro/docs/www.fernandocastro.org?mode=embed&amp;documentId=080329211718-ac00c6510b2a4a219fc9171d4eef41b9&amp;layout=grey'>http://issuu.com/fcastro/docs/www.fernandocastro.org?mode=embed&amp;documentId…</a>
+            </li>
+            
+            <li>
+                    <a href='http://mysite.verizon.net/vze7ftch/snakes_of_colombia/'>http://mysite.verizon.net/vze7ftch/snakes_of_colombia/</a>
+            </li>
+            
+            <li>
+                    <a href='http://cariari.ucr.ac.cr/~icpucr/sernoven.htm'>http://cariari.ucr.ac.cr/~icpucr/sernoven.htm</a>
+            </li>
+            
+            <li>
+                    <a href='https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Oxyrhopus%20petolarius'>https://bioweb.bio/faunaweb/reptiliaweb/FichaEspecie/Oxyrhopus%20petolarius</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Oxyrhopus+petolarius'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Oxyrhopus&species=petolarius</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Oxyrhopus&amp;species=petolarius">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Oxyrhopus&amp;species=clathratus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Oxyrhopus clathratus</a></li>
+                            <li class='subsubmenu selected'>Oxyrhopus petolarius</li>
+                            <li class='subsubmenu'><a href="/species?genus=Phalotris&amp;species=bilineatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Phalotris bilineatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

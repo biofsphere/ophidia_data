@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Leptophis urostictus | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Leptophis urostictus">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Leptophis&species=urostictus">
+        <meta property="og:image" content="https://reptile-database.reptarium.cz/img/RD-logo.png">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Leptophis&species=urostictus",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Leptophis&species=urostictus");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Leptophis urostictus</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Leptophis urostictus</em> (PETERS, 1873)</h1>
+
+        <div id='gallery' style='float: left;'>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Leptophis urostictus" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Leptophis urostictus</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Leptophis%20urostictus" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Leptophis urostictus&project_id=40" target="_blank">Add your own observation of <br><i>Leptophis urostictus</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>We have no photos, try to find some by Google images search:</span> <a href='http://images.google.com/images?q=Leptophis+urostictus'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae, Colubrinae, Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Ahaetulla urosticta PETERS 1873: 606<br />Leptophis urostictus — BOULENGER 1894: 114<br />Leptophis occidentalis chocoensis OLIVER 1942: 15<br />Thalerophis richardi chocoensis — OLIVER 1948: 227<br />Leptophis ahaetulla chocoensis — ICZN 1958: 270<br />Leptophis ahaetulla chocoensis — PETERS & OREJAS-MIRANDA 1970: 162<br />Leptophis ahaetulla urostictus — MERTENS 1973<br />Leptophis ahaetulla chocoensis — KLUGE 1984: 63<br />Leptophis urostictus — ALBUQUERQUE et al. 2022&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Colombia<br /><br />Type locality: “Bogota” (Colombia); restricted to the Choco area west of Bogota (fide Mertens 1973: 144)<br /><br />chocoensis: Colombia; Type locality: El Río Condoté [Condoto], Camp Peña Lisa, Choco, Colombia (5°06’N, 76°42’W, 100 m asl).
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: ZMB 7786, female<br />Holotype: UMMZ 55528, male [chocoensis]&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>Diagnosis: Leptophis urostictus can be distinguished from its congeners by the following unique combination of character states: (1) head scales narrowly edged with black and with no black spots; the presence of a broad black postocular stripe, occupying half or nearly all of anterior temporal and lower posterior temporal; (2) adult color pattern with no dark dorsal bands; (3) dorsal scale rows v to XI, before scale row reduction from 15 to 11, greenish blue in adults; (4) keeled dorsal scales, except first dorsal row on each side; keels on rows III to XII heavily black (more prominent on the paravertebral scales and less prominent in the rows below and at vertebral row); (5) no loreal scale; (6) ventrals 160–168 in males, 153–166 in females; (7) subcaudals 172–181 in males, 164–180 in females; (8) dorsal scales of tail with no keels; (9) maxillary teeth 22–23; (10) TL/SvL: 95% CI = 0.635–0.663 (n = 11); (11) moderately enlarged spines at first basal row of hemipenial body; (12) asulcate side of hemipenis similar to sulcate side.<br />Comparisons. Leptophis urostictus differs from all members of the L. ahaetulla complex by having dorsal keels on rows III to XII heavily black (more prominent on rows v–vII on each side, and less prominent on rows II–Iv and at vertebral row), before the reduction to 11 dorsal scale rows (Figs. 33–34) (vs. dorsal keels not black or slightly black on these rows). (Albuquerque et al. 2022).<br /><br />Variation and sexual dimorphism. Largest male SvL 1081 mm, TL 696+ mm and largest female SvL 890 mm, TL 620 mm; ventrals 160–168 in males (163.4 ± 3.3, n = 7), 153–166 in females (162.8 ± 4.1, n = 8); subcaudals 172–181 in males (176.5 ± 6.4, n = 2), 164–180 in females (174.7 ± 5.5, n = 7); supralabials 9 (n = 15), and only two specimens with 8 on left side, with fourth–fifth (75.9%, n = 88), and fifth–sixth (24.1%, n = 28) bordering orbit; infralabials 9–12 (10.5 ± 0.8, n = 170), with first 6 (66.7%, n = 20), first 5 (30.0%, n = 9), and first 7 (3.3%, n = 1) contacting first chin shields; preocular 1 (n = 15); postoculars 2 (n = 14) and a single specimen with 3 on both sides; anterior temporal 1 (n = 15); posterior temporals 2 (n = 15); supracephalic scales of AMNH 107935, a male with 1586 mm in total length (tail incomplete), ornamented with numerous small, irregularly shaped black spots, similar to those found in L. bocourti; keels more developed in adult males than females and juveniles. Sexual dimorphism was not evident in the average number of ventrals (F = 0.1233; P = 0.7302) and was not tested to subcaudals due to the low number of specimens with intact tails. (Albuquerque et al. 2022).<br /><br />Coloration in life. Dorsum of the head Cinnamon-Drab (50), with supracephalic scales narrowly edged with black; a broad black postocular stripe, occupying lower edge of upper postocular, upper edge of lower postocular, half or nearly all of anterior and posterior temporals, and upper edges of last two or three supralabials; before dorsal scale row reduction from 15 to 11, rows I–Iv Cyan (148) whereas rows v–XI Cinnamon-Drab (50); keels on rows III to XII heavily black (more prominent on paravertebral scales and less prominent in the rows below and at vertebral row); supralabials and infralabials white to Light Turquoise Green (146); chin and throat white; venter Pale Cyan (157). (Albuquerque et al. 2022).&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy: after PETERS & OREJAS-MIRANDA 1970, STEJNEGER 1933, and Albuquerque et al. 2012. Mertens 1973 implicitly revalidated L. a. urostictus by synonymizing it with the junior synonym L. chocoensis.<br /><br />Habitat: partly arboreal (Harrington et al. 2018, by implication).&nbsp;</td></tr>
+        
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Acuña-Vargas, J. C. 2016. Anfibios y Reptiles asociados a cinco coberturas de la tierra, municipio de Dibulla, La Guajira, Colombia. Acta Zoológica Mexicana (n. s.), 32(2): 133-146  - <a href='https://www.academia.edu/32067976' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Aguilar-López JL, Luría-Manzano R, Pineda E, Canseco-Márquez L 2021. Selva Zoque, Mexico: an important Mesoamerican tropical region for reptile species diversity and conservation. ZooKeys 1054: 127-153  - <a href='https://doi.org/10.3897/zookeys.1054.67916' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Albuquerque, N.R. 2009. New records of Leptophis ahaetulla ahaetulla (Serpentes, Colubridae) for Venezuela, Colombia and the placement of L. a. copei into the synonymy of L. a. ahaetulla. Biota Neotropica 9 (4): 293-297  - <a href='http://www.scielo.br/scielo.php?script=sci_serial&amp;pid=1676-0603&amp;lng=en&amp;nrm=iso' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Albuquerque, Nelson R. de, Paulo Passos, and Steve W. Gotte 2012. Leptophis santamartensis (Serpentes, Colubridae), a Junior Synonym of Leptophis ahaetulla occidentalis. Journal of Herpetology 46 (2): 248-252.  - <a href='http://www.bioone.org/doi/abs/10.1670/10-263' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ALBUQUERQUE, NELSON RUFINO DE; &amp; DANIEL S. FERNANDES 2022. Taxonomic revision of the parrot snake Leptophis ahaetulla (Serpentes, Colubridae) Zootaxa 5153 (1): 001–069  - <a href='https://doi.org/10.11646/zootaxa.5153.1.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Andersson, L.G. 1901. Some new species of snakes from Cameroon and South America, belonging to the collections of the Royal Museum in Stockholm. Bihang till Kongliga Svenska Vet. Akad. Handlingar 27 (4): 1-26  - <a href='https://www.biodiversitylibrary.org/bibliography/13353#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Avila-Pires, Teresa C.S.; Kleiton R. Alves-Silva, Laís Barbosa, Fabrício S. Correa, Jorge F. A. Cosenza, Ana Paula V. Costa-Rodrigues, Aurea A. Cronemberger, Marinus S. Hoogmoed, Geraldo R. Lima-Filho, Adriano O. Maciel, Alexandre F. R. Missassi, Lyw 2018. Changes in Amphibian and Reptile Diversity Over Time in Parque Estadual do Utinga, a Protected Area Surrounded by Urbanization. Herpetology Notes 11: 499-512  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barbour, T. 1916. Amphibians and reptiles of Tobago. Proc. Biol. Soc. Washington 29: 221-224  - <a href='http://www.biodiversitylibrary.org/bibliography/3622' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barbour, T. in: Bangs, Outram; Brown, Wilmont W.; Thayer, John E.; Barbour, Thomas 1905. The Vertebrata of Gorgona Island, Colombia. 1 Introduction. Mammalia. 2. Physical aspect and climate; Fauna. 3 Aves. 4 Reptilia; Amphibia. Bull. Mus. Comp. Zool. Harvard 46 (5): 87-102  - <a href='http://www.biodiversitylibrary.org/bibliography/2803' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Barquero-González, J.P., Stice, T.L., Gómez, G., &amp; Monge-Nájera, J. 2020. Are tropical reptiles really declining? A six-year survey of snakes in a tropical coastal rainforest: role of prey and environment. Revista de Biología Tropical, 68(1): 336-343; doi:10.20944/preprints201908.0123.v1  - <a href='https://investiga.uned.ac.cr/urbanecology/wp-content/uploads/sites/30/2020/03/Barquero-et-al-2020-Tropical-reptiles-declining.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Beebe, William 1946. Field notes on the snakes of Kartabo, British Guiana, and Caripito, Venezuela. Zoologica 31: 11-52  - <a href='https://www.biodiversitylibrary.org/bibliography/42858#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bell, T. 1825.  Zool. Jour., London, 2: 328 </li>
+            
+            
+            <li>Bellini, Gisela Paola; Vanesa Arzamendia and Alejandro Raúl Giraudo 2019. Reproductive life history of snakes in temperate regions: what are the differences between oviparous and viviparous species? Amphibia-Reptilia 40 (3): 291–303  - <a href='https://doi.org/10.1163/15685381-20181076' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bernal Carlo A. &amp; Roze J A. 1994. A new Leptophis (Serpentes: Colubridae) from Sierra Nevada de Santa Marta, Colombia. Bull. Maryland Herp. Soc. 30 (1): 46-49.  - <a href='https://www.biodiversitylibrary.org/bibliography/140312#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Serpentes do Estado de Rondônia, Brasil. Biota Neotropica 12 (3): 1-29  - <a href='http://www.biotaneotropica.org.br/v12n3/pt/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bernarde, Paulo Sérgio;, Reginaldo Assêncio Machado &amp; Luiz Carlos Batista Turci 2011. Herpetofauna da área do Igarapé Esperança na Reserva Extrativista Riozinho da Liberdade, Acre – Brasil. Biota Neotropica 11 (3): 117-144  - <a href='http://www.biotaneotropica.org.br/v11n3/pt/abstract?article+bn02111032011' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bérnils, Renato S.;Antônio de Pádua Almeida João Luiz Gasparini Ana Carolina Srbek-AraujoCarlos Frederico D. Rocha Miguel Trefaut Rodrigues 2014. RÉPTEIS NA RESERVA NATURAL VALE, LINHARES, ESPÍRITO SANTO, BRASIL. Ciência &amp; Ambiente 49: 93-210  - <a href='https://www.academia.edu/20023144/Répteis_na_Reserva_Natural_Vale_Linhares_Esp%C3%ADrito_Santo_Brasil?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Blanco-Torres, Argelina; Lina Báez S., Edgar Patiño-Flores, Juan M. Renjifo-R. 2013. Herpetofauna from the middle valley of the Ranchería river, La Guajira, Colombia. Rev. Biodivers. Neotrop. 3 (2): 113-22  - <a href='https://doi.org/10.18636/bioneotropical.v3i2.150' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bogert, Charles M. (Charles Mitchill); Cowles, Raymond B. (Raymond Bridgman) 1947. Moisture loss in relation to habitat selection in some Floridian reptiles. American Museum novitates (1358)  - <a href='http://digitallibrary.amnh.org/dspace/handle/2246/9' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boos, H.E.A. 2001. The snakes of Trinidad and Tobago. Texas A&amp;M University Press, 270 pp. </li>
+            
+            
+            <li>Bory de Saint-Vincent, J. B. G. M. 1823. Dictionnaire Classique d’Histoire Naturelle. Vol. 4. Rey et Gravier, Paris. </li>
+            
+            
+            <li>Boulenger, G.A. 1894. List of reptiles and batachians collected by Dr. T. Bohls near Asuncion, Paraguay. Ann. Mag. nat. Hist. (6) 13: 342-348  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, George A. 1894. Catalogue of the snakes in the British Museum (Natural History). Volume II., Containing the Conclusion of the Colubridæ Aglyphæ. British Mus. (Nat. Hist.), London, xi, 382 pp.  - <a href='https://www.biodiversitylibrary.org/bibliography/8316#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, George A. 1898. An account of the reptiles and batrachians collected by Mr. W. F. H. Rosenberg in western Ecuador. Proc. Zool. Soc. London 1898: 107-126  - <a href='http://www.biodiversitylibrary.org/bibliography/44963' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Campbell, J.A. 1998. Amphibians and reptiles of northern Guatemala, the Yucatán, and Belize. Norman: University of Oklahoma Press, xiii + 380 pp.  - <a href='http://web.b.ebscohost.com/ehost/ebookviewer/ebook/bmxlYmtfXzE1NjUzX19BTg2?sid=9f5edf15-862d-4a45-a1e9-ef99551e1750@sessionmgr120&amp;vid=0&amp;format=EB&amp;rid=1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cano, Paula Daniela; Héctor Alejandro Ball, Matías Federico Carpinetto, Germán Darío Peña 2015. Reptile checklist of Río Pilcomayo National Park, Formosa, Argentina. Check List 11 (3): 1658  - <a href='http://biotaxa.org/cl/article/view/11.3.1658' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CARREIRA, S., M. MENEGHEL AND F. ACHAVAL 2005. Reptiles de Uruguay. DI.R.A.C., Facultad de Ciências Ed., Montevideo, 637 pp. </li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carvajal-Cogollo, J.E.; L.E. Rojas-Murcia. &amp; G. Cárdenas-Arévalo 2020. Reptiles del Caribe colombiano/ Reptiles of the Colombian Caribbean. Tunja: Editorial UPTC, 268 pp.  - <a href='https://www.researchgate.net/publication/344012043_Libro_Reptiles_del_CaribeReptiles_of_the_Colombian_Caribbean?fbclid=IwAR0lzaOmeZJtAmhxNUezfcwfTP2IegGPuY-UMPLa7L6hqXLAAsJWwtsvtbE' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Casas-Andreu, G., F.R. Méndez-De la Cruz and X. Aguilar-Miguel. 2004. Anfibios y Reptiles; pp. 375–390, in A.J.M. García-Mendoza, J. Ordoñez and M. Briones-Salas (ed.). Biodiversidad de Oaxaca. Instituto de Biología, UNAM-Fondo Oaxaqueño para la Conservación de la Naturaleza-World Wildlife Fund, México, D. F. </li>
+            
+            
+            <li>Castro-Herrera, F. &amp; Vargas-Salinas, F. 2008. Anfibios y reptiles en el departamento del Valle del Cauca, Colombia. Biota Colombiana 9 (2): 251 - 277  - <a href='https://www.academia.edu/7541237/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Castro-Herrera, F.; Bolívar-García, W. &amp; Herrera-Montes, M.I. 2007. Guía de los Anfibios y Reptiles des Bosque de Yotoco, Valle deel Cauca, Colombia. Universidad del Valle, Cali, Colombia, 70 pp.  - <a href='https://issuu.com/fcastro/docs' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CASTRO-HERRERA, FERNANDO; ANYELET VALENCIA-AGUILAR, DIEGO VILLAQUIRAN-Martínez 2012. Diversidad de Anfibios y Reptiles del Parque Nacional Natural Isla Gorgona. Universidad del Valle, Santiago de Cali, Valle del Cauca, 112 pp.  - <a href='https://www.researchgate.net/publication/263848451' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CATENAZZI, A., LEHR, E. &amp; VON MAY, R. 2013. The amphibians and reptiles of Manu National Park and its buffer zone, Amazon basin and eastern slopes of the Andes, Peru. Biota Neotropica 13 (4): 269-283 </li>
+            
+            
+            <li>Chaloupka, Sarah; Camilo Rodríguez 2021. Predation by Leptophis ahaetulla (Serpentes: Colubridae) on Osteocephalus cabrerai (Anura: Hylidae), with a description of its distress call. Herpetology Notes 14: 209-213  - <a href='https://www.biotaxa.org/hn/article/view/64978' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Claessen, H. 2003. De slangen van de Guyanas Deel VI. Lacerta 61 (5): 177-187  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Clegg, Jonathan R. 2015. Leptophis ahaetulla marginatus (Southern green parrot snake): Behaviour. Herpetological Bulletin (131)  - <a href='http://www.thebhs.org/index.php?option=com_docman&amp;Itemid=35' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cole, Charles J.; Carol R. Townsend, Robert P. Reynolds, Ross D. MacCulloch, and Amy Lathrop 2013. Amphibians and reptiles of Guyana, South America: illustrated keys, annotated species accounts, and a biogeographic synopsis. Proceedings of the Biological Society of Washington 125  (4): 317-578; plates: 580-620  - <a href='http://www.bioone.org/doi/abs/10.2988/0006-324X-125.4.317' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Colston, Timothy J.; José António L. Barão-Nóbrega, Ryan Manders, Alice Lett, Jamie Wilmott, Gavin Cameron, Sidony Hunter, Adam Radage, Etienne Littlefair, Robert J. Williams, Antonio Lopez Cen, Kathy Slater 2015. Amphibians and reptiles of the Calakmul Biosphere Reserve, México, with new records. Check List 11 (5): 1759  - <a href='http://www.biotaxa.org/cl/article/view/11.5.1759/16051' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1862. Catalogues of the reptiles obtained during the explorations of the Parana Paraguay, Vermejo and Uruguay rivers, by Capt. Thos. J. Page, U.S.N.; and of those procured by Lieut. N. Michier, U. S. Top. Eng., Commander of the expedition conducting the su Proc. Acad. Nat. Sci. Philadelphia 14: 346-359.  - <a href='https://www.biodiversitylibrary.org/part/16874' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1868. Sixth contribution to the herpetology of Tropical America. Proc. Acad. Nat. Sci. Philadelphia 20: 305-313  - <a href='https://www.biodiversitylibrary.org/page/9768454' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1875. Report on the Reptiles brought by Professor James Orton from the middle and upper Amazon and western Peru. Journal of the Academy of Natural Sciences of Philadelphia N.S. (2) 8: 159-183 [sometimes thought to be published 1876 but see Murphy et al. 2007 for clarification]  - <a href='http://biodiversitylibrary.org/page/37078876' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cope, E.D. 1894. Third addition to a knowledge of the batrachia and reptilia of Costa Rica. Proc. Acad. Nat. Sci. Philadelphia 1894: 194-206  - <a href='http://www.biodiversitylibrary.org/bibliography/6885' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Costa, Taís Borges; Daniel Orsi Laranjeiras, Francis Luiz Santos Caldas, Daniel Oliveira Santana, Cristiana Ferreira da Silva, Edna Paulino de Alcântara, Samuel Vieira Brito, Jéssica Yara Galdino, Daniel Oliveira Mesquita, Renato Gomes Faria, Frederi 2018. Herpetofauna of protected areas in the Caatinga VII: Aiuaba Ecological Station (Ceará, Brazil). Herpetology Notes 11: 929-941  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cruz-Lizano, Ivan, José F. Gonzalez-Maya and Armando H. Escobedo-Galván. 2013. Leptophis ahaetulla (giant parrotsnake) reproduction. Herpetological Review 44 (2): 332  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>D'Assunçäo, Mariana Miranda, Leonardo Da Silva Chaves and Geraldo Jorge Barbosa De Moura. 2014. Leptophis ahaetulla (parrot snake) diet. Herpetological Review 45 (4): 711  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>de Alcantara, E.P., Ferreira-Silva, C., Machado, H.T. &amp; Morais, D.H. 2017. Leptophis ahaetulla (Parrot Snake) Diet. Herpetological Review 48 (4): 860  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>De Sousa Germano, C. E. and F. G. R. Franca 2017. Leptophis ahaetulla (Parrot Snake) Diet and mortality. Herpetological Review 48 (2): 452  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dirksen, L. 2003. Marajó - heiss-feuchtes Amazonas-Paradies. Reptilia (Münster) 8 (40): 75-81  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W. E. 1978. The biology of an equatorial herpetofauna in Amazonian Ecuador. Misc. Publ. Univ. Kans. Mus. Nat. Hist. 65: 1-352  - <a href='http://www.biodiversitylibrary.org/bibliography/4050' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W.E. 2012. Linnaean Names in South American Herpetology. Bibliotheca Herpetologica 9 (1-2): 87-97  - <a href='http://www.t-ad.net/ishbh/pub.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Duellman, W.E., &amp; Salas, A.W. 1991. Annotated checklist of the amphibians and reptiles of Cuzco Amazonico, Peru. Occas. Papers Mus. of Natur. Hist., Univ. of Kansas, Lawrence (143): 13 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/4672' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Espinal, Mario; José M. Solís, Carlos M. O’Reilly, Leonel Marineros, and Hermes Vega 2014. New distributional records for amphibians and reptiles from the department of Santa Bárbara, Honduras. Mesoamerican Herpetology 1 (2): 300  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Eversole, C B; Lizzaro, D; Powell, R L &amp; Crocker, A V 2018. Leptophis ahaetulla (Parrot Snake) Diet. Herpetological Review 49 (2): 345  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fischer, J. G. 1881. Beschreibung neuer Reptilien. Archiv für Naturgeschichte 47 (1): 225-238  - <a href='http://www.biodiversitylibrary.org/bibliography/6638' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fonseca, Wirven Lima da; Julivaldo Dantas da Silva, Arthur Diesel Abegg, Conrado Mario da Rosa, Paulo Sergio Bernarde 2019. Herpetofauna of Porto Walter and surrounding areas, Southwest Amazonia, Brazil. Herpetology Notes 12: 91-107  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, F.G.R.; Mesquita, Daniel Oliveira and Guarino Rinaldi Colli 2006. A CHECKLIST OF SNAKES FROM AMAZONIAN SAVANNAS IN BRAZIL, HOUSED IN THE COLEÇÃO HERPETOLÓGICA DA UNIVERSIDADE DE BRASÍLIA, WITH NEW DISTRIBUTION RECORDS. Occ. Pap. Oklahoma Mus. Nat. Hist., Univ. Oklahoma 17: 1-13 </li>
+            
+            
+            <li>Freiberg, M.A. 1982. Snakes of South America. T.F.H. Publications, Neptune City, NJ, 189 pp.  - <a href='https://doi.org/10.2307/1444313' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Guarino R. Colli, Omar Machado Entiauspe-Neto, Luiz Trinchão, Daniel Araújo, Tiago de Oliveira Lima, Daniella Pereira Fagundes de França, Renato Gaiga, Pedro Dias 2016. Snakes of Cerrado localities in western Bahia, Brazil. Check List 12 (3): 1896  - <a href='http://www.biotaxa.org/cl/article/view/12.3.1896' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antônio; Omar Machado Entiauspe-Neto, Tiago de Oliveira Lima, José Soares da Silva Neto, Daniel Araujo &amp; Jonathan Márcio Soares da Silva 2016. Snakes of Juazeiro, Bahia, Middle of São Francisco River, Brazil. Bol. Mus. Biol. Mello Leitão (N. Sér.) 38(4): 331-345. </li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gadow, H. 1909. Amphibia and Reptilia. MacMillan, London,  668 pp.  - <a href='http://biodiversitylibrary.org/page/23288091' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gasc &amp; Rodrigues 1980. Liste preliminaire des Serpents de la Guyane francaise. Bull. Mus. Nat. Hist. Nat. Paris 2 (4): 559-598 </li>
+            
+            
+            <li>Gemel, R.; G. Gassner &amp; S. Schweiger 2019. Katalog der Typen der Herpetologischen Sammlung des Naturhistorischen Museums Wien – 2018. Ann. Naturhist. Mus. Wien, B 121: 33–248 </li>
+            
+            
+            <li>Gómez-Hoyos, Diego A.; Sergio Escobar-Lasso, Tatiana Suarez-Joaqui, Julián A. Velasco 2015. Predation on the bush anole Polychrus gutturosus by the parrot snake Leptophis ahaetulla, with a new record of the bush anole for the Gorgona Island National Natural Park, Colombia. Herpetology Notes 8: 297-301  - <a href='http://www.biotaxa.org/hn/issue/view/1288' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>González-Sánchez, V. H., J. D. Johnson, E. García-Padilla, V. Mata-Silva, D. L. DeSantis and L. D. Wilson. 2017. The Herpetofauna of the Mexican Yucatan Peninsula: composition, distribution, and conservation status. Mesoamerican Herpetology 4(2): 264–380  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gorzula, Stefan &amp; Senaris, J. Celsa 1999. In: Contribution to the herpetofauna of the Venezuelan Guayana. I: a data base. Scientia Guaianae, Caracas, No. 8 [1998], 269+ pp.; ISBN 980-6020-48-0 </li>
+            
+            
+            <li>Gray, J. E. 1831. A synopsis of the species of Class Reptilia. In: Griffith, E &amp; E. Pidgeon: The animal kingdom arranged in conformity with its organisation by the Baron Cuvier with additional descriptions of all the species hither named, and of many before noticed [V Whittaker, Treacher and Co., London: 481 + 110 pp. [1830] </li>
+            
+            
+            <li>Griffin, L.F. 1916. A catalog of the Ophidia from South America at present (June 1916) contained in the Carnegie Museum with descriptions of some new species. Mem. Carnegie Mus. 7 (3) [1915]: 163-228  - <a href='http://biodiversitylibrary.org/page/12301985' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Guerra Centeno, Dennis; Héctor Fuentes Rousselin &amp; David Morán Villatoro 2012. Serpientes de Guatemala: Guía para didentificación de especies. Universidad de San Carlos de Guatemala, 186 pp. </li>
+            
+            
+            <li>Günther,A. 1859. Second list of cold-blooded vertebrata collected by Mr. Fraser in the Andes of Western Ecuador. Proc. Zool. Soc. London 1859: 402-422  - <a href='http://www.biodiversitylibrary.org/bibliography/44963' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Harrington, Sean M; Jordyn M de Haan, Lindsey Shapiro, Sara Ruane 2018. Habits and characteristics of arboreal snakes worldwide: arboreality constrains body size but does not affect lineage diversification. Biological Journal of the Linnean Society 125 (1): 61–71  - <a href='https://doi.org/10.1093/biolinnean/bly097' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Heimes, P. 2016. Snakes of Mexico. Chimaira, Frankfurt, 572 pp </li>
+            
+            
+            <li>Henderson, C.L. 2010. Mammals, Amphibians, and Reptiles of Costa Rica - A field guide. University of Texas Press, Austin, 198 pp. </li>
+            
+            
+            <li>Hilje B, Chaves G, Klank J, Timmerman F, Feltham J, Gillingwater S, Piraino T, Rojas E 2020. Amphibians and Reptiles of the Tirimbina Biological Reserve: a baseline for conservation, research and environmental education in a lowland tropical wet forest in Costa Rica. Check List 16(6): 1633-1655  - <a href='https://doi.org/10.15560/16.6.1633' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Höbel, G. 2008. The amphibians and reptiles of the Golfo Dulce region - Los anfibios y reptiles de la región del Golfo Dulce. Stapfia 88, Neue Serie 80 (2008): 305-328 </li>
+            
+            
+            <li>Hoge,A.R. 1959. ÉTUDE sur Uromacerina ricardinii PERACCA (Serpentes). Mem. Inst. Butantan 28 [1957-1958]: 77-79  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ICZN 1950.  Opinion 524: 270 </li>
+            
+            
+            <li>Johnson, Jerry D.; Vicente Mata-Silva, Elí García Padilla, and Larry David Wilson 2015. The Herpetofauna of Chiapas, Mexico: composition, distribution, and conservation. Mesoamerican Herpetology 2 (3): 272–329.  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jorge, R F; Junior, S G F &amp; Sampaio, A A; 2019. Leptophis ahaetulla (Giant Parrot Snake) Attempted predation. Herpetological Review 50 (1): 160  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>JUSTINEK, UWE 2020. Für 6 Tage auf Schlangensuche in Costa Rica. Ophidia 14 (1): 15-26 </li>
+            
+            
+            <li>Kluge, Arnold G. 1984. Type-specimens of reptiles in the University of Michigan Museum of Zoology. [type catalogue] Miscellaneous publications, Museum of Zoology, University of Michigan (167): 1-85  - <a href='https://deepblue.lib.umich.edu/handle/2027.42/56411' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Köhler, G. 2008. Reptiles of Central America. 2nd Ed. Herpeton-Verlag, 400 pp. </li>
+            
+            
+            <li>Koller, Rene 2005. Herpetologoische waarnemingen in Belize, deel 2: reptielen. Lacerta 63 (1): 4-19  - <a href='http://www.lacerta.nl/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=176' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Kornacker, Paul M.;Dederichs, Ursula 1997. Herpetologische Eindrücke einer Venezuelareise. Elaphe 5 (3): 87-96 </li>
+            
+            
+            <li>Kunz, Tobias Saraiva;&lt;br /&gt;Ivo Rohling Ghizoni-Jr.,&lt;br /&gt;Walter Luis Alves dos Santos &amp; Paulo Afonso Hartmann 2007. Nota sobre a coleção herpetológica da Universidade Federal de Santa Catarina (UFSC). Biotemas, 20 (3): 127-132  - <a href='https://www.academia.edu/26988510' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lee, J. C. 2000. A field guide to the amphibians and reptiles of the Maya world. Cornell University Press, Ithaca, </li>
+            
+            
+            <li>Lee, J.C. 1996. The amphibians and reptiles of the Yucatán Peninsula. Comstock, Cornell University Press, Ithaca, 500 pp. </li>
+            
+            
+            <li>Lehr, E. 2002. Amphibien und Reptilien in Peru. Natur und Tier-Verlag (Münster), 208 pp.  - <a href='http://www.ms-verlag.de/index.php?58&amp;backPID=58&amp;tt_products=463' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Leon, Marcela and Alejandro Solorzano. 2014. Leptophis ahaetulla. Behavior. Mesoamerican Herpetology 1 (1): 158-160  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Leynaud, Gerardo C. and Enrique H. Bucher 1999. La fauna de serpientes del Chaco Sudamericano: diversidad, distribución geografica y estado de conservación. Academia Nacional de Ciencias Miscelanea (98):1-46 </li>
+            
+            
+            <li>Linardi, Juliana Lehn 2016. Leptophis ahaetulla marginatus: Parrot snake reproduction data. Herpetological Bulletin (135)  - <a href='http://www.thebhs.org/index.php?option=com_docman&amp;Itemid=35' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Linnaeus, C. [= Linné, C. von] 1758. Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Tomus I. Editio decima, reformata. Laurentii Salvii, Holmiæ. 10th Edition: 824 pp.  - <a href='http://www.biodiversitylibrary.org/bibliography/35518#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lönnberg, E. 1902. On a collection of snakes from north-western Argentina and Bolivia containing new species. Ann. Mag. nat. Hist. (7) 10: 457-462  - <a href='http://biodiversitylibrary.org/page/19339266' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Madella-Auricchio, Cláudia Renata; Paulo Auricchio Enio Saraiva Soares 2017. Reptile species composition in the Middle Gurguéia and comparison with inventories in the eastern Parnaíba River Basin, State of Piauí, Brazil. Papéis Avulsos de Zoologia 57(28): 375-386,  - <a href='https://doi.org/10.11606/0031-1049.2017.57.28' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Markezich, A.L. 2002. New distribution records of reptiles from Western Venezuela. Herpetological Review 33 (1): 69-74  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mata-Silva, Vicente, Jerry D. Johnson, Larry David Wilson and Elí García-Padilla. 2015. The herpetofauna of Oaxaca, Mexico: composition, physiographic distribution, and conservation status. Mesoamerican Herpetology 2 (1): 6–62  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mattos, Fábio S.; Adrian A. Barnett &amp; Diego A. Ortiz 2017. Active male-male competition for mate access in the giant parrot snake Leptophis ahaetulla (Squamata: Colubridae), in the southwest Amazon, Brazil. Herpetological Bulletin (140):  - <a href='https://www.thebhs.org/publications/the-herpetological-bulletin/issue-number-140-summer-2017' target='_blank'>get paper here</a></li>
+            
+            
+            <li>McCranie J R 2011. The snakes of Honduras. SSAR, Salt Lake City, 725 pp. </li>
+            
+            
+            <li>McCranie, J. &amp; Castañeda, F.E. 2005. The herpetofauna of Parque Nacional Pico Bonito, Honduras. Phyllomedusa 4 (1): 3-16  - <a href='http://www.phyllomedusa.esalq.usp.br/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>McCranie, James R. 2015. A checklist of the amphibians and reptiles of Honduras, with additions, comments on taxonomy, some recent taxonomic decisions, and areas of further studies needed. Zootaxa 3931 (3): 352–386  - <a href='http://dx.doi.org/10.11646/zootaxa.3931.3.2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Medina-Rangel, Guido Fabián 2013. CAMBIO EstACIOnAl En El UsO DE lOs RECURsOs DE lA COMUnIDAD DE REptIlEs En El COMplEJO CEnAgOsO DE ZApAtOsA, DEpARtAMEntO DEl CEsAR (Colombia). Caldasia 35 (1): 103-122  - <a href='https://www.jstor.org/journal/caldasia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mendes-Pinto, T. J. &amp; S. Marques de Souza 2011. Preliminary assessment of amphibians and reptiles from Floresta Nacional do Trairão, with a new snake record for the Pará state, Brazilian Amazon. Salamandra 47 (4): 199-206  - <a href='http://salamandra-journal.com/index.php/home/contents/2011-vol-47/mendes-pinto-t-j-s-marques-de-souza' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Meneghel, Melitta D.;Achaval, Federico 1997. Geographic Distribution. Leptophis ahaetulla marginatus. Herpetological Review 28 (2): 98  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mertens, R. 1972. Herpetofauna tobagana. Stuttgarter Beitr. zur Naturkunde nr. 252 22 pp.  - <a href='http://biodiversitylibrary.org/page/33729655' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mertens, R. 1973. Bemerkenswerte Schlanknattern der neotropischen Gattung Leptophis. Stud. Neotrop. Fauna 8: 141-154.  - <a href='https://doi.org/10.1080/01650527309360458' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mesquita , P.; Passos, D.C.; Borges-Nojosa, D. M. &amp; Cechin, S.Z. 2013. Ecologia e história natural das serpentes de uma área de Caatinga no nordeste brasileiro Papeis Avulsos de Zoologia 53 (8): 99-113  - <a href='https://www.academia.edu/4158902/Ecologia_e_história_natural_das_serpentes_de_uma_área_de_Caatinga_no_nordeste_brasileiro?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mesquita, Daniel Oliveira; Brygida Alves, Carmem Pedro, Daniel Laranjeiras, Francis Caldas, Isabella Pedrosa, Jefter Rodrigues, Leandro Drummond, Lucas Cavalcanti, Milena Wachlevski, Paulo Nogueira-Costa, Rafaela França, Frederico França 2018. Herpetofauna in two habitat types (tabuleiros and Stational Semidecidual Forest) in the Reserva Biológica Guaribas, northeastern Brazil. Herpetology Notes 11: 455-474  - <a href='https://www.biotaxa.org/hn/issue/view/4829' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Metcalf, Matthew; Alexander Marsh, Emerson Torres, Devon Graham, Charles Gunnels 2020. Herpetofauna of the Santa Cruz Forest Preserve in the Peruvian Amazon Basin. Herpetology Notes 13: 753-767  - <a href='https://www.biotaxa.org/hn' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Miranda, Daniele Bazzo; Nathocley Mendes Venâncio, Saymon de Albuquerque 2014. Rapid survey of the herpetofauna in an area of forest management in eastern Acre, Brazil. Check List 10 (4): 893-899  - <a href='http://www.biotaxa.org/cl/article/view/10.4.893' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, S.A.A.; Calixto, P.O.; Mendes, L.R.; Gomes, R.; Galatti, U.; Trein, F.L.; Oliveira, F.S.; Ferreira, G.N. 2014. Guia fotográfico de identificação da herpetofauna da Floresta Nacional de Saracá-Taquera, Estado do Pará. Curitiba: STCP Engenharia de Projetos Ltda.; Porto Trombetas: MRN – Mineração Rio do Norte S.A.; 213 p.  - <a href='http://www.stcp.com.br/upload/externo/guia-de-anfibios-e-repteis-flona-saraca-taquera.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Guilherme Nunes Ferreira; Michela Rossane Cavilha Scupino (eds.) 2018. Herpetofauna da Amazônia Central: Estudos na FLONA de Saracá-Taquera. Curitiba, Pr: STCP Engenharia de Projetos Ltda.; Porto Trombetas, Pa: MRN – Mineração Rio do Norte S.A., 2018.&lt;br /&gt;210p.  - <a href='https://archive.org/details/MoratoEtAl2018HerpetofaunaFLONASaracTaqueraAmazniaCentral' target='_blank'>get paper here</a></li>
+            
+            
+            <li>MURPHY R. W., SMITH A. and NGO A. 2007. The versions of Cope's Batrachia and Reptilia of Costa Rica. Bibliotheca Herpetologica 7 (1):  - <a href='http://www.t-ad.net/ishbh/pub.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Natera-Mumaw, Marco; Luis Felipe Esqueda-González &amp; Manuel Castelaín-Fernández 2015. Atlas Serpientes de Venezuela. Santiago de Chile, Dimacofi Negocios Avanzados S.A., 456 pp.  - <a href='https://www.researchgate.net/publication/274073284_Book_Atlas_Serpientes_de_Venezuela_1ra_Edicion_abril_2015_Portada_en_baja_resolucion_Comunicarse_al_email_luisfesquedagmailcom' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nicholson, Kirsten E., James R. McCranie and Gunther Köhler 2000. Herpetofaunal expedition to Parque Nacional Patuca: a newly established park in Honduras. Herpetological Bulletin (72): 26-31.  - <a href='https://www.researchgate.net/profile/Kirsten_Nicholson2/publication/284677244_Herpetofaunal_expedition_to_Parque_Nacional_Patuca_a_newly_established_park_in_Honduras/links/5655f5e808ae1ef92979ba7c.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira Lula Salles, R. de &amp; Silva-Soares, T. 2010. Répteis do município de Duque de Caxias, Baixada Fluminense, Rio de Janeiro, Sudeste do Brasil. Biotemas, 23 (2): 135-144 </li>
+            
+            
+            <li>Oliveira Lula Salles, R. de; Weber, L.N. &amp; Silva-Soares, T. 2010. Reptiles, Squamata, Parque Natural Municipal da Taquara, municipality of Duque de Caxias, state of Rio de Janeiro, Southeastern Brazil. Check List 6 (2): 280-286  - <a href='http://www.checklist.org.br/archive' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Cicero Ricardo de, Herivelto Faustino De Oliveira, Marciana Claudio Da Silva, Rosa Hermina De Oliveira and Robson Waldemar Ávila. 2014. Leptophis ahaetulla (green snake) diet. Herpetological Review 45 (3): 517  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Jane C.F.; Rodrigo Castellari Gonzalez; Paulo Passos; Davor Vrcibradic &amp; Carlos Frederico Duarte Rocha 2020. Non-Avian Reptiles of the state of Rio de Janeiro, Brazil: status of knowledge and commented list. Pap. Avulsos Zool. 60: e20206024  - <a href='http://doi.org/10.11606/1807-0205/2020.60.24' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Roberto Baptista de; Christian Beier, Giancarlo Ribeiro Bilo, Tiago Gomes dos Santos, Gláucia Maria Funk Pontes 2016. Leptophis ahaetulla (Linnaeus, 1758) (Serpentes, Colubridae): first record for the state of Rio Grande do Sul, Brazil. Check List 12 (1):  - <a href='http://www.biotaxa.org/cl/article/view/12.1.1838' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliver, J. A. 1942. A check list of the snakes of the genus Leptophis, with descriptions of new forms. Occ. Pap. Mus. Zool., Univ. Michigan (No. 462): 19 pp.  - <a href='http://deepblue.lib.umich.edu/bitstream/2027.42/56901/1/OP462.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliver, J. A. 1948. The relationships and zoogeography of the genus Thalerophis Oliver. Bull. Amer. Mus. Nat. Hist. 92: 157-280.  - <a href='https://digitallibrary.amnh.org/handle/2246/7' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliver, J.A. 1947. The Status of Leptophis Bell. Copeia 1947 (1): 64  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>O’Shea, M. 2018. The Book of Snakes. Ivy Press / Quarto Publishing, London,  - <a href='https://www.quartoknows.com/books/9781782405597/The-Book-of-Snakes.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pachmann, A. 2012. Brüllaffen, Klappschildkröten und Vulkane. Reptilia (Münster) 17 (95): 16-17  - <a href='http://www.ms-verlag.de/index.php?88&amp;backPID=88&amp;tt_products=3752' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Palacio-Baena, Jaime Alberto; Eliana María Muñoz Escobar; Sandra Milena Gallo Delgado; Mauricio Rivera Correa 2006. ANFIBIOS Y REPTILES DEL VALLE DE ABURRÁ Editorial Zuluaga, 92 pp.  - <a href='https://www.academia.edu/4112619' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pedroza-Banda, Raúl; Jhon Jairo Ospina-Sarria, Teddy Angarita-Sierra, Marvin Anganoy-Criollo, John D. Lynch 2014. Estado de la fauna de anfibios y reptiles del Casanare Ciencias naturales Estado del conocimiento de la fauna de anfibios y reptiles del departamento de Casanare, Colombia. Rev. Acad. Colomb. Cienc. 38 (146): 17-34  - <a href='http://www.yoluka.org.co//dropbox/publicaciones/Articulos/Ra__l_Pedroza_Banda_Jhon_Jairo_Ospina_Sarria_Teddy_Angarita_Sierra_Marvin_Anganoy_Criollo__John_D._Lynch_Estado_del_conocimiento_de_la_fauna_de_anfibios_y_reptiles_del_departamento_de_Casanare' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Santos,C. &amp; Moreno, A.G. 1988. Ofidios de Colombia. Museo reegionale di Scienze Naturali, Torino, Monographie VI, 517 pp. </li>
+            
+            
+            <li>Peters, Wilhem Carl Hartwig 1873. Über eine neue Schildkrötenart, Cinosternon effeldtii und einige andere neue oder weniger bekannte Amphibien. Monatsber. königl. Akad. Wiss. Berlin. 1873 (October): 603-618  - <a href='http://www.biodiversitylibrary.org/bibliography/48522' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pfistner, W.-D. 1980. Anmerkungen zur Pflege von Leptophis mexicanus und L. ahaetulla. Herpetofauna 2 (7): 12-14  - <a href='https://herpetofauna.de/artikelsuche/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pinto-Erazo, M.A., Calderón-Espinosa, M.L., Medina-Rangel, G.F. &amp; Méndez-Galeano, M.A. 2020. Herpetofauna from two municipalities of southwestern Colombia. Biota Colombiana 21(1): 41-57. DOI: 10.21068/c2020.v21n01a04  - <a href='https://s3.amazonaws.com/academia.edu.documents/63360655/v21n1a420200519-78234-v1rmcr.pdf?response-content-disposition=inline%3B%20filename%3DHerpetofauna_from_two_municipalities_of.pdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIATUSBJ6BAKQ' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Platt, Steven G., Thomas R. Rainwater, Jan C. Meerman and Stanlee M. Miller. 2016. Nature Notes. Notes on the diet, foraging behavior, and venom of some snakes in Belize. Mesoamerican Herpetology 3 (1): 162–170  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pogoda, P. 2018. Auf Expedition in der „verlorenen Welt“ – herpetologische Eindrücke aus dem Naturreservat Iwokrama in Zentral-Guyana. Reptilia 23 (129): 70-79 </li>
+            
+            
+            <li>Pontes, J.A.L.; Figueiredo, J.P., Pontes, RC. and Rocha, C.F.D. 2008. Snakes from the Atlantic Rainforest area of Serra do Mendanha, in Rio de Janeiro state, southeastern Brazil: a first approximation to the taxocenosis composition. Braz. J. Biol. 68(3): 601-609  - <a href='http://www.scielo.br/scielo.php?script=sci_serial&amp;pid=1519-6984&amp;lng=en&amp;nrm=iso' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rabosky, Daniel L.; Rudolf von May, Michael C. Grundler and Alison R. Davis Rabosky 2019. The Western Amazonian Richness Gradient for Squamate Reptiles: Are There Really Fewer Snakes and Lizards in Southwestern Amazonian Lowlands? Diversity 11: 199; doi:10.3390/d11100199  - <a href='http://www.mdpi.com/journal/diversity' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rand, A.S. 1969. Leptophis ahaetulla Eggs Copeia 1969 (2): 402.  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ray, Julie M. and Patty Ruback 2015. Updated checklists of snakes for the provinces of Panamá and Panamá Oeste, Republic of Panama. Mesoamerican Herpetology 2 (2): 168-188  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Restrepo A, Molina-Zuluaga C, Hurtado JP, Marín CM, Daza JM 2017. Amphibians and reptiles from two localities in the northern Andes of Colombia. Check List 13 (4): 203-237  - <a href='https://doi.org/10.15560/13.4.203' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ribeiro, Matheus Meira, Guilherme Santos Toledo De Lima, Damiáo Valdenor De Oliveira and Eliza Maria Xavier Freire. 2014. Leptophis ahaetulla (parrot snake) diet. Herpetological Review 45 (2): 339  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ribeiro, S. C., I. J. Roberto, D. L. Sales, R. W. Ávila &amp; W. O. Almeida 2012. Amphibians and reptiles from the Araripe bioregion, northeastern Brazil. Salamandra 48 (3): 133-146  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/ribeiro-s-c-i-j-roberto-d-l-sales-r-w-avila-w-o-almeida' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rivas Fuenmayor, G.; Ugueto, G.; Rivero, R. &amp; Miralles, A. 2005. The Herpetofauna of Isla de Margarita, Venezuela: New Records and Comments. Carib. J. Sci. 41 (2): 346-351 </li>
+            
+            
+            <li>Rivas Fuenmayor, Gilson and Cesar Luis Barrio Amorós 2005. New Amphibian and Reptile records from Cojedes State, Venezuela. Herpetological Review 36 (2):205-209.  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>RIVAS, GILSON A.; CÉSAR R. MOLINA, GABRIEL N. UGUETO, TITO R. BARROS, CÉSAR L. BAR- RIO-AMORÓS &amp; PHILIPPE J. R. KOK 2012. Reptiles of Venezuela: an updated and commented checklist. Zootaxa 3211: 1–64  - <a href='https://www.researchgate.net/publication/259759792_Reptiles_of_Venezuela_An_updated_and_commented_checklist' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Roberto, I. J., R. W. Ávila &amp; A. R. Melgarejo 2015. Répteis (Testudines, Squamata, Crocodylia) da reserva biológica de Pedra Talhada. In: Atuder, A., l. Nusbaumer &amp; R. Spichiger (eds.). biodiversidade da reserva biológica de Pedra talhada (alagoas, Pernambuco - brasil). Boissiera 68: 357-375  - <a href='https://www.academia.edu/15822726/Répteis_Testudines_Squamata_Crocodylia_da_Reserva_Biológica_de_Pedra_Talhada?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>ROCHA, CARLOS FREDERICO D.; HELENA G.BERGALLO, JOSÉ P. POMBAL JR., LENA GEISE, MONIQUE VAN SLUYS, RONALDO FERNANDES, ULISSES CARAMASCHI 2004. FAUNA DE ANFÍBIOS, RÉPTEIS E MAMÍFEROS DO ESTADO DO RIO DE JANEIRO, SUDESTE DO BRASIL. Publ. Avul. Mus. Nac., Rio de Janeiro (104): 3-23  - <a href='https://www.academia.edu/t/dtkG-KW06pL7-bbmTMp/3307520/FAUNA_DE_ANFÍBIOS_RÉPTEIS_E_MAMÍFEROS_DO_ESTADO_DO_RIO_DE_JANEIRO_SUDESTE_DO_BRASIL_1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rodrigues, M.T. 2003. Herpetofauna da Caatinga. In: I.R. Leal, M. Tabarelli &amp; J.M.C. Silva (eds.). Ecologia e conservação da Caatinga, pp. 181-236. Editora Universitária, Universidade Federal de Pernambuco, Recife, Brasil. </li>
+            
+            
+            <li>Santos-Costa, Maria Cristina dos;  Gleomar Fabiano Maschio, Ana Lúcia da Costa Prudente 2015. Natural history of snakes from Floresta Nacional de Caxiuanã, eastern Amazonia, Brazil. Herpetology Notes 8: 69-98  - <a href='http://www.biotaxa.org/hn/issue/view/1288' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Savage, J.M. 2002. The Amphibians and Reptiles of Costa Rica: A Herpetofauna Between Two Continents, Between Two Seas. University of Chicago Press, 934 pp. [review in Copeia 2003 (1): 205] </li>
+            
+            
+            <li>Schlegel, H. 1837. Essai sur la physionomie des serpens. Partie Descriptive. La Haye (J. Kips, J. HZ. et W. P. van Stockum), 606 S. + xvi  - <a href='http://www.biodiversitylibrary.org/bibliography/4273' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Schmidt, Karl P. &amp; Walker, Warren F. 1943. Peruvian snakes from the University of Arequipa. Zoological Series of Field Museum of Zoology 24 (26): 279-296  - <a href='http://www.biodiversitylibrary.org/bibliography/42255' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Scrocchi, G.J.; Moreta, J.C. &amp; Kretzschmar, S. 2006. Serpientes del Noroeste Argento [Jujuy, Salta, Tucumán, Catamarca, La Rioja, Santiago del Estero]. Fundación Miguel Lillo, Tucumán, 178 pp. </li>
+            
+            
+            <li>Shaw, George &amp; Nodder, Frederick P. (Eds.) 1795. The Naturalist's Miscellany [...], Vol. VI. London, Nodder &amp; Co., plates 183-218, 145 unnumbered pages [published in monthly issues between August 1, 1794 and July 1, 1795]  - <a href='http://biodiversitylibrary.org/bibliography/61214' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Slevin, J.R. 1942. Notes on a collection of reptiles from Boquete, Panama, with the description of a new species of Hydromorphus. Proc. Cal. Acad. Sci. 23: 463-480  - <a href='http://www.biodiversitylibrary.org/bibliography/3943' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Solé, M., E. Marciano-Jr, I. Ribeiro Dias &amp; A. Kwet 2010. Predation attempts on Trachycephalus cf. mesophaeus (Hylidae) by Leptophis ahaetulla (Colubridae) and Ceratophrys aurita (Ceratophryidae). Salamandra 46 (2): 101-103  - <a href='http://salamandra-journal.com/index.php/home/contents/2010-vol-46/sole-m-e-marciano-jr-i-ribeiro-dias-a-kwet' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Solís, J. M., L. D. Wilson, and J. H. Townsend. 2014. An updated list of the amphibians and reptiles of Honduras, with comments on their nomenclature. Mesoamerican Herpetology 1: 123–144  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Solorzano, A. 2004. Serpientes de Costa Rica - Snakes of Costa Rica. Editorial INBio, Costa Rica, 792 pp. </li>
+            
+            
+            <li>Starace, Fausto 1998. Guide des Serpents et Amphisbènes de Guyane. IBIS Rouge Editions, Guadeloupe, Guyane, 450 pp. </li>
+            
+            
+            <li>Starace, Fausto 2013. Guide des Serpents et Amphisbènes de Guyane. Ibis Rouge Editions, Matoury, Guyane, ISBN 978-2-84450-407-4  - <a href='http://www.ibisrouge.fr/livre.php?ref=407' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Steindachner,F. 1870. Herpetologische Notizen (II). Sitzungsber. Akad. Wiss. Wien , math.-natur-wiss. Kl. 62: 326-350  - <a href='http://www.biodiversitylibrary.org/item/30728' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Stejneger, Leonhard 1933. The ophidian generic names Ahaetulla and Dendrophis. Copeia 1933 (4): 199-203  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Stuart, L. C. 1935. A contribution to a knowledge of the herpetology of a portion of the savanna region of Central Peten, Guatemala. University of Michigan Museum of Zoology Miscellaneous Publications 29: 1-56  - <a href='http://www.ummz.lsa.umich.edu/rep_amph/publications/miscpubs.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Stuart, L. C. 1937. Some further notes on the amphibians and reptiles of the Peten Forest of Northern Guatemala. Copeia 1937 (1): 67-70  - <a href='http://www.jstor.org/action/showPublication?journalCode=copeia' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Sunyer, Javier 2014. An updated checklist of the amphibians and reptiles of Nicaragua. Mesoamerican Herpetology 1 (2): 186–202.  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Teixeira, Daniela Filipa Ferreira and Geraldo Jorge Barbosa de Moura. 2013. Bogertia lutzae predation by Leptophis ahaetulla. Herpetological Review 44 (4): 670  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Carvajal O, Pazmiño-Otamendi G, Salazar-Valenzuela D. 2019. Reptiles of Ecuador: a resource-rich portal, with a dynamic checklist and photographic guides. Amphibian &amp; Reptile Conservation 13 (1): [General Section]: 209–229 (e178)  - <a href='https://www.researchgate.net/profile/Omar_Torres-Carvajal/publication/333247479_Reptiles_of_Ecuador_a_resource-rich_online_portal_with_dynamic_checklists_and_photographic_guides/links/5ce430f3299bf14d95af3b2c/Reptiles-of-Ecuador-a-resource-rich-onlin' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Torres-Solís, M. A., P. E. Nahuat-Cervera, and J. A. Ortiz-Medina. 2017. First record of Leptophis ahaetulla (Linnaeus, 1758) (Squamata: Colubridae) from the state of Yucatán, Mexico. Mesoamerican Herpetology 4(1): 199–200  - <a href='http://mesoamericanherpetology.com/index.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ugueto, G.N.; P. Velozo; L.E. Sanchez; L.A.B. Villapol; O. Lasso-Alcalá; T.R. Barros; G.A. Rivas 2013. Noteworthy new records of squamate reptiles (Reptilia: Squamata) from various Venezuelan Caribbean islands, including a new addition to the herpetofauna of Venezuela. Check List 9 (5): 1075-1080  - <a href='http://www.checklist.org.br/getpdf?NGD090-13' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ulmer, P. 2007. EIn Aufenthalt in einem abgelegenen Teil des brasilianischen Amazonasgebiets: herpetologisches Tagebuch. Reptilia (Münster) 12 (66): 42-50  - <a href='http://www.reptilia.de/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Valencia-Zuleta A, Jaramillo-Martínez AF, Echeverry-Bocanegra A, Viáfara-Vega R, Hernández-Córdoba O, Cardona-Botero VE, Gutiérrez-Zúñiga J, Castro-Herrera F. 2014. Conservation status of the herpetofauna, protected areas, and current problems in Valle del Cauca, Colombia. Amphibian &amp; Reptile Conservation 8 (2): 1–18 (e87)  - <a href='http://amphibian-reptile-conservation.org/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vaz-Silva, W.; RM Oliveira, AFN Gonzaga, KC Pinto, FC Poli, TM Bilce, M Penhacek, L Wronski, JX Martins, TG Junqueira, LCC, Cesca VY, Guimarães RD. Pinheiro 2015. Contributions to the knowledge of amphibians and reptiles from Volta Grande do Xingu, northern Brazil Braz. J. Biol., 75 (3) (suppl.): S205-S218  - <a href='http://dx.doi.org/10.1590/1519-6984.00814BM' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vechio, Francisco Dal; Mauro Teixeira Jr., Renato Sousa Recoder, Miguel Trefault Rodrigues &amp; Hussam Zaher 2016. The herpetofauna of Parque Nacional da Serra das Confusões, state of Piauí, Brazil, with a regional species list from an ecotonal area of Cerrado and Caatinga. Biota Neotropica 16(3): e20150105  - <a href='https://www.academia.edu/33783448' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vieira, Bianca P. and Felipe B. R. Gomes. 2016. Leptophis ahaetulla (Neotropical Parrot Snake) Diet. Herpetological Review 47 (1): 147  - <a href='https://ssarherps.org/herpetological-review-pdfs/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vrcibradic, D.; C.F.D. Rocha; M.C. Kiefer; F.H. Hatano; A.F. Fontes; M. Almeida-Gomes; C.C. Siqueira; J.A.L. Pontes; V.N.T. Borges-Junior; L.O. Gil; T. Klaion; E.C.N. Rubião; M. Sluys. 2011. Herpetofauna, Estação Ecológica Estadual do Paraíso, state of Rio de Janeiro, southeastern Brazil. Check List 7 (6): 745-749  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Weller, W.H. 1930. Description of a new species of colubrine snake, of the genus Leptophis. Proc. Jr. Soc. Nat. Hist. Cincinnati 1: 7 </li>
+            
+            
+            <li>Weller, W.H. 1931. Corrections to Herpetological Notices. Proc. Jr. Soc. Nat. Hist. Cincinnati 2 (1): 7-9 [unnumbered pages] </li>
+            
+            
+            <li>Werner, FRANZ 1903. Ueber Reptilien und Batrachier aus Guatemala und China in der zoologischen Staats-Sammlung in München nebst einem Anhang über seltene Formen aus anderen Gegenden. Abhandl. Königl. Bayer. Akad. Wissensch., Munich, (ser. 2) 22 (2): 343-384  - <a href='https://www.biodiversitylibrary.org/page/35671808' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Werner,F. 1909. Über neue oder seltene Reptilien des Naturhistorischen Museums in Hamburg. Jahrb. Hamb. wiss. Anst. suppl. 2 (Mitt. Naturhist. Mus. Hamb. 1908) 26: 205-247  - <a href='http://archive.org/stream/jahrbuchderhambu26231908hamb#page/208/mode/2up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wied-Neuwied, M. Prinz zu 1824. Abbildungen zur Naturgeschichte von Brasilien. [1822-1831] Weimar  - <a href='http://biodiversitylibrary.org/page/35280607' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wilson, L.D. &amp; McCranie, J.R. 2003. The herpetofauna of the cloud forests of Honduras. Amphibian &amp; Reptile Conservation 3 (1): 34-48  - <a href='http://amphibian-reptile-conservation.org/archive.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wirth, Michael 2011. Lohnende Reiseziele für Amphibien- und Reptilienfreunde in Costa Rica. Draco 12 (45): 22-39  - <a href='http://www.ms-verlag.de/DRACO.29.0.html' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+            <li>
+                    <a href='http://images.google.com/images?q=Leptophis+urostictus'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Leptophis&species=urostictus</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Leptophis&amp;species=urostictus">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Leptophis&amp;species=praestans&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Leptophis praestans</a></li>
+                            <li class='subsubmenu selected'>Leptophis urostictus</li>
+                            <li class='subsubmenu'><a href="/species?genus=Lygophis&amp;species=anomalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Lygophis anomalus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>

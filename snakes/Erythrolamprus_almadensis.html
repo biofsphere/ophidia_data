@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Erythrolamprus almadensis | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Erythrolamprus almadensis">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Erythrolamprus&species=almadensis">
+        <meta property="og:image" content="/content/photo_rd_05/Liophis-almadensis-03000034381_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Erythrolamprus&species=almadensis",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Erythrolamprus&species=almadensis");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Erythrolamprus almadensis</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Erythrolamprus almadensis</em> (WAGLER, 1824)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_05/Liophis-almadensis-03000034381_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_05/Liophis-almadensis-03000034381_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='66' height='38'></a>
+            <a href='/content/photo_rd_05/Liophis-almadensis-03000034380_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_05/Liophis-almadensis-03000034380_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='86' height='38'></a>
+            <a href='/content/photo_rd_05/Liophis-almadensis-03000034379_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_05/Liophis-almadensis-03000034379_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='66' height='38'></a>
+            <a href='/content/photo_rd_03/Liophis-almadensis-03000030848_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_03/Liophis-almadensis-03000030848_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='58' height='38'></a>
+            <a href='/content/photo_rd_01/Liophis-almadensis-03000028600_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_01/Liophis-almadensis-03000028600_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='53' height='38'></a>
+            <a href='/content/photo_rd_10/Erythrolamprus-almadensis-03000039729_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_10/Erythrolamprus-almadensis-03000039729_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='45' height='38'></a>
+            <a href='/content/photo_rd_10/Erythrolamprus-almadensis-03000039730_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_10/Erythrolamprus-almadensis-03000039730_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='49' height='38'></a>
+            <a href='/content/photo_rd_14/Erythrolamprus-almadensis-03000044494_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_14/Erythrolamprus-almadensis-03000044494_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='54' height='38'></a>
+            <a href='/content/photo_rd_15/Erythrolamprus-almadensis-03000045848_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_15/Erythrolamprus-almadensis-03000045848_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='53' height='38'></a>
+            <a href='/content/photo_rd_14/Erythrolamprus-almadensis-03000044493_01.jpg' title='Erythrolamprus almadensis'><img src='/content/photo_rd_14/Erythrolamprus-almadensis-03000044493_01_t.jpg' title='Erythrolamprus almadensis' alt='' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Erythrolamprus almadensis" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Erythrolamprus almadensis</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Erythrolamprus%20almadensis" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Erythrolamprus almadensis&project_id=40" target="_blank">Add your own observation of <br><i>Erythrolamprus almadensis</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Erythrolamprus+almadensis'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Almaden Ground Snake<br />Portuguese: Cobra-Espada, Cobra-D’água, Corre-Campo-Pequena, Jararaca-de-Barriga-Vermelha, Jararaquinha-Comum, Jararaquinha-do-Campo, Parelheira&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Natrix almada WAGLER 1824: 30<br />Natrix almadensis WAGLER 1824<br />Natrix bahiensis WAGLER 1824 (incertae sedis)<br />Coronella almadensis FITZINGER 1826<br />Liophis almadensis WAGLER 1830<br />Liophis conirostris GÜNTHER 1858<br />Liophis wagleri JAN 1859 (part.)<br />Liophis verecundus JAN 1863: 300<br />Liophis (Lygophis) y-graecum PETERS 1882: 129<br />Aporophis conirostris — COPE 1885: 191 (fide BOULENGER 1886)<br />Liophis almadensis — BOETTGER 1885: 228<br />Liophis almadensis — BOULENGER 1886: 432<br />Trigonocephalus scolecomorphus BACQUÉ 1906<br />Leimadophis almadensis — SERIÉ 1921<br />Liophis almadensis — VANZOLINI 1986: 12<br />Dromicus alinadensis — CORDEIRO & HOGE 1974 (in error)<br />Leimadophis almadensis — JAUCH 1979<br />Liophis almadensis — CEI 1993<br />Leimadophis almadensis — HOOEGMOED & GRUBER 1983<br />Liophis almadensis — LEYNAUD & BUCHER 1999: 20<br />Liophis almadensis — BERNILS et al. 2007<br />Erythrolamprus almadensis — GRAZZIOTIN et al. 2012<br />Liophis almadensis — WALLACH et al. 2014: 380<br />Liophis almadensis — BERNARDE et al. 2012<br />Erythrolamprus almadensis — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Brazil (Rio Grande do Sul, Maranhão [HR 30: 113], Rondonia, Pará, Minas Gerais, Rio de Janeiro), Paraguay, Argentina (Chaco, Corrientes, Formosa), Uruguay, Bolivia, Peru<br /><br />Type locality: Almada, Bahia, Brazil.
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Lectotype: ZSM 2688/0, juvenile, desginated by HOOGMOED & GRUBER 1983&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy after CEI 1993, Dixon 1989.<br /><br />Distribution: This species has been reported from Peru, but without specific locality (T. Doan, pers. comm. 30 Apr 2012). See map in Nogueira et al. 2019.<br /><br />Type species: Natrix almada WAGLER 1824: 30 is the type species of the genus Leimadophis Fitzinger 1843. See Dunn 1944 for a definition of the genus.&nbsp;</td></tr>
+        <tr><td>Etymology</td><td>Named after the type locality.&nbsp;</td></tr>
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Bauer, A.M.; Günther,R. &amp; Klipfel,M. 1995. The herpetological contributions of Wilhelm C.H. Peters (1815-1883). SSAR Facsimile Reprints in Herpetology, 714 pp. </li>
+            
+            
+            <li>BERNARDE, P.S., ALBUQUERQUE, S., BARROS, T.O. &amp; TURCI, L.C.B. 2012. Serpentes do Estado de Rondônia, Brasil. Biota Neotropica 12 (3): 1-29  - <a href='http://www.biotaneotropica.org.br/v12n3/pt/abstract?inventory+bn00412032012' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Bérnils, R.S.; Batista, M.A. &amp; Bertelli, P.W. 2001. Cobras e lagartos do Vale: levantamento das espécies de Squamata (Reptilia, Lepidosauria) da Bacia do Rio Itajai, Santa Catarina, Brasil. Rev. Est. Ambientais (Blumenau) 3 (1): 69-79 </li>
+            
+            
+            <li>Boettger, O. 1885. Liste von Reptilien und Batrachiern aus Paraguay. Zeitschr. Naturw. 58 (3): 213-248  - <a href='http://biodiversitylibrary.org/page/31401231' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Borges, Leandro Malta; Conrado Mario da Rosa, Gabriela Franzoi Dri, Rogério Bertani 2016. Predation of the snake Erythrolamprus almadensis (Wagler, 1824) by the tarantula Grammostola quirogai Montes De Oca, D’Elía &amp; Pérez-Miles, 2016 Herpetology Notes 9: 321-322  - <a href='https://www.biotaxa.org/hn/issue/view/2338' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cano, Paula Daniela; Héctor Alejandro Ball, Matías Federico Carpinetto, Germán Darío Peña 2015. Reptile checklist of Río Pilcomayo National Park, Formosa, Argentina. Check List 11 (3): 1658  - <a href='http://biotaxa.org/cl/article/view/11.3.1658' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira Vidal, Santiago 2002. Alimentación de los ofidios de Uruguay. Asoc. Herp. Esp., Monograf. Herp. 6, 127 pp.  - <a href='http://www.bioone.org/loi/hmon' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cei, J. M. 1993. Reptiles del noroeste, nordeste y este de la Argentina. Museo Regionale Sci. Naturale Torino, Monografie 14: 1-949 </li>
+            
+            
+            <li>Cope, E.D. 1885. Twelfth contribution to the herpetology of tropical America. Proc. Amer. Philos. Soc. 22: 167-194 [1884]  - <a href='http://www.biodiversitylibrary.org/bibliography/7023#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cordeiro, C.L. &amp; Hoge, A.R. 1974. Contribuição ao conhecimento das serpentes do Estado de Pernambuco. Mem. Inst. Butantan 37: 261-290 [1973]  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon J R 1991. Geographic variation and taxonomy of Liophis almadensis (Wagler) (Serpentes: Colubridae), and description of a new species of Liophis from Argentina and Bolivia. Texas Journal of Science 43 (3): 225-236  - <a href='https://www.biodiversitylibrary.org/bibliography/147842#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dixon, J.R.;Yanosky, A.A.;Mercolli, C. 1993. Typhlops brongersmianus Vanzolini and Liophis almadensis (Wagler) - 2 New Records for the Snake Fauna of the Province of Formosa, Argentina. The Herpetological Journal 3 (2): 72  - <a href='https://www.thebhs.org/publications/the-herpetological-journal' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Fiorillo, B. F., Maciel, J. H., &amp; Martins, M. 2021. Composition and natural history of a snake community from the southern Cerrado, southeastern Brazil. ZooKeys 1056: 95-147  - <a href='https://doi.org/10/gmvgcw' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, F.G.R.; Daniel O. Mesquita, Cristiano C. Nogueira, and  Alexandre F. B. Araújo 2008. Phylogeny and Ecology Determine Morphological Structure in a Snake Assemblage in the Central Brazilian Cerrado. Copeia 2008 (1): 23-38  - <a href='http://www.asihcopeiaonline.org/loi/cope' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Franca, F.G.R.; Mesquita, Daniel Oliveira and Guarino Rinaldi Colli 2006. A CHECKLIST OF SNAKES FROM AMAZONIAN SAVANNAS IN BRAZIL, HOUSED IN THE COLEÇÃO HERPETOLÓGICA DA UNIVERSIDADE DE BRASÍLIA, WITH NEW DISTRIBUTION RECORDS. Occ. Pap. Oklahoma Mus. Nat. Hist., Univ. Oklahoma 17: 1-13 </li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de 2014. Squamate reptiles of the Atlantic Forest of northern Bahia, Brazil. Check List 10 (5): 1020-1030  - <a href='http://biotaxa.org/cl/article/view/10.5.1020' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Freitas, Marco Antonio de; Guarino R. Colli, Omar Machado Entiauspe-Neto, Luiz Trinchão, Daniel Araújo, Tiago de Oliveira Lima, Daniella Pereira Fagundes de França, Renato Gaiga, Pedro Dias 2016. Snakes of Cerrado localities in western Bahia, Brazil. Check List 12 (3): 1896  - <a href='http://www.biotaxa.org/cl/article/view/12.3.1896' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Frota, J.G. da; Pedroso dos Santos-Jr, Alfredo; Menezes-Chalkidis, H. de &amp; Guimarães Guedes, A. 2005. AS SERPENTES DA REGIÃO DO BAIXO RIO AMAZONAS, OESTE DO ESTADO DO PARÁ, BRASIL (SQUAMATA). Biociências 13 (2): 211-220  - <a href='https://www.academia.edu/8067107/Serpentes_do_Oeste_do_Pará?email_work_card=title' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Grazziotin, Felipe G.; Hussam Zaher, Robert W. Murphy, Gustavo Scrocchi, Marco A. Benavides, Ya-Ping Zhang and Sandro L. Bonatto 2012. Molecular phylogeny of the New World Dipsadidae (Serpentes: Colubroidea): a reappraisal. Cladistics DOI: 10.1111/j.1096-0031.2012.00393.x  - <a href='http://onlinelibrary.wiley.com/doi/10.1111/j.1096-0031.2012.00393.x/abstract' target='_blank'>get paper here</a></li>
+            
+            
+            <li>GUEDES, THAÍS B.; CRISTIANO NOGUEIRA &amp; OTAVIO A. V. MARQUES 2014. Diversity, natural history, and geographic distribution of snakes in the Caatinga, Northeastern Brazil. Zootaxa 3863 (1): 001–093  - <a href='http://biotaxa.org/Zootaxa/article/view/zootaxa.3863.1.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B. &amp; R. M. Lira-da-Silva 2012. The snakes of Bahia State, northeastern Brazil: species richness, composition and biogeographical notes. Salamandra 48 (1): 31-50  - <a href='http://salamandra-journal.com/index.php/home/contents/2012-vol-48/hamdan-b-r-m-lira-da-silva' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hamdan, B.; D.P. Coelho; A.B. D’Angiolella; E.J.R. Dias; R.M. Lira-da-Silva. 2013. The Reptile Collection of the Museu de Zoologia, Universidade Federal da Bahia, Brazil. Check List 9 (2):257-262  - <a href='http://www.checklist.org.br/getpdf?SL130-12' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Hoogmoed,M.S. and Gruber,U. 1983. Spix and Wagler type specimens of reptiles and amphibians in the Natural History Musea in Munich (Germany) and Leiden (The Netherlands). Spixiana Suppl. 9: 319-415  - <a href='http://www.zsm.mwn.de/spixiana/toc.htm' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ingaramo, María del Rosario; Marangoni, Federico; Cajade, Rodrigo 2015. Herpetofauna de la Reserva Paleontológica del Arroyo Toropí, Bella Vista, Corrientes, Argentina. Cuad. herpetol. 29 (1):  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/index' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jan, G. 1863. Enumerazione sistematica degli ofidi appartenenti al gruppo Coronellidae. Arch. Zool. Anat. Fisiol. 2 (2): 213-330 [1862]  - <a href='http://www.biodiversitylibrary.org/item/111834#page/561/mode/1up' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Jauch, H. 1979. Brasilianische Schlangen im Terrarium. Herpetofauna 1 (1): 6-9  - <a href='https://herpetofauna.de/artikelsuche/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Leynaud, Gerardo C. and Enrique H. Bucher 1999. La fauna de serpientes del Chaco Sudamericano: diversidad, distribución geografica y estado de conservación. Academia Nacional de Ciencias Miscelanea (98):1-46 </li>
+            
+            
+            <li>Linares, Antônio Meira and Paula Cabral Eterovick 2013. Herpetofaunal Surveys Support Successful Reconciliation Ecology in Secondary and Human-Modified Habitats at the Inhotim Institute, Southeastern Brazil. Herpetologica 69 (2): 237-256.  - <a href='http://www.bioone.org/doi/abs/10.1655/HERPETOLOGICA-D-12-00030?ai=uc&amp;ui=29q2&amp;af=H' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques R, Mebert K, Fonseca É, Rödder D, Solé M, Tinôco MS 2016. Composition and natural history notes of the coastal snake assemblage from Northern Bahia, Brazil. ZooKeys 611: 93-142. doi: 10.3897/zookeys.611.9529  - <a href='http://zookeys.pensoft.net/articles.php?id=9529' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Marques, R., D. Rödder, M. Solé &amp; M. S. Tinôco 2017. Diversity and habitat use of snakes from the coastal Atlantic rainforest in northeastern Bahia, Brazil. Salamandra 53 (1): 34-43  - <a href='http://salamandra-journal.com/index.php/home/contents/2017-vol-53/marques-r-d-roedder-m-sole-m-s-tinoco' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mattison, Chris 2007. The New Encyclopedia of Snakes. Princeton University Press </li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Oliveira, Jane C.F.; Rodrigo Castellari Gonzalez; Paulo Passos; Davor Vrcibradic &amp; Carlos Frederico Duarte Rocha 2020. Non-Avian Reptiles of the state of Rio de Janeiro, Brazil: status of knowledge and commented list. Pap. Avulsos Zool. 60: e20206024  - <a href='http://doi.org/10.11606/1807-0205/2020.60.24' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Peters, Wilhem Carl Hartwig 1882. Den Namen der Batrachiergattung Hylonomus in Hyloscirtus zu ändern und legte zwei neue Arten von Schlangen, Microsoma notatum, und Liophis ygraecum. Sitzungsber. Ges. naturf. Freunde Berlin 1882 (8): 127-129  - <a href='http://www.biodiversitylibrary.org/bibliography/7922' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Prigioni, C.; C. Borteiro; F. Kolenc. 2011. Amphibia and Reptilia, Quebrada de los Cuervos, Departamento de Treinta y Tres, Uruguay. Check List 7 (6): 763-767  - <a href='http://www.checklist.org.br/archive?vol=7&amp;num=6' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rivas, L. R., Eversole, C. B., &amp; Powell, R. L. 2023. Urban herpetofauna of Trinidad, Beni Department, Bolivia. Herpetology Notes, 16, 399-410 </li>
+            
+            
+            <li>ROCHA, CARLOS FREDERICO D.; HELENA G.BERGALLO, JOSÉ P. POMBAL JR., LENA GEISE, MONIQUE VAN SLUYS, RONALDO FERNANDES, ULISSES CARAMASCHI 2004. FAUNA DE ANFÍBIOS, RÉPTEIS E MAMÍFEROS DO ESTADO DO RIO DE JANEIRO, SUDESTE DO BRASIL. Publ. Avul. Mus. Nac., Rio de Janeiro (104): 3-23  - <a href='https://www.academia.edu/t/dtkG-KW06pL7-bbmTMp/3307520/FAUNA_DE_ANFÍBIOS_RÉPTEIS_E_MAMÍFEROS_DO_ESTADO_DO_RIO_DE_JANEIRO_SUDESTE_DO_BRASIL_1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Rodrigues, M.T. 2003. Herpetofauna da Caatinga. In: I.R. Leal, M. Tabarelli &amp; J.M.C. Silva (eds.). Ecologia e conservação da Caatinga, pp. 181-236. Editora Universitária, Universidade Federal de Pernambuco, Recife, Brasil. </li>
+            
+            
+            <li>Sazima, I.; Martins, M. 1990. Presas grandes e serpentes joves: quando os olhos sao maiores que a boca. Memórias do Instituto Butantan 52: 73-79  - <a href='http://bibliotecadigital.butantan.gov.br/colecao/memorias-do-instituto-butantan' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Silva-Lucas, Priscila; Iara Alves Novelli, Bernadete Maria de Sousa 2016. Assemblage of squamate reptiles in a natural remnant of Cerrado in southern Minas Gerais, Brazil. Check List 12 (2): 1-9  - <a href='http://www.biotaxa.org/cl/article/view/12.2.1866' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Ukuwela, K.D.B., de Silva, A., Sivaruban, A. et al. 2022. Diversity, distribution, and natural history of the marine snakes of Sri Lanka. Marine Biodiversity 52, 24 (2022)  - <a href='https://doi.org/10.1007/s12526-022-01259-3' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Vitt, L. J.; Caldwell, J. P.; Colli, G. R.; Garda, A. A.; Mesquita, D. O.; França, F. G. R. e Balbino, S. F. 2002. Um guia fotográfico dos répteis e anfíbios da região do Jalapão no Cerrado brasileiro. Norman, Oklahoma: Special Publications in Herpetology. San Noble Oklahoma Museum of Natural History </li>
+            
+            
+            <li>Wagler, J. 1824. Serpentum Brasiliensium species novae, ou histoire naturelle des espèces nouvelles de serpens. In: Jean de Spix, Animalia nova sive species novae. [NAtrix bahiensis: 27,. Monaco, Typis Franc. Seraph. Hübschmanni, vii + 75 pp. </li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Zaher, Hussam; Fausto Erritto BarboI; Paola Sanchez Martínez; Cristiano Nogueira; Miguel Trefaut Rodrigues; Ricardo Jannini Sawaya 2011. Répteis do Estado de São Paulo: conhecimento atual e perspectivas. Biota Neotropica, 11 (1): 1–15.  - <a href='http://dx.doi.org/10.1590/s1676-06032011000500005' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaracho, Víctor Hugo; Ingaramo, María del Rosario; Semhan, Romina Valeria; Etchepare, Eduardo; Acosta, José Luis; Falcione, Ana Camila; Álvarez, Blanca 2014. Herpetofauna de la Reserva Natural Provincial Isla Apipé Grande (Corrientes, Argentina). Cuad. herpetol. 28 (2): 153-160  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/issue/view/315' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/50955546/50955599'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1260300'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie/album.html?species=Helicops+infrataeniatus&amp;welt=album&amp;land=rio_grande_rept&amp;region=rio_grande_rept'>http://www.naturkundemuseum-bw.de/cgi-bin/stuttgart/projekte/herpetologie…</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Erythrolamprus+almadensis'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Erythrolamprus&species=almadensis</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Erythrolamprus&amp;species=almadensis">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Echinanthera&amp;species=melanostigma&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Echinanthera melanostigma</a></li>
+                            <li class='subsubmenu selected'>Erythrolamprus almadensis</li>
+                            <li class='subsubmenu'><a href="/species?genus=Erythrolamprus&amp;species=jaegeri&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Erythrolamprus jaegeri</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>
