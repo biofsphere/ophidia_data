@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv='Content-Language' content='en'>
+    <meta http-equiv='Content-Style-Type' content='text/css'>
+    <meta http-equiv='Content-Script-Type' content='text/javascript'>
+    <meta name='y_key' content='4fba2c3f32825d3a'>
+    <meta name='copyright' content='Copyright (c) 2010 Reptárium'>
+    <meta name='description' content='Taxonomic database that provides basic information about all living reptile species, such as turtles, snakes, lizards, and crocodiles, as well as tuataras and amphisbaenians, but does not include dinosaurs.'>
+    <meta name='keywords' content='The Reptile Database'>
+
+    <title>Atractus reticulatus | The Reptile Database</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/old_style.css'>
+    <link rel='stylesheet' type='text/css' href='/css/generic.css'>
+    <link rel='stylesheet' type='text/css' href='/css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='/css/utilities.css'>
+    <link rel='stylesheet' type='text/css' href='/css/prettyPhoto.css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/components/jquery/dist/jquery.js?v=3.5.1"></script>
+    <script type='text/javascript' src='/js/reptile_database.js'></script>
+    <script src="/components/nette-forms/src/assets/netteForms.min.js?v=3.0.6"></script>
+    <script src="/components/nette.ajax.js/nette.ajax.js"></script>
+
+            <meta property="og:title" content="Atractus reticulatus">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://reptile-database.reptarium.cz/species.php?genus=Atractus&species=reticulatus">
+        <meta property="og:image" content="/content/photo_rd_10/Atractus-reticulatus-03000039597_01.jpg">
+        <meta property="og:site_name" content="The Reptile Database">
+        <meta property="fb:admins" content="1464333176">
+        <meta property="fb:app_id" content="131160023647201">
+
+    <script type='text/javascript' src='/components/galleria/dist/galleria.min.js'></script>
+    <script type='text/javascript' src='/components/galleria/dist/themes/classic/galleria.classic.js'></script>
+    <script type='text/javascript' src='/js/lightbox/lightbox-2.6.min.js'></script>
+    <link href='/js/lightbox/css/lightbox.css' rel='stylesheet'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            Galleria.configure({
+                width: 525,
+                height: 350,
+                lightbox: true
+            });
+            $('#gallery').galleria();
+        });
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+
+                $.ajax({
+                    url: "/import/arkive",
+                    data: "genus=Atractus&species=reticulatus",
+                    success: function(data){
+                        if (data) {
+                            $("#arkive").html(data);
+                            $("#arkive").show();
+                        }
+                    }
+                });
+
+/*
+                    if ($("#map")) {
+                        $("#map").show();
+                        
+                        var myLatLng = new google.maps.LatLng(0, 0);
+                        var mapOptions = {
+                            zoom: 7,
+                            center: myLatLng,
+                            mapTypeId: google.maps.MapTypeId.TERRAIN,
+                            scrollwheel: false
+                        }
+
+                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                        var ctaLayer = new google.maps.KmlLayer("https://reptile-database.reptarium.cz/interfaces/kml/species?genus=Atractus&species=reticulatus");
+                        ctaLayer.setMap(map);
+
+                    }
+*/
+
+            });
+        </script>
+        <style media="screen" type="text/css">
+            .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+            .inat-widget-header { margin-bottom: 10px;}
+            .inat-widget td { vertical-align: top; padding-bottom: 10px;}
+            .inat-label { color: #888; }
+            .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+            .inat-observation-body, .inat-user-body { padding-left: 10px; }
+            .inat-observation-image { text-align: center;}
+            .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
+            .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+            .inat-observation-image img { vertical-align: middle; }
+            .inat-widget-small .inat-observation-image { margin: 0 5px 5px 0; }
+            .inat-widget-small { margin-bottom: 10px; }
+            .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
+            .inat-user-body { vertical-align: middle;}
+            .inat-widget td.inat-user-body { vertical-align: middle;}
+        </style>
+
+
+</head>
+
+    <body class='wide'>
+    <div id='case-out'><div id='case'><div id='case-in'>
+
+        <div id='header'>
+            <p id='logo'><a href='http://www.reptile-database.org' title='The Reptile Database' ><img src='/img/rd_logo.jpg' width='380' height='90' alt='The Reptile Database'></a></p><!-- /LOGO -->
+            <p id='accesslink'>Go to: <a href='#content'>main text of page</a> | <a href='#nav'>main navigation</a> | <a href='#menu'>local menu</a></p><!-- /ACCESSLINK -->
+        </div><!-- /HEADER -->
+
+        <div id='main'>
+            <div id='global'>
+                <ul id='lang'>
+                <li><a id='nav-home' href='http://www.reptarium.cz/en/'>Reptarium</a></li>
+                </ul><!-- /LANG -->
+                <ul id='nav'>
+                <li><a id="nav-taxonomy" href="/">The Reptile Database</a></li>
+                </ul><!-- /NAV -->
+                <div class='fix'><!-- workaround --></div>
+            </div><!-- /GLOBAL -->
+            <p id='crumbs'><strong>You are here &raquo;</strong>
+                    <a href='/'>home</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search'>advanced search</a> <span>&rsaquo;</span>
+                    <a href='/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search'>search results</a> <span>&rsaquo;</span>
+                    <em>Atractus reticulatus</em>
+            </p><!-- /CRUMBS -->
+            <div id='data'>
+                <div id='content'>
+
+        <h1><em>Atractus reticulatus</em> (BOULENGER, 1885)</h1>
+
+        <div id='gallery' style='float: left;'>
+            <a href='/content/photo_rd_10/Atractus-reticulatus-03000039597_01.jpg' title='Atractus reticulatus'><img src='/content/photo_rd_10/Atractus-reticulatus-03000039597_01_t.jpg' title='Atractus reticulatus' alt='' width='53' height='38'></a>
+            <a href='/content/photo_rd_14/Atractus-reticulatus-03000044120_01.jpg' title='Atractus reticulatus'><img src='/content/photo_rd_14/Atractus-reticulatus-03000044120_01_t.jpg' title='Atractus reticulatus' alt='' width='56' height='38'></a>
+        </div>
+    
+    <div class="inat-widget">
+        <div class="inat-widget-header">
+            <a href="https://inaturalist.org/taxa/Atractus reticulatus" target="_blank">
+                <img src="https://www.inaturalist.org/assets/logo-small.gif" alt="iNaturalist logo">
+            </a>
+        </div>
+        <div id="inatwidgetmsg" style="visibility: visible;">
+            <p>Can you confirm these amateur observations of <i>Atractus reticulatus</i>?</p>
+            <script src="https://www.inaturalist.org/observations.widget?has[]=photos&amp;layout=small&amp;target=blank&amp;limit=3&amp;order=desc&amp;order_by=observed_on&amp;taxon_name=Atractus%20reticulatus" charset="utf-8" type="text/javascript"></script>
+        </div>
+        <a href="https://www.inaturalist.org/observations/new?taxon_name=Atractus reticulatus&project_id=40" target="_blank">Add your own observation of <br><i>Atractus reticulatus</i> <nobr>»</nobr></a>
+    </div>
+        <div class='fix'><!-- workaround --></div>
+        <p><span style='vertical-align: top'>Find more photos by Google images search:</span> <a href='http://images.google.com/images?q=Atractus+reticulatus'><img src='img/google.gif' width='47' height='19' alt='Google images' title='Google images' style='vertical-align: bottom'></a><p>
+        <table class='species'>
+        <tr><td>Higher Taxa</td><td>Colubridae (Dipsadinae), Colubroidea, Caenophidia, Alethinophidia, Serpentes, Squamata (snakes) </td></tr>
+        <tr class='odd'><td>Subspecies</td><td>&nbsp;</td></tr>
+        <tr><td>Common Names</td><td>E: Reticulate Ground Snake<br />Portuguese: Cobra-Cega, Cobra-da-Terra, Cobra-de-Terra-Comum, Cobra-Reticulada, Cobra-Tijolo, Cobrinha-da-Terra, Fura-Terra, Fura-Terra-Reticulada&nbsp;</td></tr>
+        <tr class='odd'><td>Synonym</td><td>Geophis reticulatus BOULENGER 1885: 87<br />Geophis reticulatus — BOULENGER 1886: 430<br />Atractus reticulatus — BOULENGER 1894: 311<br />Atractus reticulatus — PETERS et al. 1970: 33<br />Atractus reticulatus scrocchii ALVAREZ et al. 1992<br />Atractus reticulatus — PASSOS et al. 2005<br />Atractus reticulatus — WALLACH et al. 2014: 79<br />Atractus reticulatus — NOGUEIRA et al. 2019&nbsp;</td></tr>
+        <tr><td>Distribution</td><td>Paraguay, S Brazil (Rio Grande do Sul, Paraná, São Paulo), Argentina (Corrientes, Misiones ?), Uruguay  [HR 35: 189]<br /><br />Type locality: São Lourenço, Estado do Rio Grande do Sul, Brazil.
+        &nbsp;</td></tr>
+        <tr class='odd'><td>Reproduction</td><td>oviparous&nbsp;</td></tr>
+        <tr class='odd'><td>Types</td><td>Holotype: BMNH 1946.1.2.7<br />Holotype: UNNE-CHC 00256, collected by B.B. Alvarez and L. Rey 28 Dec 1991 [scrocchii]&nbsp;</td></tr>
+        <tr><td>Diagnosis</td><td>Diagnosis: Atractus reticulatus is distinguished from all congeners by the following combination of characters: (1) 15/15/15 smooth dorsal scale rows; (2) two postoculars; (3) loreal moderate; (4) temporals 1+2; (5) seven supralabials, third and fourth contacting orbit; (6) six or seven infralabials, first four contacting chinshields; (7) six to eight maxillary teeth; (8) usually three gular scale rows; (9) usually three preventrals; (10) 149–165 ventrals in females, 130–151 in males; (11) 19–30 subcaudals in females, 24–34 in males; (12) dorsum ground colour dark grayish brown or black, reticulating with pale colour; (13) venter immaculate creamish white; (14) moderate body size, females reaching 390 mm SVL, males 279 mm SVL; (15) tail short to moderate in females (7.8–13.5% SVL), short to long (7.9–17.1% SVL) in males; (16) moderately bilobed, semicapitate, and semicalyculate hemipenis [from Passos et al. 2010].&nbsp;</td></tr>
+        <tr><td>Comment</td><td>Synonymy: most recent authors treat Atractus reticulatus scrocchii as a synonym of Atractus reticulatus (e.g. Carreira et al. 2005, Wallach et al. 2014, Cacciali et al. 2016).<br /><br />Distribution: not in Colombia (Passos et al. 2010), although some sources erroneously list it for Colombia (e.g. Pérez-Santos & Moreno 1988). See map in Nogueira et al. 2019.&nbsp;</td></tr>
+        
+        <tr class='odd'><td>References</td><td>
+            <ul>
+            <li>Alvarez B B.  Rey L.  Cei J M. 1992. A new subspecies of the Reticulatus group, genus Atractus, from southeastern South America (Serpentes, Colubridae). MUSEO REGIONALE DI SCIENZE NATURALI BOLLETTINO (TURIN). 10 (2): 249-256. </li>
+            
+            
+            <li>Balestrin, Rafael L.; Di-Bernardo, Marcos; Moreno, Ana G. 2007. Feeding ecology of the neotropical worm snake Atractus reticulatus in southern Brazil. The Herpetological Journal 17: 62-64  - <a href='https://www.ingentaconnect.com/content/bhs/thj' target='_blank'>get paper here</a></li>
+            
+            
+            <li>BARBO, F. E.; MARQUES, O. A. V. &amp; SAWAYA, R. J. 2011. Diversity, Natural History and Distribution of Snakes in the Municipality of São Paulo. South American J. Herp. 6: 135-160 </li>
+            
+            
+            <li>Bérnils, R.S.; Batista, M.A. &amp; Bertelli, P.W. 2001. Cobras e lagartos do Vale: levantamento das espécies de Squamata (Reptilia, Lepidosauria) da Bacia do Rio Itajai, Santa Catarina, Brasil. Rev. Est. Ambientais (Blumenau) 3 (1): 69-79 </li>
+            
+            
+            <li>Borteiro, C., Abegg, A. D., Oda, F. H., Cardozo, D., Kolenc, F., Etchandy, I., ... &amp; Baldo, D. 2021. Aberrant colouration in wild snakes: case study in Neotropical taxa and a review of terminology. Salamandra 57 (1): 124-138  - <a href='https://www.researchgate.net/publication/349325157' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G. A. 1885. Second list of reptiles and batrachians from the province Rio Grande do Sul, sent to the Natural History Museum by Dr. H. van Ihering. Ann. Mag. nat. Hist. (5) 16: 85-88  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, G.A. 1886. A synopsis of the reptiles and batrachians of the province Rio Grande do Sul, Brazil. Ann. Mag. nat. Hist. (5) 18: 423-445  - <a href='http://biodiversitylibrary.org/bibliography/15774' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Boulenger, George A. 1894. Catalogue of the snakes in the British Museum (Natural History). Volume II., Containing the Conclusion of the Colubridæ Aglyphæ. British Mus. (Nat. Hist.), London, xi, 382 pp.  - <a href='https://www.biodiversitylibrary.org/bibliography/8316#/summary' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, P.; Villalba, R. &amp; Yanosky, A.A. 2007. A NEW SPECIES OF ATRACTUS (SERPENTES:COLUBRIDAE: DIPSADINAE) FROM THE ATLANTIC FOREST OF ALTO PARANÁ, PARAGUAY. South American J. Herp. 2 (2): 83-88  - <a href='http://www.bioone.org/toc/sajh/2/2' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Cacciali, Pier; Norman J. Scott, Aida Luz Aquino Ortíz, Lee A. Fitzgerald, and Paul Smith 2016. The Reptiles of Paraguay: Literature, Distribution, and an Annotated Taxonomic Checklist. SPECIAL PUBLICATION OF THE MUSEUM OF SOUTHWESTERN BIOLOGY, NUMBER 11: 1–373  - <a href='http://repository.unm.edu/handle/1928/32390?show=full' target='_blank'>get paper here</a></li>
+            
+            
+            <li>CARREIRA, S., M. MENEGHEL AND F. ACHAVAL 2005. Reptiles de Uruguay. DI.R.A.C., Facultad de Ciências Ed., Montevideo, 637 pp. </li>
+            
+            
+            <li>Carreira, S.; Brazeiro, A.; Camargo, A.; da Rosa, I.; Canavero, A. &amp; Maneyro, M. 2012. DIVERSITY OF REPTILES OF URUGUAY: KNOWLEDGE AND INFORMATION GAPS. Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 9-29  - <a href='http://www.szu.org.uy/boletin/vol21/9_29_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Carreira, Santiago; Ignacio Lombardo &amp; Federico Achaval-Coppes. 2012. NUEVOS REGISTROS DE OFIDIOS POCO CONOCIDOS EN URUGUAY (REPTILIA: SQUAMATA: SERPENTES). Bol. Soc. Zool. Uruguay (2a época) 21 (1-2): 70-74  - <a href='http://www.szu.org.uy/boletin/vol21/70_74_vol21.pdf' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Dainesi, Raiane Lesley Santos; Arthur Diesel Abegg, Paulo Sérgio Bernarde, Bruno Peña Correa, Laís Pio Caetano Machado, Afonso Santiago de Oliveira Meneses, Arthur de Sena Santos 2019. Integrative overview of snake species from Londrina, State of Paraná, Brazil. Herpetology Notes 12: 419-430  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>França, R. C., França, F. G., Rödder, D., &amp; Solé, M. 2022. Historical collection of snakes from Brazil by herpetologist and biogeographer Paul Müller (1940–2010), deposited at the Zoological Research Museum Alexander Koenig, Germany. Bonn zoological Bulletin 71 (1): 41–49  - <a href='https://doi.org/10.20363/BZB-2022.71.1.041' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Gonzalez R. C. et al. 2020. Lista dos Nomes Populares dos Répteis no Brasil – Primeira Versão. Herpetologia Brasileira 9 (2): 121 – 214  - <a href='https://www.researchgate.net/publication/344037889_LISTA_DOS_NOMES_POPULARES_DOS_REPTEIS_NO_BRASIL_-_PRIMEIRA_VERSAO' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Lucchesi Balestrin, R. &amp; Di-Bernardo, M. 2005. Reproductive biology of Atractus reticulatus (BOULENGER 1885) (Serpentes, Colubridae) in Southern Brazil. The Herpetological Journal 15: 195-199  - <a href='https://www.ingentaconnect.com/content/bhs/thj' target='_blank'>get paper here</a></li>
+            
+            
+            <li>MARQUES, O. A. V.; PEREIRA, D. N.; BARBO, F.E.; GERMANO, V.J. &amp; SAWAYA, R. J. 2009. Os Répteis do Município de São Paulo: diversidade e ecologia da fauna pretérita e atual. Biota Neotropica 9: 1-12  - <a href='https://www.academia.edu/2327639' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mendoza Galeano, Medes; Núñez, Karina; Zárate, Griselda; Ortiz, Fátima; Weiler, Andrea 2020. Ampliación de la distribución de Atractus reticulatus (Boulenger, 1885) (Reptilia: Serpentes: Dipsadidae) en Paraguay. Cuad. herp. 34 (1):  - <a href='https://doi.org/10.31017/CdH.2020.(2020-010)' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Mertens, R. 1926. Herpetologische Mitteilungen. XIII. Das Jugendkleid von Atractus reticulatus BOULENGER. Senckenbergiana 8 (3/4): 151 </li>
+            
+            
+            <li>Morato, Sérgio Augusto Abrahão; Renato Silveira Bérnils, Julio Cesar de Moura-Leite 2017. RÉPTEIS DE CURITIBA: COLETÂNEA DE REGISTROS Hori Consultoria, Curitiba, Paraná, Brasil, 99 pp. </li>
+            
+            
+            <li>Nogueira, Cristiano C.; Antonio J.S. Argôlo, Vanesa Arzamendia, Josué A. Azevedo, Fausto E. Barbo, Renato S. Bérnils, Bruna E. Bolochio, Marcio Borges-Martins, Marcela Brasil-Godinho, Henrique Braz, Marcus A. Buononato, Diego F. Cisneros-Heredia, 2019. Atlas of Brazilian snakes: verified point-locality maps to mitigate the Wallacean shortfall in a megadiverse snake fauna. South American J. Herp. 14 (Special Issue 1):1-274  - <a href='http://doi.org/10.2994/SAJH-D-19-00120.1' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Outeiral, Arlete B.; Rafael L. Balestrin, Lize H. Cappellari, Thales de Lema, Vanda Lúcia Ferreira 2018. Snake assemblage from Serra do Sudeste, Pampa Biome in Southern Brazil. Herpetology Notes 11: 733-745  - <a href='https://www.biotaxa.org/hn/' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Passos, P., R. Fernandes and Borges-Nojosa, D.M. 2007. A New Species of Atractus (Serpentes: Dipsadinae) from a Relictual Forest in Northeastern Brazil. Copeia 2007 (4): 788–797  - <a href='http://www.asihcopeiaonline.org/loi/cope' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Passos, P., R. Fernandes and N. Zanella 2005. A new species of Atractus (Serpentes: Colubridae) from Southern Brazil. Herpetologica 61 (2): 209-218  - <a href='http://www.jstor.org/action/showPublication?journalCode=herpetologica' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Passos, P.; Fernandes, R.; Bernils, R.S. &amp; Moura-Leite, J.C. de 2010. Taxonomic revision of the Brazilian Atlantic Forest Atractus (Reptilia: Serpentes: Dipsadidae). Zootaxa 2364: 1–63  - <a href='http://www.mapress.com/zootaxa/taxa/Reptilia.html' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Passos, Paulo; Altagratia Chiesse, Omar Torres-Carvajal, and Jay M. Savage 2009. TESTING SPECIES BOUNDARIES WITHIN THE ATRACTUS OCCIPITOALBUS COMPLEX (SERPENTES: DIPSADIDAE). Herpetologica 65 (4): 384-403  - <a href='http://www.bioone.org/loi/herp' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pérez-Santos,C. &amp; Moreno, A.G. 1988. Ofidios de Colombia. Museo reegionale di Scienze Naturali, Torino, Monographie VI, 517 pp. </li>
+            
+            
+            <li>Peters, James A.; Donoso-Barros, Roberto &amp; Orejas-Miranda, Braulio 1970. Catalogue of the Neotropical Squamata: Part I Snakes. Bull. US Natl. Mus. 297: 347 pp.  - <a href='http://www.biodiversitylibrary.org/item/33225' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Pizzatto, Lígia; Maurício Cantor, Juliana Lima de Oliveira, Otavio A.V. Marques, Vinicius Capovilla, and Marcio Martins 2008. Reproductive Ecology of Dipsadine Snakes, With Emphasis on South American Species. Herpetologica 64 (2): 168-179  - <a href='http://www.jstor.org/action/showPublication?journalCode=herpetologica' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Wallach, Van; Kenneth L. Williams , Jeff Boundy 2014. Snakes of the World: A Catalogue of Living and Extinct Species. [type catalogue] Taylor and Francis, CRC Press, 1237 pp. </li>
+            
+            
+            <li>Zaher, Hussam; Fausto Erritto BarboI; Paola Sanchez Martínez; Cristiano Nogueira; Miguel Trefaut Rodrigues; Ricardo Jannini Sawaya 2011. Répteis do Estado de São Paulo: conhecimento atual e perspectivas. Biota Neotropica, 11 (1): 1–15.  - <a href='http://dx.doi.org/10.1590/s1676-06032011000500005' target='_blank'>get paper here</a></li>
+            
+            
+            <li>Zaracho, Víctor Hugo; Ingaramo, María del Rosario; Semhan, Romina Valeria; Etchepare, Eduardo; Acosta, José Luis; Falcione, Ana Camila; Álvarez, Blanca 2014. Herpetofauna de la Reserva Natural Provincial Isla Apipé Grande (Corrientes, Argentina). Cuad. herpetol. 28 (2): 153-160  - <a href='http://ppct.caicyt.gov.ar/index.php/cuadherpetol/issue/view/315' target='_blank'>get paper here</a></li>
+            </ul>
+        &nbsp;</td></tr>
+        <tr class='odd'><td>External links</td><td>
+        <div id='arkive' style='display: none; width: 600px; height: 175px;'></div>
+                <ul>
+                    <li><a href='https://www.iucnredlist.org/species/15158448/15158457'>IUCN Red List</a></li>
+            <li>
+                    <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1260271'>National Center for Biotechnology Information</a>
+            </li>
+            
+            <li>
+                    <a href='http://www.faunadepelotas.hpg.ig.com.br/repteisft12.htm'>http://www.faunadepelotas.hpg.ig.com.br/repteisft12.htm</a>
+            </li>
+            
+            <li>
+                    <a href='http://images.google.com/images?q=Atractus+reticulatus'>Google images</a>
+            </li>
+            </ul>
+        &nbsp;</td></tr>
+        </table>
+
+        <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <div style="float: left; margin: 6px;"><strong>Is it interesting? Share with others:</strong></div>
+            <div style="float: left; margin: 6px;">
+                <div id="fb-root"></div>
+                <script src="https://connect.facebook.net/en_US/all.js#appId=131160023647201&amp;xfbml=1"></script>
+                <fb:like href="" send="false" layout="button_count" width="100" show_faces="true" action="recommend" font="arial"></fb:like>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <div><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="inaturalist">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>
+            </div>
+            <div style="float: left; margin: 6px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <div class='fix'><!-- workaround --></div>
+
+        </div></div>
+
+            <div class="ui-widget"><div class="ui-state-highlight ui-corner-all" style="background-color: rgb(237, 247, 200); margin-top: 20px; padding: 0pt 0.7em;">
+            <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: 0.3em;"></span>As link to this species use URL address:<br><br><strong>https://reptile-database.reptarium.cz/species?genus=Atractus&species=reticulatus</strong><br><br>without field 'search_param'. Field 'search_param' is used for browsing search result.</p>
+            </div></div>
+    <br><br>
+    <p><a href="/contactus?genus=Atractus&amp;species=reticulatus">Please submit feedback about this entry to the curator</a></p>
+
+
+                </div><!-- /CONTENT -->
+            </div><!-- /DATA -->
+
+        <div id='sidebar'>
+            <div id='menu'>
+
+                <ul>
+                    <li><a href="/">Home page</a></li>
+                
+                
+                    <li><a href="/advanced_search">Advanced search</a></li>
+                        <li class='submenu'><a href="/advanced_search?taxon=snake&amp;reference=Rio+Grande+do+Sul&amp;submit=Search">Search results</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Amerotyphlops&amp;species=reticulatus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Amerotyphlops reticulatus</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Apostolepis&amp;species=dimidiata&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Apostolepis dimidiata</a></li>
+                            <li class='subsubmenu'><a href="/species?genus=Atractus&amp;species=paraguayensis&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Atractus paraguayensis</a></li>
+                            <li class='subsubmenu selected'>Atractus reticulatus</li>
+                            <li class='subsubmenu'><a href="/species?genus=Atractus&amp;species=zebrinus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Atractus zebrinus</a></li>
+                            <li class='subsubmenu'>...</li>
+                            <li class='subsubmenu'><a href="/species?genus=Xenodon&amp;species=rabdocephalus&amp;search_param=%28%28taxon%3D%27snake%27%29%28reference%3D%27Rio+Grande+do+Sul%27%29%29">Xenodon rabdocephalus</a></li>
+                
+                
+                    <li><a href="/search_tips">Search tips</a></li>
+                
+                
+                    <li><a href="/contactus">Contact us</a></li>
+                
+                
+                    <li><a href="/global_reptile_bioblitz">Global Reptile BioBlitz</a></li>
+                
+                
+                    <li><a href="http://reptile-database.org">reptile-database.org</a></li>
+                </ul>
+
+            </div><!-- /MENU -->
+        </div><!-- /SIDEBAR -->
+
+        <div id='footer'>
+            <p id='tools'><a href='#case'>^&nbsp;To top of page</a>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:prn(); /* ]]> */</script>
+            <script type='text/javascript'>/* <![CDATA[ */ javascript:fav(); /* ]]> */</script>
+            </p><!-- /TOOLS -->
+            <address id='disclaimer'>This database is maintained by Peter Uetz (database content) and Jakob Hallermann, Zoological Museum Hamburg (new species and updates).<br>Web pages and scripting Jiri Hosek</address><!-- /DISCLAIMER -->
+        </div><!-- /FOOTER -->
+
+    </div></div></div></div>
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-150476-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</body>
+</html>
