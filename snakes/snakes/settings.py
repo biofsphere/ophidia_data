@@ -13,7 +13,7 @@ SPIDER_MODULES = ["snakes.spiders"]
 NEWSPIDER_MODULE = "snakes.spiders"
 
 ITEM_PIPELINES = {"scrapy.pipelines.images.ImagesPipeline": 1}
-IMAGES_STORE = "snakes\snakes\snake_images"
+IMAGES_STORE = "snake_images"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "snakes (+http://www.yourdomain.com)"

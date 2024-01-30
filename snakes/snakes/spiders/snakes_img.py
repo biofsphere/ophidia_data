@@ -1,5 +1,6 @@
 import scrapy
 from scrapy.http import FormRequest
+from urllib.parse import urljoin
 
 class SpeciesItem(scrapy.Item):
     genus = scrapy.Field()
@@ -33,11 +34,14 @@ class SnakesImgSpider(scrapy.Spider):
         genus = response.meta["genus"]
 
         # Extract image URLs and store them in an item field called 'image_urls'
-        image_urls = response.xpath('//*[@id="gallery"]/div/div[1]/div[1]/div[2]/img/@src').getall()
+        image_urls = response.xpath('//div[@id="gallery"]//img/@src').getall()
+
+        # Convert relative URLs to absolute URLs
+        image_urls = [urljoin(response.url, url.strip()) for url in image_urls if url.strip()]
 
         item = SpeciesItem()
         item["genus"] = genus
         item["species"] = response.xpath('//h1[@class="species"]/text()').get()
-        item["image_urls"] = [url.strip() for url in image_urls if url.strip()]
+        item["image_urls"] = image_urls
 
         yield item
